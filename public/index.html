@@ -24,57 +24,84 @@
                     <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="logo-icon"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
                     <h1>Sector<span>Shift</span></h1>
                 </div>
-                <p class="tagline">محرك الذكاء الاستراتيجي</p>
+                <p class="tagline">Strategic Intelligence Engine</p>
             </div>
             
             <div class="controls">
                 <div class="filter-group">
-                    <label for="filter-type">المصدر</label>
+                    <label for="filter-type">Source</label>
                     <select id="filter-type">
-                        <option value="all">كل المصادر</option>
-                        <option value="papers">الأوراق البحثية</option>
-                        <option value="news">أخبار السوق</option>
+                        <option value="all">All Intelligence</option>
+                        <option value="paper">Research Papers</option>
+                        <option value="news">Market News</option>
                     </select>
                 </div>
 
                 <div class="filter-group">
-                    <label for="filter-score">أهمية الأبحاث</label>
+                    <label for="filter-score">Min. Score</label>
                     <select id="filter-score">
-                        <option value="all">الكل</option>
-                        <option value="7" selected>7+ (مرتفع)</option>
-                        <option value="8">8+ (مهم جداً)</option>
-                        <option value="9">9+ (ثوري)</option>
+                        <option value="7" selected>7+ High</option>
+                        <option value="8">8+ Critical</option>
+                        <option value="9">9+ Breakthrough</option>
+                        <option value="all">Show All</option>
                     </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label for="filter-tag">التصنيف</label>
+                    <label for="filter-tag">Tags</label>
                     <select id="filter-tag">
-                        <option value="all">جميع التصنيفات</option>
+                        <option value="all">All Tags</option>
                     </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label for="filter-sector">القطاع المستهدف</label>
+                    <label for="filter-sector">Sector</label>
                     <select id="filter-sector">
-                        <option value="all">جميع القطاعات</option>
+                        <option value="all">All Sectors</option>
                     </select>
                 </div>
+
+                <button id="clear-filters" class="clear-btn" title="Clear all filters">✕ Clear</button>
             </div>
         </header>
 
-        <section id="executive-summary" class="glass-panel summary-panel" style="display: none;">
+        <!-- Active Filter Indicator -->
+        <div id="active-filter-bar" class="active-filter-bar" style="display:none;">
+            <span id="active-filter-label"></span>
+            <button id="dismiss-filter" class="dismiss-btn">✕</button>
+        </div>
+
+        <!-- Executive Summary -->
+        <section id="executive-summary" class="glass-panel summary-panel" style="display:none;">
             <div class="summary-header">
-                <h2>📊 الملخص التنفيذي اليومي</h2>
+                <h2>📊 Daily Executive Summary</h2>
+                <span id="summary-date" class="summary-date"></span>
             </div>
+            <div id="summary-narrative" class="summary-narrative"></div>
+
             <div class="summary-body">
-                <div class="summary-column">
-                    <h3 class="benefiting-title">📈 القطاعات والشركات المستفيدة</h3>
-                    <div id="summary-benefiting" class="tags-container"></div>
+                <div class="summary-section">
+                    <h3 class="section-title benefiting-title">📈 Benefiting Sectors & Companies</h3>
+                    <div class="entity-group">
+                        <h4>Sectors</h4>
+                        <div id="ben-sectors" class="tags-container"></div>
+                    </div>
+                    <div class="entity-group">
+                        <h4>Tickers / Companies</h4>
+                        <div id="ben-tickers" class="tags-container"></div>
+                    </div>
                 </div>
-                <div class="summary-column">
-                    <h3 class="disrupted-title">⚠️ القطاعات والشركات المتضررة</h3>
-                    <div id="summary-disrupted" class="tags-container"></div>
+
+                <div class="summary-section">
+                    <h3 class="section-title disrupted-title">⚠️ Disrupted Sectors & Companies</h3>
+                    <div class="entity-group">
+                        <h4>Sectors</h4>
+                        <div id="dis-sectors" class="tags-container"></div>
+                    </div>
+                    <div class="entity-group">
+                        <h4>Tickers / Companies</h4>
+                        <div id="dis-tickers" class="tags-container"></div>
+                    </div>
                 </div>
             </div>
         </section>
