@@ -1,0 +1,6 @@
+pandas==2.2.0
+requests==2.31.0
+libsql-client==0.4.0
+pydantic==2.6.0
+python-dotenv==1.0.1
+feedparser==6.0.11

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SectorShift | Strategic Intelligence Engine</title>
+    <meta name="description" content="AI-powered dashboard for analyzing breakthrough academic research and market news.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-animation">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <main class="dashboard">
+        <header class="glass-panel">
+            <div class="header-content">
+                <div class="logo">
+                    <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="logo-icon"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    <h1>Sector<span>Shift</span></h1>
+                </div>
+                <p class="tagline">Strategic Intelligence Engine</p>
+            </div>
+            
+            <div class="controls">
+                <div class="filter-group">
+                    <label for="filter-type">Source Type</label>
+                    <select id="filter-type">
+                        <option value="all">All Intelligence</option>
+                        <option value="papers">Academic Papers</option>
+                        <option value="news">Market News</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="filter-tag">Strategy Tags</label>
+                    <select id="filter-tag">
+                        <option value="all">All Tags</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="filter-sector">Target Sector</label>
+                    <select id="filter-sector">
+                        <option value="all">All Sectors</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <section id="results-grid" class="results-grid">
+            <div class="loading-state">
+                <div class="spinner"></div>
+                <p>Synthesizing Intelligence...</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
