@@ -80,7 +80,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const rawData = await response.json();
             processData(rawData);
             populateDropdowns();
-            renderSummary();
             renderGrid();
         } catch (error) {
             console.error('Error fetching data:', error);
@@ -207,21 +206,42 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ---- Render Summary ----
-    function renderSummary() {
+    function updateSummary(filteredData) {
         if (allData.length === 0) return;
 
         summaryPanel.style.display = 'block';
-        summaryDate.textContent = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+        const d = new Date();
+        summaryDate.textContent = d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
+        let bSCounts = {};
+        let bTCounts = {};
+        let dSCounts = {};
+        let dTCounts = {};
+
+        filteredData.forEach(entry => {
+            entry.benefiting.forEach(name => {
+                if (isGenericNone(name)) return;
+                const key = name.trim();
+                if (isTicker(key)) bTCounts[key] = (bTCounts[key] || 0) + 1;
+                else bSCounts[key] = (bSCounts[key] || 0) + 1;
+            });
+            entry.disrupted.forEach(name => {
+                if (isGenericNone(name)) return;
+                const key = name.trim();
+                if (isTicker(key)) dTCounts[key] = (dTCounts[key] || 0) + 1;
+                else dSCounts[key] = (dSCounts[key] || 0) + 1;
+            });
+        });
 
         // Build narrative
-        const totalPapers = allData.filter(d => d.type === 'paper').length;
-        const totalNews = allData.filter(d => d.type === 'news').length;
-        const highImpact = allData.filter(d => d.score >= 8).length;
-        const topBenSector = getTopN(benSectorCounts, 3).map(e => e[0]).join(', ');
-        const topDisSector = getTopN(disSectorCounts, 3).map(e => e[0]).join(', ');
+        const totalPapers = filteredData.filter(d => d.type === 'paper').length;
+        const totalNews = filteredData.filter(d => d.type === 'news').length;
+        const highImpact = filteredData.filter(d => d.score >= 8).length;
+        const topBenSector = getTopN(bSCounts, 3).map(e => e[0]).join(', ');
+        const topDisSector = getTopN(dSCounts, 3).map(e => e[0]).join(', ');
 
         summaryNarrative.innerHTML = `
-            Today's scan processed <strong>${totalPapers} research papers</strong> and <strong>${totalNews} market news</strong> items.
+            Showing <strong>${totalPapers} research papers</strong> and <strong>${totalNews} market news</strong> items.
             <strong>${highImpact}</strong> entries scored 8+ (critical or breakthrough level).
             ${topBenSector ? `Top benefiting sectors: <strong>${topBenSector}</strong>.` : ''}
             ${topDisSector ? ` Most disrupted areas: <strong>${topDisSector}</strong>.` : ''}
@@ -229,10 +249,10 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
 
         // Render entity tags
-        renderEntityTags(benSectors, benSectorCounts, 'tag-sector-green');
-        renderEntityTags(benTickers, benTickerCounts, 'tag-ticker-green');
-        renderEntityTags(disSectors, disSectorCounts, 'tag-sector-red');
-        renderEntityTags(disTickers, disTickerCounts, 'tag-ticker-red');
+        renderEntityTags(benSectors, bSCounts, 'tag-sector-green');
+        renderEntityTags(benTickers, bTCounts, 'tag-ticker-green');
+        renderEntityTags(disSectors, dSCounts, 'tag-sector-red');
+        renderEntityTags(disTickers, dTCounts, 'tag-ticker-red');
     }
 
     function getTopN(obj, n) {
@@ -403,6 +423,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p>No intelligence found for selected filters.</p>
                 </div>
             `;
+            updateSummary([]);
             return;
         }
 
@@ -411,6 +432,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let html = '';
         filteredData.forEach(item => html += createCardHTML(item));
         resultsGrid.innerHTML = html;
+        
+        updateSummary(filteredData);
     }
 
     // ---- Escape HTML ----
