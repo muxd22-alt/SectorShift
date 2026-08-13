@@ -11,7 +11,7 @@ load_dotenv()
 
 ARXIV_URL = "http://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG+OR+cat:econ.GN&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "google/gemini-flash-1.5-8b" 
+MODEL = "google/gemini-1.5-flash" 
 
 def fetch_arxiv_papers():
     print("Fetching from Arxiv API...")
@@ -76,6 +76,8 @@ def analyze_paper_with_llm(paper, api_key):
 
 async def save_to_turso(papers_data):
     url = os.getenv("TURSO_DATABASE_URL")
+    if url:
+        url = url.replace("libsql://", "https://").replace("wss://", "https://")
     auth_token = os.getenv("TURSO_AUTH_TOKEN")
     if not url or not auth_token:
         print("Turso credentials missing.")

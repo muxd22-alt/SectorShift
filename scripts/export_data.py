@@ -8,6 +8,8 @@ load_dotenv()
 
 async def export():
     url = os.getenv("TURSO_DATABASE_URL")
+    if url:
+        url = url.replace("libsql://", "https://").replace("wss://", "https://")
     auth_token = os.getenv("TURSO_AUTH_TOKEN")
     
     if not url or not auth_token:

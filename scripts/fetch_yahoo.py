@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "google/gemini-flash-1.5-8b"
+MODEL = "google/gemini-1.5-flash"
 
 def fetch_yahoo_news():
     print("Fetching Yahoo Finance News...")
@@ -81,6 +81,8 @@ def analyze_news_with_llm(news, api_key):
 
 async def save_to_turso(news_data):
     url = os.getenv("TURSO_DATABASE_URL")
+    if url:
+        url = url.replace("libsql://", "https://").replace("wss://", "https://")
     auth_token = os.getenv("TURSO_AUTH_TOKEN")
     if not url or not auth_token:
         print("Turso credentials missing.")
