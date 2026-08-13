@@ -111,8 +111,6 @@ header {
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-    position: sticky;
-    top: 1rem;
     z-index: 100;
 }
 
@@ -596,8 +594,13 @@ select option {
         position: static;
     }
     
+    .glass-panel {
+        padding: 1.25rem;
+    }
+    
     .controls {
         width: 100%;
+        gap: 1rem;
     }
     
     .filter-group {
