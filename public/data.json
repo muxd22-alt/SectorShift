@@ -6,11 +6,11 @@
             "Abstract": "Artificial intelligence tools for education and language support are increasingly framed as scalable responses to access gaps in under-resourced communities. Yet the infrastructure underlying these tools, including training corpora, tokenization schemes, evaluation benchmarks, and deployment architectures, can systematically disadvantage speakers of underrepresented languages before a model is trained. This paper examines these structural barriers through Bengali, one of the world's most widely spoken languages, focusing on AI-assisted education in low-connectivity environments. We identify four interlocking failures: a severe web presence gap, with Bengali accounting for less than 0.5% of global web content despite representing nearly 4% of the global population; a 67:1 training-token deficit between English and Bengali in major multilingual corpora; a tokenization penalty associated with Bengali's alphasyllabary script that compounds the data deficit through higher token fertility; and connectivity exclusion, with individual internet penetration at 36.5% in rural areas compared with 71.4% in urban areas. These failures reflect longstanding resource-allocation decisions, institutional priorities, and design defaults that did not center underrepresented languages in mainstream AI development. We argue that dataset scarcity should be understood as a structural barrier rather than an isolated technical limitation, and that offline-first design should be treated as an equity-oriented infrastructure strategy. We conclude with directions for linguistics and AI research aimed at reducing these structural inequalities.",
             "Published_Date": "2026-08-12T17:17:25Z",
             "Arxiv_URL": "https://arxiv.org/abs/2608.12278v1",
-            "Breakthrough_Score": 7,
+            "Breakthrough_Score": 8,
             "Core_Innovation": "The paper proposes a new understanding of dataset scarcity as a structural barrier, highlighting the need for offline-first designs in AI tools for education and language support.",
             "Benefiting_Sectors": "Education, Linguistics, Technology, AI Development",
             "Disrupted_Sectors": "Internet Services, Content Creation, Language Translation",
-            "Decision_Perspective": "Strategic decision-makers should prioritize investments in AI infrastructure that includes and supports underrepresented languages to foster equitable access and resources.",
+            "Decision_Perspective": "Strategic decision-makers should prioritize investing in infrastructure that addresses dataset scarcity and promotes equitable access to AI tools for underrepresented languages, ensuring inclusivity in AI development processes.",
             "Tags": "AI, Linguistics, Education, Equity, Underrepresented Languages"
         },
         {
@@ -23,7 +23,7 @@
             "Core_Innovation": "Utilizes the 2026 US-Iran oil shock as a natural experiment to reveal the disparities in mobility adaptation across neighborhoods in urban settings.",
             "Benefiting_Sectors": "Urban Planning, Transportation, Energy, Environmental Policy",
             "Disrupted_Sectors": "Automotive, Oil and Gas, Travel and Tourism",
-            "Decision_Perspective": "Strategic decision-makers should assess urban mobility patterns and invest in adaptive infrastructure to support vulnerable neighborhoods in facing future oil price fluctuations.",
+            "Decision_Perspective": "Strategic decision-makers should focus on enhancing adaptive capacities in vulnerable neighbourhoods to improve resilience against future fuel price shocks.",
             "Tags": "Mobility, Urban Decarbonization, Oil Price Shock, Transportation Equity, Adaptation"
         },
         {
@@ -36,7 +36,7 @@
             "Core_Innovation": "The introduction of VAKRA provides a comprehensive benchmark for evaluating multi-hop reasoning across diverse APIs, enhancing the assessment of AI agents in complex reasoning tasks. It uniquely combines API interactions with natural language constraints for real-world applicability.",
             "Benefiting_Sectors": "Technology, Artificial Intelligence, Cloud Services, Enterprise Software",
             "Disrupted_Sectors": "Traditional Software Development, Data Analysis Services, Customer Support Automation",
-            "Decision_Perspective": "Strategic decision-makers should invest in the development of AI systems that can handle multi-hop reasoning and improve language-mediated reasoning capabilities. Adapting to these advancements can provide competitive advantages in automated systems design.",
+            "Decision_Perspective": "Strategic decision-makers in technology development should prioritize investments in multi-hop reasoning frameworks and prepare for integration of advanced AI agents that can handle complex API interactions. Continuous improvement of agent performance and addressing failure points in language mediation should be key focus areas.",
             "Tags": "API, Multi-Hop Reasoning, AI Benchmarking, Enterprise Agents, Tool-Use Policies"
         },
         {
@@ -49,7 +49,7 @@
             "Core_Innovation": "The core innovation is the 'Agentic Self-Improvement' framework, which introduces a two-stage goal-directed optimization for video synthesis that enhances control and predictability in image-to-video generation.",
             "Benefiting_Sectors": "Media, Entertainment, Advertising, Education",
             "Disrupted_Sectors": "Traditional Video Production, Content Creation Services",
-            "Decision_Perspective": "Strategic decision-makers should invest in and adopt the agentic optimization methods presented in this paper to enhance content creation workflows and improve the quality of automated video outputs.",
+            "Decision_Perspective": "Strategic decision-makers should invest in developing and adopting this agentic framework to enhance video generation capabilities, improving the efficiency and reliability of content creation tools.",
             "Tags": "Image-to-Video, Optimization, Video Generation, AI, Machine Learning"
         },
         {
@@ -62,7 +62,7 @@
             "Core_Innovation": "The paper provides a comprehensive review and taxonomy of evolving Class Activation Mapping methods, highlighting a shift toward multi-layer, probabilistic, and foundation-model-aware explanations.",
             "Benefiting_Sectors": "Artificial Intelligence, Healthcare, Autonomous Vehicles, Robotics, Security",
             "Disrupted_Sectors": "Traditional data analysis, Manual inspection services, Some aspects of software engineering",
-            "Decision_Perspective": "Strategic decision-makers should invest in adapting and integrating advanced explainability methods to improve AI transparency and trustworthiness, as well as to meet evolving regulatory standards.",
+            "Decision_Perspective": "Strategic decision-makers should focus on integrating advanced visual explanation methods into AI systems to improve model interpretability and trust among users, as well as to stay ahead in competitive sectors.",
             "Tags": "Explainable AI, Class Activation Mapping, Computer Vision, Neural Networks, Model Evaluation"
         },
         {
@@ -75,7 +75,7 @@
             "Core_Innovation": "The paper presents a systematic three-step framework for designing human-aligned reward functions that allows non-experts to derive linear reward frameworks from natural language tasks.",
             "Benefiting_Sectors": "Artificial Intelligence, Machine Learning, Robotics, UX Design",
             "Disrupted_Sectors": "Traditional Data Science, Manual Process Automation",
-            "Decision_Perspective": "Strategic decision-makers should invest in tools and training that enable non-experts to create aligned reward functions, as this will enhance the usability and effectiveness of AI systems across various applications.",
+            "Decision_Perspective": "Strategic decision-makers should explore the integration of this framework into their product development processes to enhance the alignment of AI systems with human values.",
             "Tags": "Reward Functions, Human Alignment, AI Design, Causal Reasoning, Preference Elicitation"
         },
         {
@@ -88,7 +88,7 @@
             "Core_Innovation": "The study introduces an automated framework for constructing Dynamic Master Logic models as Knowledge Graphs, significantly enhancing scalability and efficiency in complex system diagnostics.",
             "Benefiting_Sectors": "Nuclear Energy, Aerospace, Automotive, Manufacturing",
             "Disrupted_Sectors": "Traditional Technical Documentation, Manual Systems Analysis",
-            "Decision_Perspective": "Strategic decision-makers should invest in and adopt automated DML and knowledge graph technologies to enhance system diagnostics and reliability assessments across their organizations.",
+            "Decision_Perspective": "Strategic decision-makers should invest in automated DML construction technologies to enhance scalability and efficiency in system diagnostics and reliability analysis.",
             "Tags": "Dynamic Master Logic, Knowledge Graphs, Automated Construction, System Diagnostics, Large Language Models"
         },
         {
@@ -101,7 +101,7 @@
             "Core_Innovation": "The RCI framework effectively transforms sparse stop-feedback into dense per-step cost annotations, improving policy training in safe offline reinforcement learning.",
             "Benefiting_Sectors": "autonomous vehicles, robotics, artificial intelligence",
             "Disrupted_Sectors": "traditional machine learning, regulatory compliance in AI safety",
-            "Decision_Perspective": "Strategic decision-makers in the fields of robotics and AI should consider integrating the RCI framework to improve safety and efficiency in offline reinforcement learning applications, particularly in environments with sparse feedback.",
+            "Decision_Perspective": "Strategic decision-makers in robotics and autonomous systems should invest in incorporating RCI into their safety frameworks to improve compliance and performance under real-world conditions. Emphasizing advancements in offline reinforcement learning will enhance competitive advantage.",
             "Tags": "safe offline reinforcement learning, cost inference, policy training, trajectory feedback"
         },
         {
@@ -114,7 +114,7 @@
             "Core_Innovation": "The study introduces a novel approach for transferring capabilities from stronger AI models to weaker ones during test time using inference harnesses, rather than through traditional parameter updates during training.",
             "Benefiting_Sectors": "Artificial Intelligence, Software Development, Education, Healthcare",
             "Disrupted_Sectors": "Traditional AI Training, Model Development Firms",
-            "Decision_Perspective": "Strategic decision-makers should explore the implementation of inference-time harnesses in their machine learning systems to enhance performance, especially for weaker models, potentially improving overall productivity and outcomes.",
+            "Decision_Perspective": "Strategic decision-makers should explore the implementation of inference-time harness designs to enhance the performance of existing weaker AI models, as this could lead to significant efficiency gains without retraining costs.",
             "Tags": "AI, Model Distillation, Test-Time Transfer, Machine Learning, Inference Harnesses"
         },
         {
@@ -123,15 +123,57 @@
             "Abstract": "Aerial vision-language navigation (VLN) requires an embodied agent to integrate visual evidence over time, plan future actions, and determine when it has reached a navigation goal under partial observability. Although recent VLA models offer a promising perception-to-action paradigm, adapting them t...",
             "Published_Date": "2026-08-12T17:54:33Z",
             "Arxiv_URL": "https://arxiv.org/abs/2608.12308v1",
-            "Breakthrough_Score": 9,
+            "Breakthrough_Score": 8,
             "Core_Innovation": "DreamFly introduces a causally aligned historical memory that enhances visual representations for aerial navigation, and employs receding-horizon diffusion planning for more effective decision-making under uncertainty.",
             "Benefiting_Sectors": "drone technology, robotics, logistics, surveillance, autonomous vehicles",
             "Disrupted_Sectors": "traditional navigation systems, human-operated aerial services, conventional robotics",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in the development and integration of DreamFly's technology to enhance navigation capabilities in aerial applications, potentially transforming operational efficiency in various drone applications.",
+            "Decision_Perspective": "Strategic decision-makers in tech and AI sectors should consider investing in similar diffusion-based technologies and explore partnerships with aerospace and robotics firms to leverage advancements in aerial navigation.",
             "Tags": "vision-language navigation, aerial robotics, diffusion planning, machine learning, causal memory"
         }
     ],
     "news": [
+        {
+            "News_ID": "74f2aae4a9e9c5be4068db5739422174",
+            "Title": "Codexis, Inc. Q2 2026 Earnings Call Summary",
+            "Snippet": "Codexis reported strong revenue growth driven by increased demand for its biocatalysis solutions and expansion into new markets.",
+            "Published_Date": "2026-08-12T01:44:39Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/codexis-inc-q2-2026-earnings-014439179.html",
+            "Related_Tickers": "CDXS",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Codexis, biotech sector",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their holdings in Codexis due to its strong performance and growth prospects in the biotech sector.",
+            "Economic_Tags": "earnings, biotech, growth, revenue, demand"
+        },
+        {
+            "News_ID": "f5f1c2128f500fbce471b7596bfde0c8",
+            "Title": "B&G Foods, Inc. Q2 2026 Earnings Call Summary",
+            "Snippet": "...",
+            "Published_Date": "2026-08-12T01:28:07Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/b-g-foods-inc-q2-012807886.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "B&G Foods, Inc.",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their positions in B&G Foods, Inc. as the positive earnings report may signal continued growth and profitability.",
+            "Economic_Tags": "earnings, food industry, market growth, investment, profitability"
+        },
+        {
+            "News_ID": "767910fbdb74719a8b6055bcb070f905",
+            "Title": "Inuvo, Inc. Q2 2026 Earnings Call Summary",
+            "Snippet": "...",
+            "Published_Date": "2026-08-12T00:16:39Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/inuvo-inc-q2-2026-earnings-001639012.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Neutral",
+            "Impact_Score": 5,
+            "Benefiting_Entities": "",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should monitor Inuvo's performance for potential investment opportunities based on future earnings reports.",
+            "Economic_Tags": "earnings, Inuvo, market analysis, financial performance, Q2 2026"
+        },
         {
             "News_ID": "148bd796093378d00da5dfa78c17b80c",
             "Title": "What is a good savings account interest rate in 2026?",
