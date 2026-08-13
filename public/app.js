@@ -40,14 +40,29 @@ document.addEventListener('DOMContentLoaded', () => {
     function isTicker(name) {
         if (!name) return false;
         const n = name.trim();
-        // Skip generic "none" / "N/A"
+        
         if (/^(none|n\/a|na|not applicable)$/i.test(n)) return false;
-        // All-caps 1-5 chars (e.g. "AGL", "NVDA")
-        if (/^[A-Z]{1,5}$/.test(n)) return true;
+        
+        // All-caps 1-5 chars
+        if (/^[A-Z\.]+$/.test(n) && n.length <= 6) return true;
+        
         // Contains company suffixes
-        if (/\b(Inc|Ltd|Corp|Co|Group|LLC|PLC|Technologies|Holdings)\b/i.test(n)) return true;
-        // Contains a $ prefix like $AAPL
+        if (/\b(Inc|Ltd|Corp|Co|Group|LLC|PLC|Technologies|Holdings|Therapeutics|Pharma|Biosciences|Labs|Networks|Systems|Solutions)\b/i.test(n)) return true;
+        
+        // Specific companies often missed
+        if (/\b(Nvidia|Apollo|Neuronetics|Apple|Microsoft|Google|Meta|Amazon|Tesla|OpenAI|Anthropic|Codexis|AGL)\b/i.test(n)) return true;
+        
+        // $ prefix
         if (n.startsWith('$')) return true;
+
+        // Single capitalized word not matching a standard sector
+        if (/^[A-Z][a-zA-Z0-9]+$/.test(n)) {
+            const genericSectors = /^(Healthcare|Technology|Finance|Energy|Retail|Automotive|Aerospace|Agriculture|Construction|Education|Entertainment|Hospitality|Manufacturing|Media|Telecommunications|Transportation|Utilities|Semiconductors|Software|Hardware|Logistics|Materials|Industrials|Services)$/i;
+            if (!genericSectors.test(n)) {
+                return true;
+            }
+        }
+        
         return false;
     }
 
@@ -163,6 +178,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function splitList(str) {
         if (!str) return [];
+        // Pre-process to avoid breaking on ", Inc." or ", Ltd."
+        str = str.replace(/,\s*(Inc\.|Inc|LLC|Ltd\.|Ltd|Corp\.|Corp|Co\.|Co)\b/gi, ' $1');
         return str.split(',').map(s => s.trim()).filter(s => s.length > 0);
     }
 
@@ -361,8 +378,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (!inBen && !inDis) return false;
             }
 
-            // Score filter (applies to papers, news always pass)
-            if (scoreFilter !== 'all' && item.type === 'paper') {
+            // Score filter (applies to both papers and news)
+            if (scoreFilter !== 'all') {
                 if (item.score < parseInt(scoreFilter)) return false;
             }
 
