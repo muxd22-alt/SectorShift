@@ -24,34 +24,60 @@
                     <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="logo-icon"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
                     <h1>Sector<span>Shift</span></h1>
                 </div>
-                <p class="tagline">Strategic Intelligence Engine</p>
+                <p class="tagline">محرك الذكاء الاستراتيجي</p>
             </div>
             
             <div class="controls">
                 <div class="filter-group">
-                    <label for="filter-type">Source Type</label>
+                    <label for="filter-type">المصدر</label>
                     <select id="filter-type">
-                        <option value="all">All Intelligence</option>
-                        <option value="papers">Academic Papers</option>
-                        <option value="news">Market News</option>
+                        <option value="all">كل المصادر</option>
+                        <option value="papers">الأوراق البحثية</option>
+                        <option value="news">أخبار السوق</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="filter-score">أهمية الأبحاث</label>
+                    <select id="filter-score">
+                        <option value="all">الكل</option>
+                        <option value="7" selected>7+ (مرتفع)</option>
+                        <option value="8">8+ (مهم جداً)</option>
+                        <option value="9">9+ (ثوري)</option>
                     </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label for="filter-tag">Strategy Tags</label>
+                    <label for="filter-tag">التصنيف</label>
                     <select id="filter-tag">
-                        <option value="all">All Tags</option>
+                        <option value="all">جميع التصنيفات</option>
                     </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label for="filter-sector">Target Sector</label>
+                    <label for="filter-sector">القطاع المستهدف</label>
                     <select id="filter-sector">
-                        <option value="all">All Sectors</option>
+                        <option value="all">جميع القطاعات</option>
                     </select>
                 </div>
             </div>
         </header>
+
+        <section id="executive-summary" class="glass-panel summary-panel" style="display: none;">
+            <div class="summary-header">
+                <h2>📊 الملخص التنفيذي اليومي</h2>
+            </div>
+            <div class="summary-body">
+                <div class="summary-column">
+                    <h3 class="benefiting-title">📈 القطاعات والشركات المستفيدة</h3>
+                    <div id="summary-benefiting" class="tags-container"></div>
+                </div>
+                <div class="summary-column">
+                    <h3 class="disrupted-title">⚠️ القطاعات والشركات المتضررة</h3>
+                    <div id="summary-disrupted" class="tags-container"></div>
+                </div>
+            </div>
+        </section>
 
         <section id="results-grid" class="results-grid">
             <div class="loading-state">
