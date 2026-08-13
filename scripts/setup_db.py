@@ -8,8 +8,10 @@ load_dotenv()
 async def setup():
     url = os.getenv("TURSO_DATABASE_URL")
     if url:
-        url = url.replace("libsql://", "https://").replace("wss://", "https://")
+        url = url.replace("libsql://", "https://").replace("wss://", "https://").strip()
     auth_token = os.getenv("TURSO_AUTH_TOKEN")
+    if auth_token:
+        auth_token = auth_token.strip()
     
     if not url or not auth_token:
         print("Missing Turso credentials in environment. Please set TURSO_DATABASE_URL and TURSO_AUTH_TOKEN.")

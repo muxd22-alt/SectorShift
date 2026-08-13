@@ -82,8 +82,10 @@ def analyze_news_with_llm(news, api_key):
 async def save_to_turso(news_data):
     url = os.getenv("TURSO_DATABASE_URL")
     if url:
-        url = url.replace("libsql://", "https://").replace("wss://", "https://")
+        url = url.replace("libsql://", "https://").replace("wss://", "https://").strip()
     auth_token = os.getenv("TURSO_AUTH_TOKEN")
+    if auth_token:
+        auth_token = auth_token.strip()
     if not url or not auth_token:
         print("Turso credentials missing.")
         return
