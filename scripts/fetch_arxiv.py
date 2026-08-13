@@ -11,7 +11,7 @@ load_dotenv()
 
 ARXIV_URL = "http://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG+OR+cat:econ.GN&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "google/gemini-1.5-flash" 
+MODEL = "openai/gpt-4o-mini" 
 
 def fetch_arxiv_papers():
     print("Fetching from Arxiv API...")

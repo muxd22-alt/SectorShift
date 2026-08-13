@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "google/gemini-1.5-flash"
+MODEL = "openai/gpt-4o-mini"
 
 def fetch_yahoo_news():
     print("Fetching Yahoo Finance News...")
