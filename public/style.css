@@ -588,6 +588,10 @@ select option {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .dashboard {
+        padding: 0.75rem;
+    }
+    
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -595,7 +599,7 @@ select option {
     }
     
     .glass-panel {
-        padding: 1.25rem;
+        padding: 1rem;
     }
     
     .controls {
@@ -606,7 +610,17 @@ select option {
     .filter-group {
         flex: 1 1 100%;
     }
+
+    select {
+        width: 100%;
+    }
     
+    .summary-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
     .results-grid, .summary-body {
         grid-template-columns: 1fr;
     }
