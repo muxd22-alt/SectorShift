@@ -10,7 +10,7 @@
             "Core_Innovation": "The study introduces a method of coupling a single qubit to conventional sensors, significantly enhancing the efficiency of learning signals while dramatically reducing the number of required measurements.",
             "Benefiting_Sectors": "Quantum Computing, Telecommunications, Scientific Research, Defense, High-Energy Physics",
             "Disrupted_Sectors": "Conventional Sensing Technologies, Data Acquisition Systems, Classical Signal Processing, Telecommunications Infrastructure",
-            "Decision_Perspective": "Strategic decision-makers should invest in quantum technology research and development to harness potential advantages for competitive positioning in sensing and communication applications.",
+            "Decision_Perspective": "Strategic decision-makers should invest in quantum technologies and explore partnerships in quantum sensing to leverage exponential improvements in data acquisition and analysis.",
             "Tags": "Quantum Technology, Signal Processing, Quantum Advantage, Qubit, Quantum Phase-Space Inference"
         },
         {
@@ -23,7 +23,7 @@
             "Core_Innovation": "Vero introduces a novel benchmarking framework for AI agents to generate verified software repositories, combining implementation and proof synthesis at the repository level.",
             "Benefiting_Sectors": "Software Development, Cybersecurity, Education, Research",
             "Disrupted_Sectors": "Traditional Software Engineering, Manual Code Review, Testing Services",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in tools that leverage AI for software verification to enhance code reliability and security, encouraging adoption of verified code practices.",
+            "Decision_Perspective": "Strategic decision-makers should invest in AI-driven verified software technologies to enhance reliability and security, leveraging the insights provided by the Vero benchmark.",
             "Tags": "AI, Verified Software, Benchmarking, Software Engineering, Code Synthesis"
         },
         {
@@ -36,7 +36,7 @@
             "Core_Innovation": "DARTree introduces a novel speculative decoding method that utilizes a tree structure for draft token verification, enhancing the acceptance rate and speed of autoregressive language models without requiring extensive training.",
             "Benefiting_Sectors": "Artificial Intelligence, Natural Language Processing, Software Development, Education",
             "Disrupted_Sectors": "Traditional Natural Language Processing, Sequential Data Processing, Automated Customer Support",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in research and development related to DARTree's methodologies to stay competitive in the rapidly evolving field of AI language processing.",
+            "Decision_Perspective": "Strategic decision-makers in tech and AI should invest in integrating DARTree methodologies to enhance product offerings and improve processing speeds in language model applications.",
             "Tags": "Speculative Decoding, Autoregressive Models, Machine Learning, Natural Language Processing, Diffusion-based Drafters"
         },
         {
@@ -49,7 +49,7 @@
             "Core_Innovation": "The introduction of LITTLECURRICULUM allows for the controlled training of language models focused on elementary-level content, creating a model (LITTLELEARNER) that operates within defined knowledge boundaries.",
             "Benefiting_Sectors": "Education, EdTech, Artificial Intelligence, Language Processing",
             "Disrupted_Sectors": "Traditional Learning Tools, General Purpose Language Models",
-            "Decision_Perspective": "Strategic decision-makers in education technology should consider investing in or exploring applications built on the LITTLELEARNER framework to enhance targeted learning and assessment tools.",
+            "Decision_Perspective": "Strategic decision-makers should consider investing in pedagogically controlled AI tools to enhance educational content delivery and assess knowledge acquisition methodologies.",
             "Tags": "language models, education technology, knowledge acquisition, AI development, curriculum"
         },
         {
@@ -62,7 +62,7 @@
             "Core_Innovation": "QuoteBench introduces a method to accurately measure command-path failures in LLMs by validating final states post-execution, enabling better differentiation of command-generation errors from subsequent execution failures.",
             "Benefiting_Sectors": "Artificial Intelligence, Software Development, Cybersecurity",
             "Disrupted_Sectors": "Traditional Software Development, QA Testing, System Administration",
-            "Decision_Perspective": "Strategic decision-makers should prioritize the implementation of more precise validation techniques for LLM outputs and ensure transparent evaluation criteria to mitigate risks associated with hidden command-path failures.",
+            "Decision_Perspective": "Strategic decision-makers should implement advanced evaluation frameworks for LLM coding agents that consider command generation and execution context to improve reliability and performance.",
             "Tags": "LLM, Command-Path, Validation, Software Engineering, AI Safety"
         },
         {
@@ -75,7 +75,7 @@
             "Core_Innovation": "The core innovation is the Defensive Booster algorithm that combines the benefits of online gradient boosting and online weak-to-strong boosting, achieving competitive performance on both predictive accuracy and classification error in a more efficient manner.",
             "Benefiting_Sectors": "Artificial Intelligence, Machine Learning, Data Science, Financial Services",
             "Disrupted_Sectors": "Traditional Forecasting Methods, Legacy Data Analysis Solutions",
-            "Decision_Perspective": "Strategic decision-makers should consider adopting the Defensive Booster for improved predictive accuracy in high-stakes environments, particularly where adaptive adversaries are a concern. Investing in this new approach can lead to a competitive advantage in forecasting applications.",
+            "Decision_Perspective": "Strategic decision-makers should consider adopting the Defensive Booster for enhanced prediction accuracy in adaptive environments, as it offers significant efficiency improvements over traditional methods and can handle evolving data patterns effectively.",
             "Tags": "Defensive Boosting, Online Learning, Probabilistic Forecasting, Adaptive Algorithms, Classification Error"
         },
         {
@@ -88,7 +88,7 @@
             "Core_Innovation": "The development of the HumanTracker benchmark and HumanScore metric provides a more perceptually aligned and comprehensive approach to humanoid motion tracking evaluation, addressing key physical artifacts often overlooked by traditional methods.",
             "Benefiting_Sectors": "Robotics, Teleoperation, Animation, Healthcare, Sports",
             "Disrupted_Sectors": "Traditional Animation Studios, Gaming Industry, Motion Capture Equipment Providers",
-            "Decision_Perspective": "Strategic decision-makers in the fields of robotics and animation should consider adopting the HumanTracker benchmark to improve quality and user satisfaction in humanoid motion tracking applications.",
+            "Decision_Perspective": "Strategic decision-makers should consider investing in technologies that utilize the HumanTracker framework to improve humanoid motion tracking applications, enhancing user experience and operational effectiveness.",
             "Tags": "motion tracking, humanoid robots, benchmarking, teleoperation, innovation"
         },
         {
@@ -101,7 +101,7 @@
             "Core_Innovation": "OmniScientist introduces an omni-modal AI system that integrates heterogeneous raw evidence into the scientific research process, enhancing the ability to conduct cross-disciplinary studies.",
             "Benefiting_Sectors": "Research, Healthcare, Technology, Education, Environmental Science",
             "Disrupted_Sectors": "Traditional Research Methods, Academic Publishing, Data Analysis Services",
-            "Decision_Perspective": "Strategic decision-makers should explore partnerships and investments in AI-driven research tools to improve research efficacy and maintain competitiveness in innovation.",
+            "Decision_Perspective": "Strategic decision-makers should explore partnerships with AI research initiatives to leverage OmniScientist's capabilities for enhanced research efficiency and innovation in product development.",
             "Tags": "AI, Scientific Research, Multidisciplinary, Automation, Foundation Models"
         },
         {
@@ -114,7 +114,7 @@
             "Core_Innovation": "AutoDesign introduces a meta-harness optimizer that enables a code agent to recursively improve design outputs based on empirical feedback, aligning with human design priors.",
             "Benefiting_Sectors": "Education, Design, Technology, Research",
             "Disrupted_Sectors": "Traditional publishing, Graphic design, Content creation",
-            "Decision_Perspective": "Strategic decision-makers should invest in the development and application of AutoDesign for efficient content generation and to enhance user experience in educational and design contexts.",
+            "Decision_Perspective": "Strategic decision-makers in tech and education sectors should consider investing in or adopting AutoDesign technology to enhance productivity and streamline design processes.",
             "Tags": "AI, Design Optimization, Machine Learning, Content Generation, Human-Computer Interaction"
         },
         {
@@ -249,6 +249,146 @@
         }
     ],
     "news": [
+        {
+            "News_ID": "2fbab6824d07e718e6c27ae4f923808e",
+            "Title": "Could Merck & Co., Inc. (MRK) and Gilead Sciences, Inc. (GILD)\u2019s Partnership Create the Next Big Pharma Growth Engine",
+            "Snippet": "...",
+            "Published_Date": "2026-08-13T21:46:08Z",
+            "News_URL": "https://finance.yahoo.com/healthcare/articles/could-merck-co-inc-mrk-214608790.html",
+            "Related_Tickers": "MRK,GILD",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Merck & Co., Gilead Sciences, pharmaceutical sector",
+            "Disrupted_Entities": "competitors in the pharmaceutical industry",
+            "Strategic_Action": "Investors should consider increasing their positions in MRK and GILD, as the partnership indicates potential for innovative product development and market growth.",
+            "Economic_Tags": "pharmaceuticals, partnerships, market growth, innovation, biotechnology"
+        },
+        {
+            "News_ID": "d2e241468969e61ca693dbfa77acbb40",
+            "Title": "Bragg Gaming Group Inc. Q2 2026 Earnings Call Summary",
+            "Snippet": "...",
+            "Published_Date": "2026-08-13T21:19:18Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/bragg-gaming-group-inc-q2-211918043.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Bragg Gaming Group Inc.",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their positions in Bragg Gaming Group Inc. based on the positive earnings report, while monitoring industry trends for potential risks.",
+            "Economic_Tags": "Earnings, Gaming, Stock Performance, Financial Results, Market Trends"
+        },
+        {
+            "News_ID": "ec17df1dc293b7c832f7fb9f05b1782b",
+            "Title": "From Courtroom Rivals to Corporate Partners: Archer Buys Its Way Into Boeing\u2019s Orbit",
+            "Snippet": "...",
+            "Published_Date": "2026-08-13T21:37:33Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/courtroom-rivals-corporate-partners-archer-213733752.html",
+            "Related_Tickers": "BA, ACHR",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Archer, Boeing, aerospace sector",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their positions in Archer and Boeing due to potential synergies and growth opportunities from this partnership.",
+            "Economic_Tags": "mergers, aerospace, corporate strategy, partnerships, innovation"
+        },
+        {
+            "News_ID": "53f939001a9a8937a543f15220bddc1d",
+            "Title": "Could AbbVie Inc. (ABBV)\u2019s Post-Humira Transformation Drive the Next Phase of Growth?",
+            "Snippet": "",
+            "Published_Date": "2026-08-13T21:33:06Z",
+            "News_URL": "https://finance.yahoo.com/healthcare/articles/could-abbvie-inc-abbv-post-213306053.html",
+            "Related_Tickers": "ABBV",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "AbbVie Inc.",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should closely monitor AbbVie's developments post-Humira, as successful transformations can lead to significant growth opportunities. Consider reallocating investments towards AbbVie if they demonstrate positive results from their new growth strategies.",
+            "Economic_Tags": "pharmaceuticals, growth strategy, biotech, healthcare, investment"
+        },
+        {
+            "News_ID": "2dda72656afd9d6efd0dd4783005337b",
+            "Title": "Surprisingly, Cheesecake Factory is one of the hottest food stocks right now. Here\u2019s why",
+            "Snippet": "...",
+            "Published_Date": "2026-08-13T21:30:00Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/surprisingly-cheesecake-factory-one-hottest-213000504.html",
+            "Related_Tickers": "CAKE",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Cheesecake Factory, food service industry",
+            "Disrupted_Entities": "competitors in casual dining",
+            "Strategic_Action": "Investors should consider acquiring shares of Cheesecake Factory and monitoring trends in the food sector for future opportunities.",
+            "Economic_Tags": "food stocks, investment, market trends, casual dining, earnings growth"
+        },
+        {
+            "News_ID": "35b8c5fb0a671d3d19b5cc6c6e5a7512",
+            "Title": "SpaceX\u2019s Most Loyal Buyers Blinked",
+            "Snippet": "...",
+            "Published_Date": "2026-08-13T21:23:19Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/spacex-most-loyal-buyers-blinked-212319498.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 6,
+            "Benefiting_Entities": "",
+            "Disrupted_Entities": "SpaceX, aerospace sector",
+            "Strategic_Action": "Investors should reassess their positions in SpaceX and related aerospace stocks, as the loyalty of their customer base appears to be wavering.",
+            "Economic_Tags": "aerospace, market volatility, customer loyalty"
+        },
+        {
+            "News_ID": "6888f2682466bbb83646672a8b97f1c6",
+            "Title": "Eagle Point Income Company Inc. Q2 2026 Earnings Call Summary",
+            "Snippet": "...",
+            "Published_Date": "2026-08-13T21:24:25Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/eagle-point-income-company-inc-212425345.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Neutral",
+            "Impact_Score": 5,
+            "Benefiting_Entities": "",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should monitor Eagle Point Income Company's performance and consider potential adjustments to their portfolio based on future earnings guidance.",
+            "Economic_Tags": "Earnings, Investment, Market Analysis"
+        },
+        {
+            "News_ID": "a39f3e8121642a06125122e411e7164d",
+            "Title": "Creative Realities, Inc. Q2 2026 Earnings Call Summary",
+            "Snippet": "...",
+            "Published_Date": "2026-08-13T21:25:28Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/creative-realities-inc-q2-2026-212528287.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Neutral",
+            "Impact_Score": 5,
+            "Benefiting_Entities": "",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should closely monitor future earnings calls and statements from management to gauge performance trends.",
+            "Economic_Tags": "earnings, financial performance, market analysis, investor relations"
+        },
+        {
+            "News_ID": "a57f191b9d65cdda8d7c4aa067658aba",
+            "Title": "SEC May Advance Crypto Rules, 24/7 Trading Without Clarity Act. OCC Paves Way For Crypto Banks.",
+            "Snippet": "...",
+            "Published_Date": "2026-08-13T21:24:11Z",
+            "News_URL": "https://www.investors.com/news/sec-cryptocurrency-rules-innovation-trading-clarity-act-senate-delay-occ-national-banks-bitcoin/?src=A00220&yptr=yahoo",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "crypto banks, cryptocurrency exchanges, fintech companies",
+            "Disrupted_Entities": "traditional banks",
+            "Strategic_Action": "Investors should consider increasing their exposure to cryptocurrency-related entities as regulatory clarity is likely to enhance market stability and investor confidence. Monitoring further developments is essential to identify specific opportunities.",
+            "Economic_Tags": "cryptocurrency, regulation, trading, innovation, banking"
+        },
+        {
+            "News_ID": "a87730d77b0e8c2686a47af6437c7a82",
+            "Title": "Resort destination mall and hotel seek Chapter 11 bankruptcy",
+            "Snippet": "...",
+            "Published_Date": "2026-08-14T01:53:39Z",
+            "News_URL": "https://finance.yahoo.com/real-estate/articles/68-old-resort-hotel-mall-015339982.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Disastrous",
+            "Impact_Score": 9,
+            "Benefiting_Entities": "discount retailers, online shopping platforms",
+            "Disrupted_Entities": "hotel and leisure sectors, commercial real estate",
+            "Strategic_Action": "Investors should consider reallocating assets towards sectors that thrive during economic downturns, such as discount retailers and e-commerce. Additionally, monitoring distressed asset opportunities could yield favorable long-term returns.",
+            "Economic_Tags": "bankruptcy, hospitality, retail, economic downturn, commercial real estate"
+        },
         {
             "News_ID": "2ff32a675766081e793faa748e485d0f",
             "Title": "Palantir Technologies Inc. (PLTR) vs. BigBear.ai Holdings, Inc. (BBAI): Palantir\u2019s \u201cOtherworldly\u201d Quarter Sends Shares Soaring 30%",
