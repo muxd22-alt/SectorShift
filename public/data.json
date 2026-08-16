@@ -10,7 +10,7 @@
             "Core_Innovation": "The study introduces a method of coupling a single qubit to conventional sensors, significantly enhancing the efficiency of learning signals while dramatically reducing the number of required measurements.",
             "Benefiting_Sectors": "Quantum Computing, Telecommunications, Scientific Research, Defense, High-Energy Physics",
             "Disrupted_Sectors": "Conventional Sensing Technologies, Data Acquisition Systems, Classical Signal Processing, Telecommunications Infrastructure",
-            "Decision_Perspective": "Strategic decision-makers should invest in quantum technologies and explore partnerships in quantum sensing to leverage exponential improvements in data acquisition and analysis.",
+            "Decision_Perspective": "Strategic decision-makers in technology and telecommunications should explore integrating quantum sensing technologies to drastically improve data acquisition and signal analysis. Investment in research and development should focus on leveraging quantum advantages for competitive advantage.",
             "Tags": "Quantum Technology, Signal Processing, Quantum Advantage, Qubit, Quantum Phase-Space Inference"
         },
         {
@@ -23,7 +23,7 @@
             "Core_Innovation": "Vero introduces a novel benchmarking framework for AI agents to generate verified software repositories, combining implementation and proof synthesis at the repository level.",
             "Benefiting_Sectors": "Software Development, Cybersecurity, Education, Research",
             "Disrupted_Sectors": "Traditional Software Engineering, Manual Code Review, Testing Services",
-            "Decision_Perspective": "Strategic decision-makers should invest in AI-driven verified software technologies to enhance reliability and security, leveraging the insights provided by the Vero benchmark.",
+            "Decision_Perspective": "Strategic decision-makers in technology should invest in and adopt tools like Vero to enhance software verification processes, while also preparing for potential shifts in the workforce due to automation in coding and verification.",
             "Tags": "AI, Verified Software, Benchmarking, Software Engineering, Code Synthesis"
         },
         {
@@ -36,7 +36,7 @@
             "Core_Innovation": "DARTree introduces a novel speculative decoding method that utilizes a tree structure for draft token verification, enhancing the acceptance rate and speed of autoregressive language models without requiring extensive training.",
             "Benefiting_Sectors": "Artificial Intelligence, Natural Language Processing, Software Development, Education",
             "Disrupted_Sectors": "Traditional Natural Language Processing, Sequential Data Processing, Automated Customer Support",
-            "Decision_Perspective": "Strategic decision-makers in tech and AI should invest in integrating DARTree methodologies to enhance product offerings and improve processing speeds in language model applications.",
+            "Decision_Perspective": "Strategic decision-makers should invest in integrating DARTree's technology into their systems for enhanced performance and consider its implications for operational efficiency in AI-driven applications.",
             "Tags": "Speculative Decoding, Autoregressive Models, Machine Learning, Natural Language Processing, Diffusion-based Drafters"
         },
         {
@@ -49,7 +49,7 @@
             "Core_Innovation": "The introduction of LITTLECURRICULUM allows for the controlled training of language models focused on elementary-level content, creating a model (LITTLELEARNER) that operates within defined knowledge boundaries.",
             "Benefiting_Sectors": "Education, EdTech, Artificial Intelligence, Language Processing",
             "Disrupted_Sectors": "Traditional Learning Tools, General Purpose Language Models",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in pedagogically controlled AI tools to enhance educational content delivery and assess knowledge acquisition methodologies.",
+            "Decision_Perspective": "Strategic decision-makers in education and AI should explore integrating controlled learning models into their offerings to enhance educational outcomes and foster foundational knowledge.",
             "Tags": "language models, education technology, knowledge acquisition, AI development, curriculum"
         },
         {
@@ -62,7 +62,7 @@
             "Core_Innovation": "QuoteBench introduces a method to accurately measure command-path failures in LLMs by validating final states post-execution, enabling better differentiation of command-generation errors from subsequent execution failures.",
             "Benefiting_Sectors": "Artificial Intelligence, Software Development, Cybersecurity",
             "Disrupted_Sectors": "Traditional Software Development, QA Testing, System Administration",
-            "Decision_Perspective": "Strategic decision-makers should implement advanced evaluation frameworks for LLM coding agents that consider command generation and execution context to improve reliability and performance.",
+            "Decision_Perspective": "Strategic decision-makers should invest in enhancing validation mechanisms and adopt frameworks like QuoteBench to ensure accurate assessments of LLM performance, reducing the risk of undetected command-path failures.",
             "Tags": "LLM, Command-Path, Validation, Software Engineering, AI Safety"
         },
         {
@@ -75,7 +75,7 @@
             "Core_Innovation": "The core innovation is the Defensive Booster algorithm that combines the benefits of online gradient boosting and online weak-to-strong boosting, achieving competitive performance on both predictive accuracy and classification error in a more efficient manner.",
             "Benefiting_Sectors": "Artificial Intelligence, Machine Learning, Data Science, Financial Services",
             "Disrupted_Sectors": "Traditional Forecasting Methods, Legacy Data Analysis Solutions",
-            "Decision_Perspective": "Strategic decision-makers should consider adopting the Defensive Booster for enhanced prediction accuracy in adaptive environments, as it offers significant efficiency improvements over traditional methods and can handle evolving data patterns effectively.",
+            "Decision_Perspective": "Strategic decision-makers should consider implementing the Defensive Booster in settings requiring robust probabilistic forecasting to enhance predictive performance while reducing computational costs.",
             "Tags": "Defensive Boosting, Online Learning, Probabilistic Forecasting, Adaptive Algorithms, Classification Error"
         },
         {
@@ -88,7 +88,7 @@
             "Core_Innovation": "The development of the HumanTracker benchmark and HumanScore metric provides a more perceptually aligned and comprehensive approach to humanoid motion tracking evaluation, addressing key physical artifacts often overlooked by traditional methods.",
             "Benefiting_Sectors": "Robotics, Teleoperation, Animation, Healthcare, Sports",
             "Disrupted_Sectors": "Traditional Animation Studios, Gaming Industry, Motion Capture Equipment Providers",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in technologies that utilize the HumanTracker framework to improve humanoid motion tracking applications, enhancing user experience and operational effectiveness.",
+            "Decision_Perspective": "Strategic decision-makers in robotics and animation should invest in integrating the HumanTracker benchmark and HumanScore metric into their development processes to enhance the accuracy and realism of humanoid motion tracking. This could lead to significant advancements in user experience and operational effectiveness.",
             "Tags": "motion tracking, humanoid robots, benchmarking, teleoperation, innovation"
         },
         {
@@ -101,7 +101,7 @@
             "Core_Innovation": "OmniScientist introduces an omni-modal AI system that integrates heterogeneous raw evidence into the scientific research process, enhancing the ability to conduct cross-disciplinary studies.",
             "Benefiting_Sectors": "Research, Healthcare, Technology, Education, Environmental Science",
             "Disrupted_Sectors": "Traditional Research Methods, Academic Publishing, Data Analysis Services",
-            "Decision_Perspective": "Strategic decision-makers should explore partnerships with AI research initiatives to leverage OmniScientist's capabilities for enhanced research efficiency and innovation in product development.",
+            "Decision_Perspective": "Strategic decision-makers should invest in the development and deployment of omni-modal AI systems like OmniScientist to enhance research capabilities and maintain competitive advantage in scientific discovery.",
             "Tags": "AI, Scientific Research, Multidisciplinary, Automation, Foundation Models"
         },
         {
@@ -114,7 +114,7 @@
             "Core_Innovation": "AutoDesign introduces a meta-harness optimizer that enables a code agent to recursively improve design outputs based on empirical feedback, aligning with human design priors.",
             "Benefiting_Sectors": "Education, Design, Technology, Research",
             "Disrupted_Sectors": "Traditional publishing, Graphic design, Content creation",
-            "Decision_Perspective": "Strategic decision-makers in tech and education sectors should consider investing in or adopting AutoDesign technology to enhance productivity and streamline design processes.",
+            "Decision_Perspective": "Strategic decision-makers should consider integrating AutoDesign into their workflows to enhance efficiency and output quality in media representation and design tasks.",
             "Tags": "AI, Design Optimization, Machine Learning, Content Generation, Human-Computer Interaction"
         },
         {
@@ -249,6 +249,146 @@
         }
     ],
     "news": [
+        {
+            "News_ID": "8b939fd423ac1b32792dcbf29b99a365",
+            "Title": "Oil prices rally, US data dents chances of Fed rate hike",
+            "Snippet": "...",
+            "Published_Date": "2026-08-14T21:12:15Z",
+            "News_URL": "https://finance.yahoo.com/news/asian-stocks-set-weekly-gain-023234921.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Oil & Gas sector, Energy companies",
+            "Disrupted_Entities": "Consumer discretionary sector, Airlines",
+            "Strategic_Action": "Investors should consider increasing exposure to the energy sector, particularly oil and gas companies, while reassessing positions in consumer discretionary sectors impacted by rising oil prices.",
+            "Economic_Tags": "oil prices, Fed rate hike, US economic data, energy sector, market sentiment"
+        },
+        {
+            "News_ID": "9b82286f5f1d1fb6a23ade8f411f9c4c",
+            "Title": "Avnet Completes Recovery, Now At The 'Center Of A Technology Spike'",
+            "Snippet": "...",
+            "Published_Date": "2026-08-14T20:57:36Z",
+            "News_URL": "https://www.investors.com/research/the-new-america/avnet-recovery-ai-chips-components-data-center-demand-avt-stock-new-america/?src=A00220&yptr=yahoo",
+            "Related_Tickers": "AVT",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Avnet, AI chip manufacturers, data center providers",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their holdings in Avnet and related technology sectors to capitalize on the growing demand for AI chips and data center components.",
+            "Economic_Tags": "technology, AI, data centers, market recovery, semiconductor"
+        },
+        {
+            "News_ID": "147f91067f2397640a5622817b8c3b67",
+            "Title": "Rocket Lab, Amazon Win Space Force Contracts. SpaceX Closes Cursor Deal.",
+            "Snippet": "...",
+            "Published_Date": "2026-08-14T20:57:48Z",
+            "News_URL": "https://www.investors.com/news/space-force-sdn-contracts-rocket-lab-amazon-spacex-completes-cursor-deal/?src=A00220&yptr=yahoo",
+            "Related_Tickers": "RKLB, AMZN, TSLA",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Rocket Lab, Amazon, SpaceX",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their positions in Rocket Lab, Amazon, and SpaceX, as these contracts enhance their prospects in the growing space defense sector.",
+            "Economic_Tags": "space industry, defense contracts, government spending, aerospace, technology"
+        },
+        {
+            "News_ID": "70ccaf5c7195c76ee5900e56c4421048",
+            "Title": "PAVmed Inc. Q2 2026 Earnings Call Summary",
+            "Snippet": "...",
+            "Published_Date": "2026-08-14T20:59:46Z",
+            "News_URL": "https://finance.yahoo.com/healthcare/articles/pavmed-inc-q2-2026-earnings-205946360.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Neutral",
+            "Impact_Score": 5,
+            "Benefiting_Entities": "",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should monitor PAVmed's performance and consider positions based on future earnings revisions and market perception.",
+            "Economic_Tags": "earnings, healthcare, investment, market analysis"
+        },
+        {
+            "News_ID": "05ce4886e5d49c0288cf1ee7546d1e64",
+            "Title": "53-year-old lawn and garden giant faces Chapter 11, liquidation",
+            "Snippet": "The company has announced its intention to file for Chapter 11 bankruptcy, signaling a prolonged period of financial distress and potential liquidation.",
+            "Published_Date": "2026-08-15T15:33:00Z",
+            "News_URL": "https://finance.yahoo.com/small-business/articles/53-old-lawn-garden-giant-153300199.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Disastrous",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "rival lawn and garden companies, liquidation firms",
+            "Disrupted_Entities": "shareholders of the company, employees, suppliers",
+            "Strategic_Action": "Investors should consider reducing exposure to industries related to this company and explore investment opportunities in competitors benefiting from the liquidation. Businesses should assess impacts on their supply chains and look for alternative partners.",
+            "Economic_Tags": "bankruptcy, liquidation, market disruption, lawn and garden industry, financial distress"
+        },
+        {
+            "News_ID": "2d06624cce75b58f5d2cf950e7d6e8ff",
+            "Title": "Daily ETF Flows: Money Pours Into IWD",
+            "Snippet": "...",
+            "Published_Date": "2026-08-14T21:00:04Z",
+            "News_URL": "https://finance.yahoo.com/markets/options/articles/daily-etf-flows-money-pours-210004316.html",
+            "Related_Tickers": "IWD",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Investors in IWD, Value-focused equity sector",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider reallocating to IWD to capitalize on the rising inflows. Monitoring value-focused sectors could yield favorable opportunities.",
+            "Economic_Tags": "ETF flows, investment trends, value investing, market sentiment, equity markets"
+        },
+        {
+            "News_ID": "2b8cb95fc7a82fb35b5519e14691da86",
+            "Title": "ETF League Tables: Avantis Picks Up $653M",
+            "Snippet": "...",
+            "Published_Date": "2026-08-14T21:00:34Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/etf-league-tables-avantis-picks-210034950.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Avantis",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider reallocating funds into Avantis ETFs to capitalize on their growth momentum. Monitoring trends in ETF inflows could provide insights for future investment decisions.",
+            "Economic_Tags": "ETF, investment, asset management, market trends, capital inflow"
+        },
+        {
+            "News_ID": "4acccc07b86fe1bd3a5494c9b8df7ac7",
+            "Title": "Super League Enterprise, Inc. Q2 2026 Earnings Call Summary",
+            "Snippet": "...",
+            "Published_Date": "2026-08-14T21:01:48Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/super-league-enterprise-inc-q2-210148670.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Super League Enterprise, Inc.",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their holdings in Super League Enterprise, Inc. as the earnings reflect strong performance and growth potential. Monitoring future earnings calls could provide further insights into market direction.",
+            "Economic_Tags": "earnings, growth, investment, market performance, financial analysis"
+        },
+        {
+            "News_ID": "1823b5b9d9e3abf778db7801948c22ba",
+            "Title": "Stock Market Today: Nasdaq Slips On Retail Sales Gloom; Nvidia Eyes Robotics Wave",
+            "Snippet": "The Nasdaq index saw a decline due to poor retail sales data, while Nvidia is positioning itself for growth in the robotics sector.",
+            "Published_Date": "2026-08-14T21:05:08Z",
+            "News_URL": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-retail-sales-applied-materials-stock-amat/?src=A00220&yptr=yahoo",
+            "Related_Tickers": "NVIDIA, AMAT",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 6,
+            "Benefiting_Entities": "Nvidia, Robotics sector",
+            "Disrupted_Entities": "Retail sector, Nasdaq constituents",
+            "Strategic_Action": "Investors should consider reallocating their investments away from retail stocks and look for opportunities in technology and robotics companies like Nvidia.",
+            "Economic_Tags": "Retail Sales, Nasdaq, Robotics, Technology, Market Decline"
+        },
+        {
+            "News_ID": "a11fd66f7ad272665e84e1cd7854f35c",
+            "Title": "SanDisk CEO reveals what's next after explosive 3,150% stock rally",
+            "Snippet": "...",
+            "Published_Date": "2026-08-15T01:37:00Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/sandisk-ceo-reveals-whats-next-013700105.html",
+            "Related_Tickers": "SNDK",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 9,
+            "Benefiting_Entities": "SanDisk, semiconductor industry",
+            "Disrupted_Entities": "rivals in the semiconductor sector",
+            "Strategic_Action": "Investors should consider buying into SanDisk or related semiconductor stocks as the market sentiment is very positive and growth is expected. Monitoring competitor activity will also be crucial.",
+            "Economic_Tags": "stock rally, semiconductor, market growth, investment strategy, corporate leadership"
+        },
         {
             "News_ID": "2fbab6824d07e718e6c27ae4f923808e",
             "Title": "Could Merck & Co., Inc. (MRK) and Gilead Sciences, Inc. (GILD)\u2019s Partnership Create the Next Big Pharma Growth Engine",
@@ -808,76 +948,6 @@
             "Disrupted_Entities": "insurance companies, generic drug manufacturers",
             "Strategic_Action": "Investors in healthcare stocks should monitor legislative discussions on drug pricing, as favorable changes may enhance profitability for pharmaceutical companies.",
             "Economic_Tags": "healthcare, drug pricing, Medicare, pharmaceuticals, insurance"
-        },
-        {
-            "News_ID": "9e4abed54b2baf114d722b6fc6be6213",
-            "Title": "Why Apollo backed a small Appalachian beverage manufacturer",
-            "Snippet": "...",
-            "Published_Date": "2026-08-12T00:51:12Z",
-            "News_URL": "https://finance.yahoo.com/small-business/articles/why-apollo-backed-small-appalachian-005112966.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Apollo, Appalachian beverage manufacturers",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider diversifying into small beverage manufacturers, particularly those in emerging markets, as they may offer significant growth potential. Companies should explore strategic partnerships with local manufacturers to enhance market reach.",
-            "Economic_Tags": "investment, small business, beverage industry, Appalachian region, growth potential"
-        },
-        {
-            "News_ID": "f4a3a9c15599699454b8d2064a1f1ceb",
-            "Title": "Evolv Technologies Holdings, Inc. Q2 2026 Earnings Call Summary",
-            "Snippet": "...",
-            "Published_Date": "2026-08-12T00:41:20Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/evolv-technologies-holdings-inc-q2-004120765.html",
-            "Related_Tickers": "EVOL",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Evolv Technologies, security technology sector",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors may consider increasing their position in Evolv Technologies given the positive earnings outlook and growth potential in the security technology sector.",
-            "Economic_Tags": "earnings, technology, growth, security, market outlook"
-        },
-        {
-            "News_ID": "0b466d7df4d628a9d985bad9e85b109a",
-            "Title": "NIQ Global (NIQ) Soars 42% After Earnings. What\u2019s Next?",
-            "Snippet": "...",
-            "Published_Date": "2026-08-12T00:47:58Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/niq-global-niq-soars-42-004758638.html",
-            "Related_Tickers": "NIQ",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 8,
-            "Benefiting_Entities": "NIQ Global",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider capitalizing on the momentum by evaluating entry points or holding existing positions in NIQ. Monitoring subsequent market reactions and earnings reports will also be essential.",
-            "Economic_Tags": "earnings, stock surge, market sentiment, investor action, financial analysis"
-        },
-        {
-            "News_ID": "eed8299a59cda25a76c1d88559100f66",
-            "Title": "This Mag 7 Dividend Stock Is Trading Near 2026 Highs. Why It's Still a Buy.",
-            "Snippet": "...",
-            "Published_Date": "2026-08-11T23:30:02Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/mag-7-dividend-stock-trading-233002103.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Dividend Stocks, Investors",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider adding this dividend stock to their portfolios due to its stability and performance near historical highs. Continuous evaluation of its financial metrics is advised.",
-            "Economic_Tags": "Dividend Stocks, Investment Opportunities, Market Trends, Financial Stability, Long-Term Growth"
-        },
-        {
-            "News_ID": "a953e12b99e54bfd2316141c2d0ba6a6",
-            "Title": "Bank of America sends blunt message to Nvidia stock investors",
-            "Snippet": "...",
-            "Published_Date": "2026-08-12T17:47:00Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sends-blunt-message-174700491.html",
-            "Related_Tickers": "NVDA",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "",
-            "Disrupted_Entities": "Nvidia",
-            "Strategic_Action": "Investors should consider reducing their exposure to Nvidia amid the negative sentiment expressed by Bank of America and reassess their portfolio strategy in the semiconductor sector.",
-            "Economic_Tags": "semiconductors, stock market, investment strategy, equity analysis, market volatility"
         }
     ]
 }
