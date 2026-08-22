@@ -10,7 +10,7 @@
             "Core_Innovation": "The introduction of MidTool as a synthesis pipeline for mid-training allows for enhanced agentic capabilities in tool use for large language models by utilizing a combination of diverse data sources and synthesized supervision from real-world tools.",
             "Benefiting_Sectors": "Artificial Intelligence, Software Engineering, Education, Research",
             "Disrupted_Sectors": "Traditional Software Development, Manual Data Processing, Educational Institutions",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in mid-training methodologies like MidTool to enhance AI capabilities, particularly for applications requiring advanced tool use and reasoning.",
+            "Decision_Perspective": "Strategic decision-makers should invest in the development and integration of mid-training methodologies such as MidTool to enhance tool competency in AI applications, driving advanced automation.",
             "Tags": "Mid-training, Large Language Models, Tool Use, AI Innovation, Supervised Fine-tuning"
         },
         {
@@ -23,7 +23,7 @@
             "Core_Innovation": "The BERT-LER model integrates laboratory value representation and explainability, enhancing the interpretability of clinical predictions based on structured EHRs.",
             "Benefiting_Sectors": "Healthcare, Data Science, Machine Learning",
             "Disrupted_Sectors": "Traditional Medical Analytics, Conventional Clinical Prediction Models",
-            "Decision_Perspective": "Strategic decision-makers in healthcare should consider investing in explainable AI solutions like BERT-LER to improve clinical outcomes and enhance data interpretation.",
+            "Decision_Perspective": "Strategic decision-makers should consider adopting the BERT-LER framework to improve predictive accuracy and interpretability of clinical predictions in their organizations, enhancing patient outcomes.",
             "Tags": "EHR, explainable AI, machine learning, clinical prediction, healthcare"
         },
         {
@@ -36,7 +36,7 @@
             "Core_Innovation": "The paper presents a novel approach to routing queries in heterogeneous AI systems by modeling the allocation of estimating costs against the potential returns of specialist models. This includes both centralized and decentralized routing policies.",
             "Benefiting_Sectors": "Artificial Intelligence, Information Technology, Data Analytics",
             "Disrupted_Sectors": "Traditional AI Systems, General Software Development",
-            "Decision_Perspective": "Strategic decision-makers should consider implementing or investing in heterogeneous AI systems to optimize query routing and improve efficiency, balancing the costs of value estimation.",
+            "Decision_Perspective": "Strategic decision-makers should consider adopting the Pandora's Router framework to optimize query routing in AI systems, improving efficiency while also managing the costs of value estimation.",
             "Tags": "AI Routing, Value Estimation, Decision Making, Heterogeneous Systems, Efficiency"
         },
         {
@@ -62,7 +62,7 @@
             "Core_Innovation": "The introduction of Task Model Induction (TMI) allows for the discovery of latent tasks in computer-use traces, effectively disentangling concurrent activities and creating structured task models that represent recursive goal decomposition and procedural control flow.",
             "Benefiting_Sectors": "Information Technology, Human-Computer Interaction, Business Process Management",
             "Disrupted_Sectors": "Traditional Workflow Software, Task Automation Tools",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in technologies that utilize TMI to enhance task accuracy and efficiency in organizational workflows, thereby improving productivity.",
+            "Decision_Perspective": "Strategic decision-makers should consider integrating TMI technology to enhance task management systems and improve workforce training and auditing processes through better contextual understanding of work activities.",
             "Tags": "Task Model Induction, Computer-Use Traces, Workflow Analysis, AI in Work, Human-Computer Interaction"
         },
         {
@@ -75,7 +75,7 @@
             "Core_Innovation": "The study introduces a multi-agent workflow that seamlessly integrates conversational data collection, structured processing, and predictive modeling, enhancing the accuracy of travel behavior predictions based on weather conditions.",
             "Benefiting_Sectors": "Transportation, Urban Planning, Behavioral Research, Artificial Intelligence, Weather Forecasting",
             "Disrupted_Sectors": "Traditional Survey Methods, Conventional Transportation Modeling, Data Analytics Without Multimodal Inputs",
-            "Decision_Perspective": "Strategic decision-makers should invest in integrating advanced data collection methods and machine learning models as part of their travel behavior research strategies to enhance predictive capabilities and adapt to dynamic environmental factors.",
+            "Decision_Perspective": "Strategic decision-makers should integrate advanced data collection methodologies and machine learning models to improve forecasting accuracy and adapt to dynamic travel patterns influenced by weather conditions.",
             "Tags": "data collection, travel behavior, predictive modeling, machine learning, weather sensitivity"
         },
         {
@@ -88,7 +88,7 @@
             "Core_Innovation": "The paper provides a systematic comparison of FMCW, IR-UWB, and Wi-Fi radar technologies under identical conditions for healthcare monitoring, revealing their strengths and weaknesses in human activity recognition and sleep detection.",
             "Benefiting_Sectors": "Healthcare, Wearable Technology, Smart Home Technology",
             "Disrupted_Sectors": "Traditional Healthcare Monitoring, Sleep Study Industries",
-            "Decision_Perspective": "Strategic decision-makers in healthcare technologies should consider investing in RF sensing solutions that leverage the strengths of IR-UWB for activity recognition and FMCW for robustness in varied environments.",
+            "Decision_Perspective": "Strategic decision-makers in healthcare and technology sectors should consider investing in RF sensing technologies for improved monitoring solutions, emphasizing their cost and practical advantages.",
             "Tags": "FMCW Radar, IR-UWB, Wi-Fi Sensing, Human Activity Monitoring, Sleep Detection"
         },
         {
@@ -97,11 +97,11 @@
             "Abstract": "Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-hoc confidence estimation addresses this by training a lightweight auxiliary head over a frozen classi...",
             "Published_Date": "2026-08-20T17:58:50Z",
             "Arxiv_URL": "https://arxiv.org/abs/2608.20326v1",
-            "Breakthrough_Score": 8,
+            "Breakthrough_Score": 9,
             "Core_Innovation": "The introduction of $TCP_\u03b1$ provides a margin-controlled penalty for misclassified samples, ensuring clear separation between confidence values of correct and incorrect predictions.",
             "Benefiting_Sectors": "Music Information Retrieval, Machine Learning, AI Development",
             "Disrupted_Sectors": "Traditional Music Analysis, Audio Engineering",
-            "Decision_Perspective": "Strategic decision-makers should consider integrating $TCP_\u03b1$ into their machine learning frameworks to enhance prediction reliability and user trust.",
+            "Decision_Perspective": "Strategic decision-makers in tech and music industries should consider integrating $TCP_\u03b1$ into their models to improve confidence in predictions and enhance user trust.",
             "Tags": "confidence estimation, machine learning, music retrieval, neural networks, predictive accuracy"
         },
         {
@@ -114,7 +114,7 @@
             "Core_Innovation": "The G-CARL framework integrates multi-source retrieval and checklist-aligned reinforcement learning to enhance the accuracy and accessibility of medical report interpretations.",
             "Benefiting_Sectors": "Healthcare, Medical Technology, Patient Communication",
             "Disrupted_Sectors": "Traditional Medical Reporting, Medical Education",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in technologies that leverage G-CARL to improve patient communication and satisfaction in medical reporting.",
+            "Decision_Perspective": "Strategic decision-makers in healthcare should consider adopting G-CARL to enhance patient communication and improve the accuracy of medical report interpretations.",
             "Tags": "Reinforcement Learning, Medical Interpretation, Patient-Centered Care, AI in Healthcare"
         },
         {
@@ -127,7 +127,7 @@
             "Core_Innovation": "The paper provides a novel framework for analyzing information flow in nonnegative martingales with respect to random times, leading to new variational identities and insights into the performance of concentration inequalities.",
             "Benefiting_Sectors": "Data Science, Finance, Machine Learning, Risk Management",
             "Disrupted_Sectors": "Traditional Statistical Methods, Fixed-Interval Testing",
-            "Decision_Perspective": "Strategic decision-makers should consider integrating these new variational approaches into their analytical frameworks to enhance the efficacy of risk assessment and testing methodologies.",
+            "Decision_Perspective": "Strategic decision-makers should consider the implications of advanced concentration inequalities and informational metrics to refine risk assessment and model validation approaches.",
             "Tags": "martingales, information theory, random times, concentration inequalities, risk management"
         },
         {
@@ -652,6 +652,146 @@
         }
     ],
     "news": [
+        {
+            "News_ID": "4973166eccf8e19994d2399591a81dfb",
+            "Title": "US Treasury buyback strategy falls short as debt worries persist",
+            "Snippet": "...",
+            "Published_Date": "2026-08-20T20:57:37Z",
+            "News_URL": "https://finance.yahoo.com/economy/policy/articles/bonds-bounce-us-buybacks-relief-040238251.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "none",
+            "Disrupted_Entities": "US Treasury, bond market",
+            "Strategic_Action": "Investors should consider reassessing their bond holdings and stay informed about potential policy changes to better navigate the challenges posed by rising debt levels.",
+            "Economic_Tags": "US Treasury, debt, bond market, buyback, fiscal policy"
+        },
+        {
+            "News_ID": "e66513e0d532ae6d7d724cb6a998558c",
+            "Title": "Twin Disc, Incorporated Q4 2026 Earnings Call Summary",
+            "Snippet": "...",
+            "Published_Date": "2026-08-20T20:58:07Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/twin-disc-incorporated-q4-2026-205807606.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Neutral",
+            "Impact_Score": 5,
+            "Benefiting_Entities": "",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should monitor Twin Disc's performance and consider potential entry points based on future earnings guidance.",
+            "Economic_Tags": "earnings, market analysis, Q4 2026, financial strategy"
+        },
+        {
+            "News_ID": "dab838cf189b520b787f07e28e847eaf",
+            "Title": "Hormuz Oil Crisis Accelerates Global EV Sales",
+            "Snippet": "The ongoing crisis in the Hormuz Strait is pushing consumers and companies towards electric vehicles as an alternative to oil.",
+            "Published_Date": "2026-08-20T22:00:00Z",
+            "News_URL": "https://finance.yahoo.com/energy/articles/hormuz-oil-crisis-accelerates-global-220000391.html",
+            "Related_Tickers": "TSLA,NIO,GM,F",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Tesla,NIO,General Motors,Ford",
+            "Disrupted_Entities": "Oil companies,traditional automotive manufacturers",
+            "Strategic_Action": "Investors should consider increasing their positions in electric vehicle manufacturers and related supply chain companies as demand surges.",
+            "Economic_Tags": "electric vehicles,oil crisis,alternative energy,consumer behavior,market shift"
+        },
+        {
+            "News_ID": "370b6d47a0c74096bed2ca1248382048",
+            "Title": "Bitcoin Price Spikes Above $72,000 On Treasury-Fueled Short Squeeze",
+            "Snippet": "Bitcoin price has surged beyond $72,000 due to a short squeeze triggered by developments in treasury bonds and regulatory clarity from the White House.",
+            "Published_Date": "2026-08-20T21:05:06Z",
+            "News_URL": "https://www.investors.com/news/bitcoin-price-72000-two-month-high-treasury-bond-crypto-shorts-cftc-trump-clarity-act-white-house/?src=A00220&yptr=yahoo",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Cryptocurrency, Bitcoin miners, Financial technology companies",
+            "Disrupted_Entities": "Traditional financial institutions",
+            "Strategic_Action": "Investors should consider increasing their exposure to Bitcoin and related cryptocurrencies, as positive market sentiment may drive prices higher. Caution should be exercised with traditional financial assets that may be disrupted by crypto innovations.",
+            "Economic_Tags": "Bitcoin, Treasury Bonds, Short Squeeze, Crypto Market, Regulatory Clarity"
+        },
+        {
+            "News_ID": "e2398eb2129bb7d3e316855c61425167",
+            "Title": "Hyundai considers Georgia Metaplant expansion to 800,000 units",
+            "Snippet": "...",
+            "Published_Date": "2026-08-21T11:21:06Z",
+            "News_URL": "https://finance.yahoo.com/economy/policy/articles/hyundai-considers-georgia-metaplant-expansion-112106415.html",
+            "Related_Tickers": "HYMTF",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Hyundai, automotive suppliers, Georgia economy",
+            "Disrupted_Entities": "none",
+            "Strategic_Action": "Investors should consider increasing their positions in Hyundai and related automotive sector stocks, as expansion signals growth potential. Monitoring regional economic policies that could impact auto manufacturing will also be beneficial.",
+            "Economic_Tags": "manufacturing, investment, automotive industry, economic growth"
+        },
+        {
+            "News_ID": "f93aa9ddabb72aa73baa1b41d85dfa39",
+            "Title": "Is the 'semiliquid' label misleading, or just an uncomfortable reality?",
+            "Snippet": "...",
+            "Published_Date": "2026-08-20T21:49:37Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/semiliquid-label-misleading-just-uncomfortable-214937270.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Neutral",
+            "Impact_Score": 5,
+            "Benefiting_Entities": "",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should closely evaluate the implications of the 'semiliquid' label on their asset allocations and risk management strategies.",
+            "Economic_Tags": "liquidity, market dynamics, investment strategies"
+        },
+        {
+            "News_ID": "6f449efa320dfb34f29ac2eb61401080",
+            "Title": "Coatue Management Opens New Position in AMD Stock. View This as a Renewed Bet on the AI Trade.",
+            "Snippet": "...",
+            "Published_Date": "2026-08-20T21:47:33Z",
+            "News_URL": "https://finance.yahoo.com/technology/ai/articles/coatue-management-opens-position-amd-214733476.html",
+            "Related_Tickers": "AMD",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "AMD, AI Sector",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their positions in AMD and related AI stocks as the renewed interest signifies potential future growth. Monitoring trends in AI adoption can provide further insights.",
+            "Economic_Tags": "AI, Technology, Investment, Stocks, Growth"
+        },
+        {
+            "News_ID": "b22864a347002ecc7c9fc43fdae5bf7a",
+            "Title": "Final Agenda: 2nd LA CorpGov Forum Sep 18 Featuring Activism, Sports, Entertainment",
+            "Snippet": "The 2nd LA CorpGov Forum will focus on corporate governance issues, including activism, with significant discussions on sports and entertainment sectors.",
+            "Published_Date": "2026-08-20T21:44:17Z",
+            "News_URL": "https://finance.yahoo.com/media-advertising/articles/final-agenda-2nd-la-corpgov-214417129.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "sports, entertainment, corporate governance firms",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should monitor discussions from the forum on corporate activism trends, which may influence investment strategies in the sports and entertainment sectors.",
+            "Economic_Tags": "corporate governance, activism, sports, entertainment, market trends"
+        },
+        {
+            "News_ID": "c423e34c21af032209eb5105d55582c3",
+            "Title": "Treasury Picks The Stocks America\u2019s Kids Will Own",
+            "Snippet": "...",
+            "Published_Date": "2026-08-20T21:19:15Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/treasury-picks-stocks-america-kids-211915458.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "education sector, investment firms, technology companies",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider positioning themselves in educational technology and investment firms that may benefit from increased youth participation in the stock market. Monitoring government initiatives on youth investment could also present new opportunities.",
+            "Economic_Tags": "youth investing, stock market, government initiatives, education, financial literacy"
+        },
+        {
+            "News_ID": "31b282d00466cf513a8f43da104ca9b4",
+            "Title": "AT&T stands to gain as Verizon loses a customer related battle",
+            "Snippet": "...",
+            "Published_Date": "2026-08-20T23:00:00Z",
+            "News_URL": "https://finance.yahoo.com/technology/articles/t-stands-gain-verizon-loses-230000780.html",
+            "Related_Tickers": "T, VZ",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "AT&T",
+            "Disrupted_Entities": "Verizon",
+            "Strategic_Action": "Investors should consider increasing their stake in AT&T as it positions itself to capitalize on Verizon's setbacks.",
+            "Economic_Tags": "telecommunications, market competition, customer retention"
+        },
         {
             "News_ID": "daeb4524b2f01851b729ac2a30260c57",
             "Title": "Warren Buffett\u2019s Successor Bought Back 19 Times More Berkshire Stock Than Last Quarter, and the Filing Says It Was Abel\u2019s Decision, Not Buffett\u2019s",
@@ -1211,146 +1351,6 @@
             "Disrupted_Entities": "Figma, Inc.",
             "Strategic_Action": "Investors should closely monitor Figma's performance and consider potential entry points if sentiment stabilizes. A review of competitive positioning may also be prudent.",
             "Economic_Tags": "market sentiment, stock analysis, technology sector, investment strategy, corporate governance"
-        },
-        {
-            "News_ID": "77f4a7c3c4c527685a9812be6d9efc4b",
-            "Title": "Jim Cramer Said DoorDash, Inc. (NASDAQ:DASH) Was Shorted On Uber Which Was A Bad Trade",
-            "Snippet": "Jim Cramer criticized the decision to short DoorDash on the basis of Uber's performance, suggesting that this strategy was misguided.",
-            "Published_Date": "2026-08-15T21:29:10Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-doordash-inc-212910159.html",
-            "Related_Tickers": "DASH, UBER",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 6,
-            "Benefiting_Entities": "DoorDash, inc.",
-            "Disrupted_Entities": "Uber Technologies, Inc.",
-            "Strategic_Action": "Investors may want to reassess their positions in DoorDash and consider buying if they believe in its long-term growth despite recent negative sentiment. Investors should exercise caution with Uber's stock.",
-            "Economic_Tags": "Short Selling, Market Strategy, Stock Analysis, E-commerce, Food Delivery"
-        },
-        {
-            "News_ID": "5ebdf15a0f8bcfd0b339be475592064a",
-            "Title": "5 Monthly Dividend ETFs Paying 7 to 14 Percent to Ride Into 2027",
-            "Snippet": "...",
-            "Published_Date": "2026-08-15T17:11:48Z",
-            "News_URL": "https://finance.yahoo.com/markets/options/articles/5-monthly-dividend-etfs-paying-171148896.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Dividend ETFs, Income-seeking investors",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider adding monthly dividend ETFs to their portfolio for steady income, particularly those with higher yields. It is also advisable to review the underlying assets of these ETFs for stability and growth potential.",
-            "Economic_Tags": "dividend investing, ETFs, income generation, market trends, investment strategy"
-        },
-        {
-            "News_ID": "9755ac32b7cf9fc9eba964f6bb9773b9",
-            "Title": "Jim Cramer Was Happy The Market \u201cCared\u201d About D-Wave Quantum \u2013 But Not How You Think",
-            "Snippet": "Jim Cramer expressed mixed feelings about the market's response to D-Wave Quantum, highlighting investor interest but cautioning against certain market misconceptions.",
-            "Published_Date": "2026-08-15T21:28:04Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-happy-market-cared-212804288.html",
-            "Related_Tickers": "D-Wave",
-            "Market_Sentiment": "Neutral",
-            "Impact_Score": 4,
-            "Benefiting_Entities": "D-Wave Quantum",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should watch how D-Wave Quantum continues to develop its technology and market positioning while being cautious of overhyped valuations.",
-            "Economic_Tags": "quantum computing, investor sentiment, technology market, D-Wave Quantum, stock analysis"
-        },
-        {
-            "News_ID": "33a27788a56747a864af5e06fd3ebe3b",
-            "Title": "Elon Musk Said Tesla Short Sellers Would Be \u2018Obliterated\u2019 Even Bill Gates \u2014 Yet They\u2019ve Made $9 Billion This Year Shorting the Stock",
-            "Snippet": "...",
-            "Published_Date": "2026-08-15T19:30:02Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-said-tesla-short-193002441.html",
-            "Related_Tickers": "TSLA",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "short sellers",
-            "Disrupted_Entities": "Tesla, electric vehicle market",
-            "Strategic_Action": "Investors should consider the volatility in Tesla's stock and evaluate risk management strategies. Long-term positions in Tesla might need reassessment given current bearish sentiments.",
-            "Economic_Tags": "short selling, Tesla, stock market, volatility, investor sentiment"
-        },
-        {
-            "News_ID": "669825f9badc81101b624f358fc8d668",
-            "Title": "Wall Street Focused on D-Wave\u2019s Earnings. Its Bigger Story Came 1 Day Before.",
-            "Snippet": "...",
-            "Published_Date": "2026-08-15T18:30:02Z",
-            "News_URL": "https://finance.yahoo.com/technology/ai/articles/wall-street-focused-d-wave-183002547.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Neutral",
-            "Impact_Score": 5,
-            "Benefiting_Entities": "D-Wave, AI sector",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should monitor D-Wave's performance and consider potential long-term growth in the AI sector following earnings reports. Caution is advised as market reactions may vary.",
-            "Economic_Tags": "earnings, AI, market reaction, technology, investor sentiment"
-        },
-        {
-            "News_ID": "f3360ae5a005b7030c58136c2fee45d9",
-            "Title": "Sergey Brin Wants Google to Double Down on Gemini. What That Means for GOOGL Stock.",
-            "Snippet": "...",
-            "Published_Date": "2026-08-15T17:00:01Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/sergey-brin-wants-google-double-170001830.html",
-            "Related_Tickers": "GOOGL",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Google",
-            "Disrupted_Entities": "Competitors in AI and technology sectors",
-            "Strategic_Action": "Investors should consider increasing their positions in GOOGL stock due to the positive prospects surrounding Gemini's development and its potential market impact.",
-            "Economic_Tags": "AI, Technology, Investment, Market Growth, Stock Performance"
-        },
-        {
-            "News_ID": "42d738156ed8c103e1427e74e2c14bd0",
-            "Title": "Morgan Stanley sends a blunt Tesla message to investors",
-            "Snippet": "",
-            "Published_Date": "2026-08-16T01:03:00Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-sends-blunt-tesla-010300423.html",
-            "Related_Tickers": "TSLA",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "",
-            "Disrupted_Entities": "Tesla",
-            "Strategic_Action": "Investors should reconsider their positions in Tesla, focusing on potential market risks and ceasing bullish strategies until more favorable news emerges.",
-            "Economic_Tags": "automotive, investment, market analysis"
-        },
-        {
-            "News_ID": "7837029a88ef7973de5ac3082212d4e1",
-            "Title": "Historic retailer gets lifeline after warning it could collapse",
-            "Snippet": "...",
-            "Published_Date": "2026-08-15T22:07:00Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/historic-retailer-gets-lifeline-warning-220700487.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 6,
-            "Benefiting_Entities": "historic retailer, creditors, potential investors",
-            "Disrupted_Entities": "competitors, market stability",
-            "Strategic_Action": "Investors should monitor the retailer's recovery strategy and consider potential opportunities for equity purchase. Businesses in the retail sector should evaluate their own resilience to market disruptions.",
-            "Economic_Tags": "retail, market recovery, investor sentiment, financial stability, economic outlook"
-        },
-        {
-            "News_ID": "fb24e99bb3a2c6596d676c23c240e562",
-            "Title": "Billionaire Bill Ackman doubles down on these stocks in Q2",
-            "Snippet": "...",
-            "Published_Date": "2026-08-16T02:03:00Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/billionaire-bill-ackman-doubles-down-020300181.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider aligning their portfolios with Ackman's strong convictions, potentially increasing positions in stocks he has recently invested in.",
-            "Economic_Tags": "investment, stocks, billionaire, market trends, financial strategies"
-        },
-        {
-            "News_ID": "8b939fd423ac1b32792dcbf29b99a365",
-            "Title": "Oil prices rally, US data dents chances of Fed rate hike",
-            "Snippet": "...",
-            "Published_Date": "2026-08-14T21:12:15Z",
-            "News_URL": "https://finance.yahoo.com/news/asian-stocks-set-weekly-gain-023234921.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Oil & Gas sector, Energy companies",
-            "Disrupted_Entities": "Consumer discretionary sector, Airlines",
-            "Strategic_Action": "Investors should consider increasing exposure to the energy sector, particularly oil and gas companies, while reassessing positions in consumer discretionary sectors impacted by rising oil prices.",
-            "Economic_Tags": "oil prices, Fed rate hike, US economic data, energy sector, market sentiment"
         }
     ]
 }
