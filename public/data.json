@@ -10,7 +10,7 @@
             "Core_Innovation": "The introduction of MidTool as a synthesis pipeline for mid-training allows for enhanced agentic capabilities in tool use for large language models by utilizing a combination of diverse data sources and synthesized supervision from real-world tools.",
             "Benefiting_Sectors": "Artificial Intelligence, Software Engineering, Education, Research",
             "Disrupted_Sectors": "Traditional Software Development, Manual Data Processing, Educational Institutions",
-            "Decision_Perspective": "Strategic decision-makers should invest in the development and integration of mid-training methodologies such as MidTool to enhance tool competency in AI applications, driving advanced automation.",
+            "Decision_Perspective": "Strategic decision-makers should consider investing in mid-training approaches to enhance LLM performance across various applications, as dedicated interventions can yield significant improvements in tool-use capabilities.",
             "Tags": "Mid-training, Large Language Models, Tool Use, AI Innovation, Supervised Fine-tuning"
         },
         {
@@ -23,7 +23,7 @@
             "Core_Innovation": "The BERT-LER model integrates laboratory value representation and explainability, enhancing the interpretability of clinical predictions based on structured EHRs.",
             "Benefiting_Sectors": "Healthcare, Data Science, Machine Learning",
             "Disrupted_Sectors": "Traditional Medical Analytics, Conventional Clinical Prediction Models",
-            "Decision_Perspective": "Strategic decision-makers should consider adopting the BERT-LER framework to improve predictive accuracy and interpretability of clinical predictions in their organizations, enhancing patient outcomes.",
+            "Decision_Perspective": "Strategic decision-makers in healthcare should consider adopting BERT-LER to improve predictive capabilities and enhance interpretability of clinical models, ensuring better risk assessment and patient outcomes.",
             "Tags": "EHR, explainable AI, machine learning, clinical prediction, healthcare"
         },
         {
@@ -36,7 +36,7 @@
             "Core_Innovation": "The paper presents a novel approach to routing queries in heterogeneous AI systems by modeling the allocation of estimating costs against the potential returns of specialist models. This includes both centralized and decentralized routing policies.",
             "Benefiting_Sectors": "Artificial Intelligence, Information Technology, Data Analytics",
             "Disrupted_Sectors": "Traditional AI Systems, General Software Development",
-            "Decision_Perspective": "Strategic decision-makers should consider adopting the Pandora's Router framework to optimize query routing in AI systems, improving efficiency while also managing the costs of value estimation.",
+            "Decision_Perspective": "Strategic decision-makers should invest in advanced routing systems that leverage efficient value estimation methods to optimize resource allocation in AI applications.",
             "Tags": "AI Routing, Value Estimation, Decision Making, Heterogeneous Systems, Efficiency"
         },
         {
@@ -62,7 +62,7 @@
             "Core_Innovation": "The introduction of Task Model Induction (TMI) allows for the discovery of latent tasks in computer-use traces, effectively disentangling concurrent activities and creating structured task models that represent recursive goal decomposition and procedural control flow.",
             "Benefiting_Sectors": "Information Technology, Human-Computer Interaction, Business Process Management",
             "Disrupted_Sectors": "Traditional Workflow Software, Task Automation Tools",
-            "Decision_Perspective": "Strategic decision-makers should consider integrating TMI technology to enhance task management systems and improve workforce training and auditing processes through better contextual understanding of work activities.",
+            "Decision_Perspective": "Strategic decision-makers should consider adopting TMI for enhancing automation and efficiency in task management within their organizations, facilitating better training programs and optimizing workflows.",
             "Tags": "Task Model Induction, Computer-Use Traces, Workflow Analysis, AI in Work, Human-Computer Interaction"
         },
         {
@@ -75,7 +75,7 @@
             "Core_Innovation": "The study introduces a multi-agent workflow that seamlessly integrates conversational data collection, structured processing, and predictive modeling, enhancing the accuracy of travel behavior predictions based on weather conditions.",
             "Benefiting_Sectors": "Transportation, Urban Planning, Behavioral Research, Artificial Intelligence, Weather Forecasting",
             "Disrupted_Sectors": "Traditional Survey Methods, Conventional Transportation Modeling, Data Analytics Without Multimodal Inputs",
-            "Decision_Perspective": "Strategic decision-makers should integrate advanced data collection methodologies and machine learning models to improve forecasting accuracy and adapt to dynamic travel patterns influenced by weather conditions.",
+            "Decision_Perspective": "Strategic decision-makers should consider adopting multi-agent workflows to enhance data collection and predictive capabilities, particularly in fields that rely on understanding human behavior under variable conditions such as weather.",
             "Tags": "data collection, travel behavior, predictive modeling, machine learning, weather sensitivity"
         },
         {
@@ -88,7 +88,7 @@
             "Core_Innovation": "The paper provides a systematic comparison of FMCW, IR-UWB, and Wi-Fi radar technologies under identical conditions for healthcare monitoring, revealing their strengths and weaknesses in human activity recognition and sleep detection.",
             "Benefiting_Sectors": "Healthcare, Wearable Technology, Smart Home Technology",
             "Disrupted_Sectors": "Traditional Healthcare Monitoring, Sleep Study Industries",
-            "Decision_Perspective": "Strategic decision-makers in healthcare and technology sectors should consider investing in RF sensing technologies for improved monitoring solutions, emphasizing their cost and practical advantages.",
+            "Decision_Perspective": "Strategic decision-makers in healthcare technology should consider investing in and developing RF sensing systems that utilize the comparative advantages uncovered in this study to enhance patient monitoring capabilities.",
             "Tags": "FMCW Radar, IR-UWB, Wi-Fi Sensing, Human Activity Monitoring, Sleep Detection"
         },
         {
@@ -101,7 +101,7 @@
             "Core_Innovation": "The introduction of $TCP_\u03b1$ provides a margin-controlled penalty for misclassified samples, ensuring clear separation between confidence values of correct and incorrect predictions.",
             "Benefiting_Sectors": "Music Information Retrieval, Machine Learning, AI Development",
             "Disrupted_Sectors": "Traditional Music Analysis, Audio Engineering",
-            "Decision_Perspective": "Strategic decision-makers in tech and music industries should consider integrating $TCP_\u03b1$ into their models to improve confidence in predictions and enhance user trust.",
+            "Decision_Perspective": "Strategic decision-makers should consider adopting the $TCP_\u03b1$ methodology to enhance the reliability of AI predictions in their applications, particularly in domains reliant on high-stakes decision-making from AI output.",
             "Tags": "confidence estimation, machine learning, music retrieval, neural networks, predictive accuracy"
         },
         {
@@ -114,7 +114,7 @@
             "Core_Innovation": "The G-CARL framework integrates multi-source retrieval and checklist-aligned reinforcement learning to enhance the accuracy and accessibility of medical report interpretations.",
             "Benefiting_Sectors": "Healthcare, Medical Technology, Patient Communication",
             "Disrupted_Sectors": "Traditional Medical Reporting, Medical Education",
-            "Decision_Perspective": "Strategic decision-makers in healthcare should consider adopting G-CARL to enhance patient communication and improve the accuracy of medical report interpretations.",
+            "Decision_Perspective": "Strategic decision-makers in healthcare should consider integrating G-CARL into existing systems to improve patient engagement and satisfaction through better medical report interpretations.",
             "Tags": "Reinforcement Learning, Medical Interpretation, Patient-Centered Care, AI in Healthcare"
         },
         {
@@ -127,7 +127,7 @@
             "Core_Innovation": "The paper provides a novel framework for analyzing information flow in nonnegative martingales with respect to random times, leading to new variational identities and insights into the performance of concentration inequalities.",
             "Benefiting_Sectors": "Data Science, Finance, Machine Learning, Risk Management",
             "Disrupted_Sectors": "Traditional Statistical Methods, Fixed-Interval Testing",
-            "Decision_Perspective": "Strategic decision-makers should consider the implications of advanced concentration inequalities and informational metrics to refine risk assessment and model validation approaches.",
+            "Decision_Perspective": "Strategic decision-makers should consider integrating these findings into risk assessment frameworks and update their statistical methodologies based on the new insights provided on inequality bounds.",
             "Tags": "martingales, information theory, random times, concentration inequalities, risk management"
         },
         {
@@ -652,6 +652,146 @@
         }
     ],
     "news": [
+        {
+            "News_ID": "c31528589022303f5a40f0f304105b3e",
+            "Title": "Jefferies Just Said Sell Apple (AAPL). Here\u2019s the iPhone Feature That Got Canceled",
+            "Snippet": "...",
+            "Published_Date": "2026-08-21T21:11:57Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/jefferies-just-said-sell-apple-211157587.html",
+            "Related_Tickers": "AAPL",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Competitors in smartphone market",
+            "Disrupted_Entities": "Apple (AAPL)",
+            "Strategic_Action": "Investors should consider reducing their positions in Apple, looking for opportunities in competitor stocks that may benefit from Apple's setbacks.",
+            "Economic_Tags": "technology, consumer electronics, investment, market analysis, stock performance"
+        },
+        {
+            "News_ID": "31e76a649dd263ed30f481a163d6d946",
+            "Title": "Taiwan Semiconductor (TSM) Sales Just Jumped 45%. Why is the Chip Sector Still Selling Off?",
+            "Snippet": "Taiwan Semiconductor Manufacturing Company (TSM) experienced a significant sales increase of 45%, which raises questions about the overall chip sector decline despite strong individual company performance.",
+            "Published_Date": "2026-08-21T20:58:44Z",
+            "News_URL": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-tsm-sales-just-205844477.html",
+            "Related_Tickers": "TSM",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 6,
+            "Benefiting_Entities": "Taiwan Semiconductor",
+            "Disrupted_Entities": "Other chip manufacturers, semiconductor investors",
+            "Strategic_Action": "Investors should limit exposure to the broader chip sector and monitor TSM closely for potential recovery signals. Diversifying into sectors benefiting from semiconductor innovation may also be wise.",
+            "Economic_Tags": "semiconductors, market volatility, earnings report, investor sentiment, technology sector"
+        },
+        {
+            "News_ID": "dba2d7e53afc640939a3fbfc6a4e00cd",
+            "Title": "ETF League Tables: SPDR Leads Inflows",
+            "Snippet": "SPDR has emerged as the leader in ETF inflows, indicating strong investor interest in its offerings compared to competitors.",
+            "Published_Date": "2026-08-21T21:00:04Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/etf-league-tables-spdr-leads-210004840.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "SPDR, ETF providers",
+            "Disrupted_Entities": "Competing ETF providers",
+            "Strategic_Action": "Investors should consider increasing their allocation to SPDR ETFs as they demonstrate strong performance and inflows, suggesting high investor confidence. Monitoring competitor performance may also provide opportunities.",
+            "Economic_Tags": "ETF, inflows, investment, market trends, SPDR"
+        },
+        {
+            "News_ID": "d415abb96eb48ed430d0f6b1dd6fd9f6",
+            "Title": "Daily ETF Flows: $614M Flows Into GLD",
+            "Snippet": "...",
+            "Published_Date": "2026-08-21T21:00:04Z",
+            "News_URL": "https://finance.yahoo.com/markets/options/articles/daily-etf-flows-614m-flows-210004994.html",
+            "Related_Tickers": "GLD",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Gold ETFs, Gold mining companies",
+            "Disrupted_Entities": "None",
+            "Strategic_Action": "Investors should consider increasing their exposure to gold and gold-related investments, given the significant inflows into GLD, which indicate a growing appetite for safe-haven assets.",
+            "Economic_Tags": "ETF flows, Gold, Market sentiment, Investment trends, Safe haven"
+        },
+        {
+            "News_ID": "4cbaba4210fa9e1ddaec76fb5bc1f011",
+            "Title": "Bill Gates pulls $818M from Berkshire to buy this giant",
+            "Snippet": "Bill Gates has withdrawn a significant amount from Berkshire Hathaway to make a large acquisition, indicating a strategic shift in his investment approach.",
+            "Published_Date": "2026-08-22T03:07:00Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/bill-gates-pulls-818m-berkshire-030700591.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Tech Sector, Target Company",
+            "Disrupted_Entities": "Berkshire Hathaway",
+            "Strategic_Action": "Investors should closely monitor similar high-value acquisitions and consider reallocating funds into sectors that are gaining traction.",
+            "Economic_Tags": "Acquisition, Investment, Market Trends, Technology, Berkshire Hathaway"
+        },
+        {
+            "News_ID": "007446336b23cd465b68bc38ae326200",
+            "Title": "A Bounce From Weakness: Selling Into Strength For DRAM ETF Beat A Round Trip",
+            "Snippet": "...",
+            "Published_Date": "2026-08-21T21:07:30Z",
+            "News_URL": "https://www.investors.com/research/swing-trading/a-bounce-from-weakness-selling-into-strength-for-dram-etf-beat-a-round-trip/?src=A00220&yptr=yahoo",
+            "Related_Tickers": "DRAM",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "DRAM ETF, semiconductor sector",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider rebalancing their portfolios to capitalize on the positive momentum in the DRAM ETF market by potentially increasing their exposure to semiconductor stocks.",
+            "Economic_Tags": "DRAM, semiconductor, ETF, market bounce, investment strategy"
+        },
+        {
+            "News_ID": "6150e9bcd20fcadc89faac9a26422801",
+            "Title": "BJ's Wholesale Club Holdings, Inc. Q2 2026 Earnings Call Summary",
+            "Snippet": "...",
+            "Published_Date": "2026-08-21T21:00:52Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/bjs-wholesale-club-holdings-inc-210052446.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 6,
+            "Benefiting_Entities": "BJ's Wholesale Club",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider buying BJ's Wholesale Club shares as the earnings report indicates strong performance and potential growth. Monitoring competitors in the wholesale sector could also provide insights into market positioning.",
+            "Economic_Tags": "earnings, retail, wholesale, consumer spending, market performance"
+        },
+        {
+            "News_ID": "bba571d6aa66fd48e90933fc3832e4c3",
+            "Title": "The Buckle, Inc. Q2 2026 Earnings Call Summary",
+            "Snippet": "...",
+            "Published_Date": "2026-08-21T21:01:03Z",
+            "News_URL": "https://finance.yahoo.com/news/buckle-inc-q2-2026-earnings-210103282.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Neutral",
+            "Impact_Score": 5,
+            "Benefiting_Entities": "",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should monitor Buckle's performance while considering fluctuations in consumer spending and apparel demand.",
+            "Economic_Tags": "earnings, retail, consumer behavior, market trends, apparel"
+        },
+        {
+            "News_ID": "b887be0bb86ad993ccb10c866780201b",
+            "Title": "ZKH Group Limited Q2 2026 Earnings Call Summary",
+            "Snippet": "...",
+            "Published_Date": "2026-08-21T21:01:11Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/zkh-group-limited-q2-2026-210111680.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Neutral",
+            "Impact_Score": 5,
+            "Benefiting_Entities": "",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should monitor ZKH Group's performance for potential buying opportunities or consider diversifying into other sectors if volatility is high.",
+            "Economic_Tags": "earnings, market analysis, Q2 2026, financial performance"
+        },
+        {
+            "News_ID": "0b05590740e3db7ce2523d20a8ac76bf",
+            "Title": "Iconic fast-food fried chicken chain closes over 300 restaurants",
+            "Snippet": "Iconic fast-food chain declines indicating potential shifts in consumer preferences and competitive pressures.",
+            "Published_Date": "2026-08-22T18:47:00Z",
+            "News_URL": "https://finance.yahoo.com/small-business/articles/iconic-fast-food-fried-chicken-184700958.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "local fast-food chains, health-focused restaurants",
+            "Disrupted_Entities": "franchisee operators, suppliers to the chain",
+            "Strategic_Action": "Investors should consider diversifying into local chains and health-conscious food sectors as consumer preferences shift.",
+            "Economic_Tags": "restaurant industry, consumer behavior, market disruption"
+        },
         {
             "News_ID": "4973166eccf8e19994d2399591a81dfb",
             "Title": "US Treasury buyback strategy falls short as debt worries persist",
@@ -1211,146 +1351,6 @@
             "Disrupted_Entities": "",
             "Strategic_Action": "Investors should consider opportunities in the real estate sector that could see an uptick in interest due to celebrity influence. Businesses in the entertainment sector might also capitalize on increased visibility from celebrity interactions.",
             "Economic_Tags": "Celebrity Influence, Real Estate, Consumer Spending, Tax Implications"
-        },
-        {
-            "News_ID": "eb1ebe4afa3da4c7e2d3dfe85e084fae",
-            "Title": "Oil Majors Reap $93 Billion Windfall From the Iran War",
-            "Snippet": "...",
-            "Published_Date": "2026-08-16T19:00:00Z",
-            "News_URL": "https://finance.yahoo.com/energy/articles/oil-majors-reap-93-billion-190000461.html",
-            "Related_Tickers": "XOM, CVX, BP",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 9,
-            "Benefiting_Entities": "XOM, CVX, BP, energy sector",
-            "Disrupted_Entities": "consumer goods sector",
-            "Strategic_Action": "Investors should consider increasing their positions in major oil companies to capitalize on the windfall profits. Additionally, they should monitor potential shifts in consumer spending as energy prices may rise.",
-            "Economic_Tags": "oil prices, geopolitical events, energy sector, global markets, inflation"
-        },
-        {
-            "News_ID": "b01eae96d59b9b8e13d0eedab9f11d65",
-            "Title": "Wall Street Thinks Monolithic Power Is a Buy. Here\u2019s Why It Might Be Right.",
-            "Snippet": "...",
-            "Published_Date": "2026-08-16T18:30:02Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/wall-street-thinks-monolithic-power-183002705.html",
-            "Related_Tickers": "MPWR",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 8,
-            "Benefiting_Entities": "Monolithic Power, semiconductor sector",
-            "Disrupted_Entities": "competing semiconductor firms",
-            "Strategic_Action": "Investors should consider taking a position in Monolithic Power to capitalize on the positive sentiment and growth potential indicated by Wall Street analysts.",
-            "Economic_Tags": "semiconductors, investment, market analysis, growth potential, Wall Street"
-        },
-        {
-            "News_ID": "80f5718576178629bf0b9be3025187ab",
-            "Title": "Tori Dunlap's Her First $100K made Inc. 5000 after growing it from a blog to a multi-million dollar business",
-            "Snippet": "Tori Dunlap's Her First $100K has seen remarkable growth, ascending to the Inc. 5000 rankings by transitioning from a personal blog to a multi-million dollar enterprise.",
-            "Published_Date": "2026-08-16T18:30:00Z",
-            "News_URL": "https://finance.yahoo.com/small-business/articles/tori-dunlaps-her-first-100k-183000556.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 8,
-            "Benefiting_Entities": "Digital Marketing, Personal Finance Education",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider opportunities in digital marketing and personal finance education sectors that are likely to benefit from similar success stories. Businesses can analyze Dunlap's growth strategies for insights into building brand loyalty and expanding market reach.",
-            "Economic_Tags": "entrepreneurship, digital marketing, financial education, business growth, small business"
-        },
-        {
-            "News_ID": "72fad255e4618d043925654e26fcf381",
-            "Title": "Planet Fitness Director Spinelli Buys 10,000 Shares for $492,800 -- Should Investors Buy Too?",
-            "Snippet": "Published_Date: 2026-08-16T16:55:00Z",
-            "Published_Date": "2026-08-16T16:55:00Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/planet-fitness-director-spinelli-buys-165500960.html",
-            "Related_Tickers": "PLNT",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Planet Fitness",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider buying shares of Planet Fitness following this insider purchase, as it may indicate the director's confidence in the company's future performance.",
-            "Economic_Tags": "insider trading, stock purchase, investor sentiment, fitness industry, market confidence"
-        },
-        {
-            "News_ID": "2757cb7f8ee56bdd79765cc981341108",
-            "Title": "SpaceX stock volatility: What to do next if you own shares",
-            "Snippet": "...",
-            "Published_Date": "2026-06-17T14:17:04Z",
-            "News_URL": "https://finance.yahoo.com/personal-finance/investing/article/spacex-stock-volatility-what-to-do-next-if-you-own-shares-141704338.html",
-            "Related_Tickers": "SPACEX",
-            "Market_Sentiment": "Neutral",
-            "Impact_Score": 6,
-            "Benefiting_Entities": "none",
-            "Disrupted_Entities": "none",
-            "Strategic_Action": "Investors should consider diversifying their portfolios to mitigate risk due to stock volatility. Additionally, staying informed on SpaceX developments is crucial.",
-            "Economic_Tags": "stock volatility, investment strategy, market analysis, SpaceX, financial advice"
-        },
-        {
-            "News_ID": "202a9e7332d4810a0fa8f311f366e908",
-            "Title": "Ondo Stocks Volume Hits $27B, Tokenized Equity Platform Holds Above $1B",
-            "Snippet": "",
-            "Published_Date": "2026-08-16T17:39:00Z",
-            "News_URL": "https://finance.yahoo.com/markets/crypto/articles/ondo-stocks-volume-hits-27b-173900103.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 8,
-            "Benefiting_Entities": "Ondo, cryptocurrency platforms, tokenized equity firms",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider increasing their exposure to tokenized equity platforms as they show significant market growth and investor interest. Businesses in traditional equity spaces may need to adapt or explore tokenization strategies.",
-            "Economic_Tags": "tokenization, equity markets, cryptocurrency, investment growth, market trends"
-        },
-        {
-            "News_ID": "b9a438f8b451a17ddca95f6b1ae8f2db",
-            "Title": "Netflix Stock Is Cheap and It Has More Than 70% Upside Potential Here",
-            "Snippet": "...",
-            "Published_Date": "2026-08-16T17:30:02Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-cheap-more-70-173002732.html",
-            "Related_Tickers": "NFLX",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 8,
-            "Benefiting_Entities": "Netflix",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider acquiring Netflix shares due to the significant upside potential, while monitoring market conditions that could affect future performance.",
-            "Economic_Tags": "stock valuation, investment opportunity, growth potential, media sector, market analysis"
-        },
-        {
-            "News_ID": "5930e083569843f9badf1d58e1566d33",
-            "Title": "Retail Earnings, Fed Minutes and Other Key Things to Watch this Week",
-            "Snippet": "...",
-            "Published_Date": "2026-08-16T17:00:02Z",
-            "News_URL": "https://finance.yahoo.com/economy/policy/articles/retail-earnings-fed-minutes-other-170002024.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Neutral",
-            "Impact_Score": 6,
-            "Benefiting_Entities": "Retail sector",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should monitor retail earnings closely as they may indicate consumer spending trends. Adjust portfolios based on the Fed's monetary policy direction highlighted in the minutes.",
-            "Economic_Tags": "Retail, Federal Reserve, Earnings, Consumer Spending, Economic Policy"
-        },
-        {
-            "News_ID": "7a862699d67344717bda1ee5bf78486a",
-            "Title": "Warren Buffett's Berkshire raises stake in world's largest airline",
-            "Snippet": "...",
-            "Published_Date": "2026-08-16T21:47:00Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-berkshire-raises-stake-214700937.html",
-            "Related_Tickers": "DAL, AAL, LUV",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Berkshire Hathaway, Airlines sector",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider evaluating their positions in the airline sector, as Buffett's confidence may indicate strong potential for future growth.",
-            "Economic_Tags": "airlines, investment, market growth, Warren Buffett, stock market"
-        },
-        {
-            "News_ID": "bb49c28bf63704d9e3c72332850a741f",
-            "Title": "Jim Cramer Didn\u2019t Think Figma, Inc. (NYSE:FIG) Was Treated The Way It Should Have Been",
-            "Snippet": "...",
-            "Published_Date": "2026-08-15T21:30:03Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-didn-t-think-213003428.html",
-            "Related_Tickers": "FIG",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 6,
-            "Benefiting_Entities": "",
-            "Disrupted_Entities": "Figma, Inc.",
-            "Strategic_Action": "Investors should closely monitor Figma's performance and consider potential entry points if sentiment stabilizes. A review of competitive positioning may also be prudent.",
-            "Economic_Tags": "market sentiment, stock analysis, technology sector, investment strategy, corporate governance"
         }
     ]
 }
