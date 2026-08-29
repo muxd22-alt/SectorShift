@@ -10,7 +10,7 @@
             "Core_Innovation": "The CLAP framework enables cross-embodiment learning by reconciling disparate action spaces and utilizing a curriculum-based learning approach for zero-shot physical simulation.",
             "Benefiting_Sectors": "robotics, artificial intelligence, entertainment, education, manufacturing",
             "Disrupted_Sectors": "traditional robotics, automation systems, single-embodiment simulation tools",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in technologies that support cross-embodiment frameworks, as they offer substantial advantages in learning efficiency and applicability across diverse robotics tasks.",
+            "Decision_Perspective": "Strategic decision-makers in technology and robotics should invest in the adaptation of CLAP's methodologies to enhance their systems and leverage the diverse data available to improve physical simulations.",
             "Tags": "cross-embodiment, video models, zero-shot simulation, robotics, artificial intelligence"
         },
         {
@@ -23,7 +23,7 @@
             "Core_Innovation": "The introduction of multi-hash ID embeddings significantly reduces memory usage while maintaining ranking performance, and the use of temporal neighbor sampling optimized for production-level efficiency enhances computational feasibility.",
             "Benefiting_Sectors": "Social Media, Technology, Data Analytics, Artificial Intelligence",
             "Disrupted_Sectors": "Traditional Recommendation Systems, Data Storage Solutions",
-            "Decision_Perspective": "Strategic decision-makers should consider adopting the proposed GNN framework to enhance user engagement and recommendation efficacy, while also investing in infrastructure to support scalable graph data processing.",
+            "Decision_Perspective": "Strategic decision-makers should consider adopting advanced GNN architectures and techniques for friend recommendation systems to enhance user engagement and improve operational efficiencies in social networking platforms.",
             "Tags": "Graph Neural Networks, User Embeddings, Friend Recommendation, Temporal Sampling, Scalable Systems"
         },
         {
@@ -36,7 +36,7 @@
             "Core_Innovation": "Development of a continuous sepsis severity index using real-time patient data over a 72-hour treatment window without the need for hour-by-hour supervision. The index utilizes mortality as a non-uniform treatment-level ranking signal.",
             "Benefiting_Sectors": "Healthcare, Medical Technology",
             "Disrupted_Sectors": "Traditional Critical Care Practices, Established Medical Indices",
-            "Decision_Perspective": "Strategic decision-makers in healthcare should consider integrating this innovative sepsis severity index into clinical practice, as it has the potential to enhance patient outcome predictions and support clinical decisions.",
+            "Decision_Perspective": "Strategic decision-makers in healthcare should consider integrating this novel sepsis scoring system into existing decision support systems to enhance patient care and outcomes.",
             "Tags": "sepsis, healthcare innovation, continuous monitoring, patient outcomes, critical care"
         },
         {
@@ -49,7 +49,7 @@
             "Core_Innovation": "The paper proposes a refined framework for evaluating the performance of AI security scanners by emphasizing coverage metrics and failure recovery analysis beyond conventional measures like F1 score.",
             "Benefiting_Sectors": "Cybersecurity, Machine Learning, Software Development",
             "Disrupted_Sectors": "Traditional Security Assessment, Quality Assurance",
-            "Decision_Perspective": "Strategic decision-makers should invest in enhancing AI model security scanners by adopting the proposed evaluation framework to ensure comprehensive coverage and reliability in security assessments.",
+            "Decision_Perspective": "Strategic decision-makers should consider adopting advanced static scanning tools that better evaluate AI model security to enhance their defenses against emerging threats. The findings suggest a need for continuous improvement and evaluation of security tools.",
             "Tags": "AI Security, Model Evaluation, Static Scanners, Cybersecurity, Performance Metrics"
         },
         {
@@ -62,7 +62,7 @@
             "Core_Innovation": "The core innovation is the decoupling of persona and execution in LLM agents through the Persona-Execution Separation (PES) architecture, enabling dynamic persona evolution while ensuring traceable execution audits.",
             "Benefiting_Sectors": "Governed organizations, AI ethics, regulatory compliance, digital employee platforms",
             "Disrupted_Sectors": "Traditional software systems, monolithic AI architectures, industries with strict data governance",
-            "Decision_Perspective": "Decision-makers should consider adopting PES to balance innovation in LLM persona development with the necessity of maintaining execution audits and compliance in governed environments.",
+            "Decision_Perspective": "Strategic decision-makers should consider adopting PES to ensure compliance and enhance the adaptability of LLM agents, while mitigating risks associated with persona evolution.",
             "Tags": "LLM, persona separation, execution audit, AI governance, architecture pattern"
         },
         {
@@ -75,7 +75,7 @@
             "Core_Innovation": "MAELLE introduces a novel method for modeling chemical reactions as discrete flow matching over electron occupation vectors, enhancing prediction accuracy and mechanistic interpretation.",
             "Benefiting_Sectors": "Pharmaceuticals,Chemicals,Material Science",
             "Disrupted_Sectors": "Traditional Synthetic Chemistry,Heuristic-Based Modeling Tools",
-            "Decision_Perspective": "Strategic decision-makers should consider integrating MAELLE into their research and development processes to enhance reaction prediction and reduce time in product development.",
+            "Decision_Perspective": "Strategic decision-makers should consider investing in technologies that enhance reaction prediction capabilities and integrate mechanistic insights, as these may provide substantial competitive advantages in R&D processes.",
             "Tags": "Machine Learning,Chemistry,Reaction Prediction,Optimal Transport,Electron Occupation"
         },
         {
@@ -88,7 +88,7 @@
             "Core_Innovation": "The core technological innovation is the adaptive evolution of red-teaming skills through tool-effectiveness profiling and Deciding-Tool Attribution, allowing for dynamic and efficient response to emerging threats.",
             "Benefiting_Sectors": "Cybersecurity, Software Development, Artificial Intelligence",
             "Disrupted_Sectors": "Traditional Security Testing, Risk Management",
-            "Decision_Perspective": "Strategic decision-makers should consider integrating adaptive red-teaming methodologies like RedEvoAgent to enhance security frameworks against evolving attack strategies.",
+            "Decision_Perspective": "Strategic decision-makers should consider investing in the development and integration of adaptive red-teaming solutions like RedEvoAgent to enhance the security resilience of their systems against emerging threats.",
             "Tags": "red-teaming, cybersecurity, AI, adaptive learning, LLM"
         },
         {
@@ -97,11 +97,11 @@
             "Abstract": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly and time-consuming. Although recent work explores large language models (LLMs) for automated code review, most approaches oversimplify code review into a single-round, static decision task, which fails to capture the multi-round interactive nature and the complex problem-solving processes inherent in realistic review scenarios.",
             "Published_Date": "2026-08-27T17:56:24Z",
             "Arxiv_URL": "https://arxiv.org/abs/2608.27442v1",
-            "Breakthrough_Score": 7,
+            "Breakthrough_Score": 8,
             "Core_Innovation": "The introduction of MCR-Bench, a defect state-aware benchmark that captures the evolutionary trajectory of defects in multi-round code review processes.",
             "Benefiting_Sectors": "software development, tech industry, quality assurance",
             "Disrupted_Sectors": "traditional code review processes, manual software testing, legacy software development",
-            "Decision_Perspective": "Strategic decision-makers should invest in training and adapting LLMs for better performance in dynamic code reviews, focusing on overcoming identified weaknesses.",
+            "Decision_Perspective": "Strategic decision-makers should consider investing in and adopting advanced LLMs that utilize insights from MCR-Bench to enhance code review processes and software quality.",
             "Tags": "code review, large language models, software quality, defect detection, benchmarking"
         },
         {
@@ -114,7 +114,7 @@
             "Core_Innovation": "SWE-Prime introduces a novel two-stage SFT data selection method that filters training data based on trajectory and segment levels to enhance model performance while reducing noise from supervision.",
             "Benefiting_Sectors": "Artificial Intelligence, Software Development, Data Science",
             "Disrupted_Sectors": "Traditional Machine Learning, Software Engineering",
-            "Decision_Perspective": "Strategic decision-makers should consider adopting SWE-Prime's methodology to improve training efficiency and model reliability in software problem resolution.",
+            "Decision_Perspective": "Strategic decision-makers should consider integrating SWE-Prime into their AI development pipelines to enhance model performance and reduce reliance on noisy data sets.",
             "Tags": "SWE-Prime, Supervised Fine-Tuning, Trajectory Selection, Machine Learning, Software Engineering"
         },
         {
@@ -123,11 +123,11 @@
             "Abstract": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowledge base (wiki). At a high level, WikiSkill separates raw execution experience, accumulated knowledge, and executable skills, while continuously consolidating experience into the wiki, which subsequent skill updates can build on. Across diverse benchmarks and models, WikiSkill consistently outperforms state-of-the-art skill-evolution methods and improves over no-skill baselines in most model-benchmark settings. We find that skill evolution complements model scaling: larger models generally benefit more from evolved skills, while smaller models with skills can outperform substantially larger models without them. We also find that evolved skills transfer effectively across models and model families, and skills evolved by other models can outperform self-evolved skills. Finally, our ablation studies confirm that persistent knowledge accumulation in the wiki is critical for effective skill evolution. These results demonstrate the benefits of systematically accumulating and refining agent experience for developing reusable and transferable skills.",
             "Published_Date": "2026-08-27T17:59:11Z",
             "Arxiv_URL": "https://arxiv.org/abs/2608.27454v1",
-            "Breakthrough_Score": 9,
+            "Breakthrough_Score": 8,
             "Core_Innovation": "The development of a persistent knowledge base (wiki) that co-evolves agent skills, allowing for systematic reuse and refinement of skills across iterations.",
             "Benefiting_Sectors": "Artificial Intelligence, Robotics, Software Development, Education, Data Analysis",
             "Disrupted_Sectors": "Traditional Software Development, Manual Process Industries, Training Services",
-            "Decision_Perspective": "Strategic decision-makers should invest in technologies that leverage persistent knowledge accumulation for skill evolution to enhance agility and adaptability in AI systems.",
+            "Decision_Perspective": "Strategic decision-makers should invest in AI development tools that leverage persistent knowledge frameworks like WikiSkill to enhance agent capabilities and operational efficiencies.",
             "Tags": "AI, Skill Evolution, Knowledge Base, Agent Experience, Model Transfer"
         },
         {
@@ -652,6 +652,146 @@
         }
     ],
     "news": [
+        {
+            "News_ID": "97e19c1ae8b909fb599f8fbbaf5da5fd",
+            "Title": "Jim Cramer Revealed What Made NVIDIA Corporation (NASDAQ:NVDA)\u2019s Shares Move Post-Earnings",
+            "Snippet": "...",
+            "Published_Date": "2026-08-28T09:15:09Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-revealed-made-nvidia-091509280.html",
+            "Related_Tickers": "NVDA",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "NVIDIA Corporation",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider buying NVIDIA shares to capitalize on the positive momentum following the earnings report. Additionally, monitoring broader market trends and sentiment will be crucial.",
+            "Economic_Tags": "earnings, stock movement, investor sentiment, technology sector"
+        },
+        {
+            "News_ID": "0ceee01f007848f87307a4bd6f58b92b",
+            "Title": "Jim Cramer Said He Thinks Jersey Mike\u2019s Subs Inc. (NASDAQ:JMKE)\u2019s Shares Will Go Up \u201cSubstantially\u201d",
+            "Snippet": "...",
+            "Published_Date": "2026-08-28T09:14:39Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-thinks-jersey-091439424.html",
+            "Related_Tickers": "JMKE",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Jersey Mike\u2019s Subs Inc.",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors may consider buying shares of Jersey Mike\u2019s Subs Inc. to capitalize on expected price increases. Monitoring market trends and analyst updates will be crucial.",
+            "Economic_Tags": "stock market, investment, analysis, consumer goods, restaurant sector"
+        },
+        {
+            "News_ID": "c817c55e7ddbd38452dbc405321e055a",
+            "Title": "Jim Cramer Explained Why Salesforce Inc. (NYSE:CRM)\u2019s Shares Rose Ahead Of Earnings",
+            "Snippet": "...",
+            "Published_Date": "2026-08-28T09:14:12Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explained-why-salesforce-091412869.html",
+            "Related_Tickers": "CRM",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Salesforce",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider leveraging the positive sentiment around Salesforce ahead of earnings for potential gains. Monitoring the performance closely after earnings release would be prudent.",
+            "Economic_Tags": "earnings, stock market, investor sentiment, technology sector, Salesforce"
+        },
+        {
+            "News_ID": "f4152377154dbd3c07d455086adfa5f2",
+            "Title": "Ask an Advisor: My Advisor Sold Nvidia Stock and I Missed $50k in Gains. What Should I Do Now?",
+            "Snippet": "...",
+            "Published_Date": "2026-08-28T09:00:00Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/ask-advisor-advisor-sold-nvidia-120000769.html",
+            "Related_Tickers": "NVDA",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 6,
+            "Benefiting_Entities": "Nvidia",
+            "Disrupted_Entities": "Investor, financial advisory services",
+            "Strategic_Action": "Investors should consider reviewing their advisory relationships and ensuring alignment of investment strategies with personal financial goals to avoid missed opportunities in high-growth sectors like technology.",
+            "Economic_Tags": "stock market, technology, investment strategy, financial advisory, risk management"
+        },
+        {
+            "News_ID": "abb1e50ea117f2c01d3c37fde158744d",
+            "Title": "Dunkin' comes back to major market after 12-year absence",
+            "Snippet": "...",
+            "Published_Date": "2026-08-28T16:17:00Z",
+            "News_URL": "https://finance.yahoo.com/small-business/articles/dunkin-comes-back-major-market-161700314.html",
+            "Related_Tickers": "DNKN",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Dunkin', local coffee shops, fast food sector",
+            "Disrupted_Entities": "Starbucks, regional coffee brands",
+            "Strategic_Action": "Investors should consider buying shares in Dunkin' as the brand's return is likely to increase market share and revenue growth. Additionally, monitoring competitors in the coffee space for potential shifts in consumer behavior is advisable.",
+            "Economic_Tags": "market entry, brand revival, competitive advantage, consumer trends, coffee industry"
+        },
+        {
+            "News_ID": "74fccba7fb6e894eb2ad49e5f4c1e6cb",
+            "Title": "Woman says a Wendy\u2019s burger led to nearly $100K in medical bills, and she\u2019s suing. How other fast food suits have fared",
+            "Snippet": "...",
+            "Published_Date": "2026-08-28T09:00:00Z",
+            "News_URL": "https://finance.yahoo.com/healthcare/articles/woman-says-wendy-burger-led-090000534.html",
+            "Related_Tickers": "WEN",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 6,
+            "Benefiting_Entities": "law firms",
+            "Disrupted_Entities": "Wendy's, fast food industry",
+            "Strategic_Action": "Investors should monitor Wendy's stock closely for potential volatility and consider reallocating funds to more stable sectors amidst litigation risks.",
+            "Economic_Tags": "litigation, fast food, consumer safety, healthcare costs, liability"
+        },
+        {
+            "News_ID": "24710def8d57bf1b35e9340aa8607f89",
+            "Title": "Jim Cramer Was Left Frustrated By Deere & Company (NYSE:DE)\u2019s Share Price Rise",
+            "Snippet": "...",
+            "Published_Date": "2026-08-28T09:13:31Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-left-frustrated-deere-091331488.html",
+            "Related_Tickers": "DE",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 6,
+            "Benefiting_Entities": "",
+            "Disrupted_Entities": "investors, analysts",
+            "Strategic_Action": "Investors should closely monitor Deere's performance and consider adjustments to their portfolios if the sentiment remains negative. It may be prudent to be cautious with any positions in DE until clearer signals of recovery are observed.",
+            "Economic_Tags": "share price, investor sentiment, market analysis, stock performance, frustration"
+        },
+        {
+            "News_ID": "273106f35f3b9f08cddd37f6bd45b9ec",
+            "Title": "Jim Cramer Shared What Apple Inc. (NASDAQ:AAPL) CEO Tim Cook Told Him About Shortages & iPhone Price",
+            "Snippet": "...",
+            "Published_Date": "2026-08-28T09:11:48Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-shared-apple-inc-091148298.html",
+            "Related_Tickers": "AAPL",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Apple Inc.",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors might consider increasing their positions in Apple Inc. given the positive insights from CEO Tim Cook regarding demand and pricing strategies.",
+            "Economic_Tags": "iPhone, supply chain, consumer electronics, market trends, earnings forecast"
+        },
+        {
+            "News_ID": "0c8e796bab9490a0e899ff41a2737134",
+            "Title": "Jim Cramer Was Left Surprised By Movement In Meta Platforms, Inc. (NASDAQ:META)\u2019s Shares",
+            "Snippet": "...",
+            "Published_Date": "2026-08-28T09:11:19Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-left-surprised-movement-091119174.html",
+            "Related_Tickers": "META",
+            "Market_Sentiment": "Neutral",
+            "Impact_Score": 5,
+            "Benefiting_Entities": "",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should closely monitor Meta's stock movement for potential volatility, considering market reactions to analyst opinions.",
+            "Economic_Tags": "stock movement, market analysis, volatility, investor sentiment, technology sector"
+        },
+        {
+            "News_ID": "4e6c1d853f8586340d6113fb6dce4753",
+            "Title": "183-year-old giant tool company closes factory, lays off dozens",
+            "Snippet": "...",
+            "Published_Date": "2026-08-28T16:03:00Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/183-old-giant-tool-company-160300042.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "competitors in the tool industry",
+            "Disrupted_Entities": "workers, local economy, suppliers",
+            "Strategic_Action": "Investors should consider looking into competitors that may gain market share as a result of this closure. Businesses in the local area should prepare for potential economic downturns.",
+            "Economic_Tags": "manufacturing, layoffs, market competition, economic downturn, labor market"
+        },
         {
             "News_ID": "15770ea1b232a9e6bb3d5407ca7dcfef",
             "Title": "Goodwin\u2019s Defense Boom Comes With a For Sale Sign",
@@ -1211,146 +1351,6 @@
             "Disrupted_Entities": "traditional banking institutions, competing fintechs",
             "Strategic_Action": "Investors should consider increasing their exposure to fintech companies as industry confidence grows due to significant investments from major players. Additionally, monitoring competition among fintech firms may provide further opportunities for investment.",
             "Economic_Tags": "fintech, investment, market confidence, venture capital, disruption"
-        },
-        {
-            "News_ID": "2358cd9e83ddb4a549d86e330da9ac4d",
-            "Title": "Snowflake (SNOW) Stock: AI Growth Is Real, But Is the Valuation Already Priced In?",
-            "Snippet": "...",
-            "Published_Date": "2026-08-22T19:41:07Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/snowflake-snow-stock-ai-growth-194107701.html",
-            "Related_Tickers": "SNOW",
-            "Market_Sentiment": "Neutral",
-            "Impact_Score": 6,
-            "Benefiting_Entities": "AI technology firms, cloud service providers",
-            "Disrupted_Entities": "traditional data management companies",
-            "Strategic_Action": "Investors should conduct a thorough analysis of Snowflake\u2019s growth potential in AI versus its current valuation. Consider diversifying investments within the AI sector for better risk management.",
-            "Economic_Tags": "AI growth, Stock valuation, Cloud computing, Market analysis, Investment strategy"
-        },
-        {
-            "News_ID": "99e29f599217ecef28e406c8419fa12d",
-            "Title": "Third Point Starts to Raise Alarm Bells on Broadcom After Dumping AVGO Stock in Q2",
-            "Snippet": "...",
-            "Published_Date": "2026-08-22T19:30:02Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/third-point-starts-raise-alarm-193002621.html",
-            "Related_Tickers": "AVGO",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "",
-            "Disrupted_Entities": "Broadcom",
-            "Strategic_Action": "Investors may want to re-evaluate their holdings in Broadcom and consider diversifying into more stable sectors.",
-            "Economic_Tags": "stock market, investment, technology, semiconductor, volatility"
-        },
-        {
-            "News_ID": "c5d693a2b3a26e43a7252824dad11865",
-            "Title": "Clean Energy Spending Tracking Toward Record $180 Billion in 2026",
-            "Snippet": "...",
-            "Published_Date": "2026-08-22T19:00:00Z",
-            "News_URL": "https://finance.yahoo.com/energy/articles/clean-energy-spending-tracking-toward-190000970.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 9,
-            "Benefiting_Entities": "clean energy companies, renewable energy sector, electric vehicle manufacturers",
-            "Disrupted_Entities": "fossil fuel industry",
-            "Strategic_Action": "Investors should increase their exposure to clean energy stocks and ETFs to capitalize on the expected growth in spending. Businesses in the renewable sector should prepare for increased demand and seek partnerships for technology development.",
-            "Economic_Tags": "clean energy, renewable investment, market growth, sustainability, economic transition"
-        },
-        {
-            "News_ID": "11428db872826b2a41467af959a0b1e6",
-            "Title": "Paramount and California to hold preliminary talks on Warner Bros deal, NYT reports",
-            "Snippet": "...",
-            "Published_Date": "2026-08-22T18:56:59Z",
-            "News_URL": "https://finance.yahoo.com/media-advertising/articles/paramount-california-hold-preliminary-talks-185659000.html",
-            "Related_Tickers": "PARA,WBD",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Paramount, Warner Bros",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should monitor the outcome of the talks as it may lead to significant changes in the media landscape, presenting potential investment opportunities.",
-            "Economic_Tags": "mergers, media, entertainment, investments, negotiations"
-        },
-        {
-            "News_ID": "6f2226887b2014856958ef9d24bf4ef1",
-            "Title": "91-year-old supermarket chain closes stores, lays off employees",
-            "Snippet": "A 91-year-old supermarket chain has announced the closure of several stores and will be laying off employees, signaling potential challenges in the retail sector.",
-            "Published_Date": "2026-08-22T23:17:00Z",
-            "News_URL": "https://finance.yahoo.com/economy/articles/91-old-supermarket-chain-closes-231700441.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Discount retailers, Online grocery delivery services",
-            "Disrupted_Entities": "Traditional supermarkets, Grocery suppliers",
-            "Strategic_Action": "Investors should consider reallocating funds towards discount retailers and online grocery delivery services, as they may gain market share from this disruption in the supermarket sector.",
-            "Economic_Tags": "retail, layoffs, store closures, supermarket, market disruption"
-        },
-        {
-            "News_ID": "0a0f73a002c6ceb5b76738830a5e9bef",
-            "Title": "Powerful Growth, Multiple Endorsements Bode Well for Oracle Stock",
-            "Snippet": "...",
-            "Published_Date": "2026-08-22T18:30:02Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/powerful-growth-multiple-endorsements-bode-183002613.html",
-            "Related_Tickers": "ORCL",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 9,
-            "Benefiting_Entities": "Oracle",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider increasing their positions in Oracle stock given the strong growth and positive endorsements. Monitoring competitive pressures will also be critical.",
-            "Economic_Tags": "growth, endorsements, stock performance, technology sector, investment"
-        },
-        {
-            "News_ID": "2f328d57ebe498877fc228502a60bb6d",
-            "Title": "Stock Market Week Ahead: A Choppy Market Heads For Nvidia Earnings, Jackson Hole",
-            "Snippet": "...",
-            "Published_Date": "2026-08-22T17:49:56Z",
-            "News_URL": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-a-choppy-market-heads-for-nvidia-earnings-jackson-hole/?src=A00220&yptr=yahoo",
-            "Related_Tickers": "NVDA",
-            "Market_Sentiment": "Neutral",
-            "Impact_Score": 6,
-            "Benefiting_Entities": "Nvidia",
-            "Disrupted_Entities": "None",
-            "Strategic_Action": "Investors should closely monitor Nvidia's earnings reports as well as macroeconomic indicators from Jackson Hole, adjusting their portfolios accordingly based on the outcomes.",
-            "Economic_Tags": "stock market, Nvidia, earnings, Jackson Hole, volatility"
-        },
-        {
-            "News_ID": "8b6bde212015968fd6d55ac64855c279",
-            "Title": "Why 1 Analyst Says Vera Rubin Is Key for Nvidia Stock in Q2",
-            "Snippet": "...",
-            "Published_Date": "2026-08-22T17:41:06Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/why-1-analyst-says-vera-174106031.html",
-            "Related_Tickers": "NVDA",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Nvidia",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider increasing their holdings in Nvidia as the company's performance may benefit from developments related to Vera Rubin.",
-            "Economic_Tags": "technology, stock market, investment, insights, analysis"
-        },
-        {
-            "News_ID": "e4555ef77f47d6b7a3ff29174d0b65a1",
-            "Title": "Nvidia Stock Trades at a Reasonable Valuation With Ample Growth Headroom",
-            "Snippet": "...",
-            "Published_Date": "2026-08-22T17:30:02Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-trades-reasonable-valuation-173002313.html",
-            "Related_Tickers": "NVDA",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Nvidia, semiconductor industry",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider acquiring Nvidia stock to capitalize on its growth potential at a reasonable valuation. Diversifying into the semiconductor sector may also be prudent.",
-            "Economic_Tags": "valuation, growth, technology, semiconductor, investment"
-        },
-        {
-            "News_ID": "c31528589022303f5a40f0f304105b3e",
-            "Title": "Jefferies Just Said Sell Apple (AAPL). Here\u2019s the iPhone Feature That Got Canceled",
-            "Snippet": "...",
-            "Published_Date": "2026-08-21T21:11:57Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/jefferies-just-said-sell-apple-211157587.html",
-            "Related_Tickers": "AAPL",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Competitors in smartphone market",
-            "Disrupted_Entities": "Apple (AAPL)",
-            "Strategic_Action": "Investors should consider reducing their positions in Apple, looking for opportunities in competitor stocks that may benefit from Apple's setbacks.",
-            "Economic_Tags": "technology, consumer electronics, investment, market analysis, stock performance"
         }
     ]
 }
