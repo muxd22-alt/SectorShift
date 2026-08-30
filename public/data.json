@@ -10,7 +10,7 @@
             "Core_Innovation": "The CLAP framework enables cross-embodiment learning by reconciling disparate action spaces and utilizing a curriculum-based learning approach for zero-shot physical simulation.",
             "Benefiting_Sectors": "robotics, artificial intelligence, entertainment, education, manufacturing",
             "Disrupted_Sectors": "traditional robotics, automation systems, single-embodiment simulation tools",
-            "Decision_Perspective": "Strategic decision-makers in technology and robotics should invest in the adaptation of CLAP's methodologies to enhance their systems and leverage the diverse data available to improve physical simulations.",
+            "Decision_Perspective": "Strategic decision-makers should consider investing in and integrating CLAP's framework to enhance robotic capabilities and leverage diverse data sources for training, improving adaptability and performance in real-world tasks.",
             "Tags": "cross-embodiment, video models, zero-shot simulation, robotics, artificial intelligence"
         },
         {
@@ -36,7 +36,7 @@
             "Core_Innovation": "Development of a continuous sepsis severity index using real-time patient data over a 72-hour treatment window without the need for hour-by-hour supervision. The index utilizes mortality as a non-uniform treatment-level ranking signal.",
             "Benefiting_Sectors": "Healthcare, Medical Technology",
             "Disrupted_Sectors": "Traditional Critical Care Practices, Established Medical Indices",
-            "Decision_Perspective": "Strategic decision-makers in healthcare should consider integrating this novel sepsis scoring system into existing decision support systems to enhance patient care and outcomes.",
+            "Decision_Perspective": "Strategic decision-makers in healthcare should consider integrating this novel sepsis index into existing clinical workflows to enhance decision support and patient outcomes.",
             "Tags": "sepsis, healthcare innovation, continuous monitoring, patient outcomes, critical care"
         },
         {
@@ -49,7 +49,7 @@
             "Core_Innovation": "The paper proposes a refined framework for evaluating the performance of AI security scanners by emphasizing coverage metrics and failure recovery analysis beyond conventional measures like F1 score.",
             "Benefiting_Sectors": "Cybersecurity, Machine Learning, Software Development",
             "Disrupted_Sectors": "Traditional Security Assessment, Quality Assurance",
-            "Decision_Perspective": "Strategic decision-makers should consider adopting advanced static scanning tools that better evaluate AI model security to enhance their defenses against emerging threats. The findings suggest a need for continuous improvement and evaluation of security tools.",
+            "Decision_Perspective": "Strategic decision-makers should adopt more comprehensive evaluation metrics for AI security tools, focusing not only on accuracy but also on availability and completeness of analysis to enhance overall security posture.",
             "Tags": "AI Security, Model Evaluation, Static Scanners, Cybersecurity, Performance Metrics"
         },
         {
@@ -62,7 +62,7 @@
             "Core_Innovation": "The core innovation is the decoupling of persona and execution in LLM agents through the Persona-Execution Separation (PES) architecture, enabling dynamic persona evolution while ensuring traceable execution audits.",
             "Benefiting_Sectors": "Governed organizations, AI ethics, regulatory compliance, digital employee platforms",
             "Disrupted_Sectors": "Traditional software systems, monolithic AI architectures, industries with strict data governance",
-            "Decision_Perspective": "Strategic decision-makers should consider adopting PES to ensure compliance and enhance the adaptability of LLM agents, while mitigating risks associated with persona evolution.",
+            "Decision_Perspective": "Strategic decision-makers should consider adopting the PES framework to enhance compliance and flexibility in their LLM implementations, balancing persona evolution with execution auditability.",
             "Tags": "LLM, persona separation, execution audit, AI governance, architecture pattern"
         },
         {
@@ -75,7 +75,7 @@
             "Core_Innovation": "MAELLE introduces a novel method for modeling chemical reactions as discrete flow matching over electron occupation vectors, enhancing prediction accuracy and mechanistic interpretation.",
             "Benefiting_Sectors": "Pharmaceuticals,Chemicals,Material Science",
             "Disrupted_Sectors": "Traditional Synthetic Chemistry,Heuristic-Based Modeling Tools",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in technologies that enhance reaction prediction capabilities and integrate mechanistic insights, as these may provide substantial competitive advantages in R&D processes.",
+            "Decision_Perspective": "Strategic decision-makers in R&D should consider adopting MAELLE for more accurate reaction predictions and to enhance the robustness of models in varying chemical settings.",
             "Tags": "Machine Learning,Chemistry,Reaction Prediction,Optimal Transport,Electron Occupation"
         },
         {
@@ -88,7 +88,7 @@
             "Core_Innovation": "The core technological innovation is the adaptive evolution of red-teaming skills through tool-effectiveness profiling and Deciding-Tool Attribution, allowing for dynamic and efficient response to emerging threats.",
             "Benefiting_Sectors": "Cybersecurity, Software Development, Artificial Intelligence",
             "Disrupted_Sectors": "Traditional Security Testing, Risk Management",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in the development and integration of adaptive red-teaming solutions like RedEvoAgent to enhance the security resilience of their systems against emerging threats.",
+            "Decision_Perspective": "Strategic decision-makers should consider integrating RedEvoAgent or similar adaptive systems to enhance their cybersecurity frameworks while remaining aware of the evolving risks associated with LLM-based agents.",
             "Tags": "red-teaming, cybersecurity, AI, adaptive learning, LLM"
         },
         {
@@ -101,7 +101,7 @@
             "Core_Innovation": "The introduction of MCR-Bench, a defect state-aware benchmark that captures the evolutionary trajectory of defects in multi-round code review processes.",
             "Benefiting_Sectors": "software development, tech industry, quality assurance",
             "Disrupted_Sectors": "traditional code review processes, manual software testing, legacy software development",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in and adopting advanced LLMs that utilize insights from MCR-Bench to enhance code review processes and software quality.",
+            "Decision_Perspective": "Strategic decision-makers should invest in developing tools that leverage MCR-Bench to enhance automated code review efficiencies and address identified weaknesses in LLMs.",
             "Tags": "code review, large language models, software quality, defect detection, benchmarking"
         },
         {
@@ -114,7 +114,7 @@
             "Core_Innovation": "SWE-Prime introduces a novel two-stage SFT data selection method that filters training data based on trajectory and segment levels to enhance model performance while reducing noise from supervision.",
             "Benefiting_Sectors": "Artificial Intelligence, Software Development, Data Science",
             "Disrupted_Sectors": "Traditional Machine Learning, Software Engineering",
-            "Decision_Perspective": "Strategic decision-makers should consider integrating SWE-Prime into their AI development pipelines to enhance model performance and reduce reliance on noisy data sets.",
+            "Decision_Perspective": "Strategic decision-makers should consider investing in technologies that utilize SWE-Prime for training language models to enhance their software issue resolution capabilities while reducing potential errors from noisy data.",
             "Tags": "SWE-Prime, Supervised Fine-Tuning, Trajectory Selection, Machine Learning, Software Engineering"
         },
         {
@@ -123,11 +123,11 @@
             "Abstract": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowledge base (wiki). At a high level, WikiSkill separates raw execution experience, accumulated knowledge, and executable skills, while continuously consolidating experience into the wiki, which subsequent skill updates can build on. Across diverse benchmarks and models, WikiSkill consistently outperforms state-of-the-art skill-evolution methods and improves over no-skill baselines in most model-benchmark settings. We find that skill evolution complements model scaling: larger models generally benefit more from evolved skills, while smaller models with skills can outperform substantially larger models without them. We also find that evolved skills transfer effectively across models and model families, and skills evolved by other models can outperform self-evolved skills. Finally, our ablation studies confirm that persistent knowledge accumulation in the wiki is critical for effective skill evolution. These results demonstrate the benefits of systematically accumulating and refining agent experience for developing reusable and transferable skills.",
             "Published_Date": "2026-08-27T17:59:11Z",
             "Arxiv_URL": "https://arxiv.org/abs/2608.27454v1",
-            "Breakthrough_Score": 8,
+            "Breakthrough_Score": 9,
             "Core_Innovation": "The development of a persistent knowledge base (wiki) that co-evolves agent skills, allowing for systematic reuse and refinement of skills across iterations.",
             "Benefiting_Sectors": "Artificial Intelligence, Robotics, Software Development, Education, Data Analysis",
             "Disrupted_Sectors": "Traditional Software Development, Manual Process Industries, Training Services",
-            "Decision_Perspective": "Strategic decision-makers should invest in AI development tools that leverage persistent knowledge frameworks like WikiSkill to enhance agent capabilities and operational efficiencies.",
+            "Decision_Perspective": "Strategic decision-makers should invest in developing AI solutions that leverage the WikiSkill framework to enhance their operational efficiencies and adaptability, while also considering potential impacts on workforce dynamics.",
             "Tags": "AI, Skill Evolution, Knowledge Base, Agent Experience, Model Transfer"
         },
         {
@@ -652,6 +652,146 @@
         }
     ],
     "news": [
+        {
+            "News_ID": "c3c4fe14cae84cb2d40cca875b4a5770",
+            "Title": "PayPal (PYPL) Hit After Stripe, Advent Drop $53B Planned Takeover",
+            "Snippet": "...",
+            "Published_Date": "2026-08-29T03:43:47Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/paypal-pypl-hit-stripe-advent-034347065.html",
+            "Related_Tickers": "PYPL, STRP",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Stripe, Advent",
+            "Disrupted_Entities": "PayPal",
+            "Strategic_Action": "Investors may consider reassessing their positions in PayPal given the negative sentiment surrounding its market impact, while keeping an eye on potential growth in Stripe and Advent.",
+            "Economic_Tags": "Mergers and Acquisitions, Financial Technology, Market Volatility"
+        },
+        {
+            "News_ID": "a49e3437c001dffabe57970d12f7d5e9",
+            "Title": "Burlington (BURL) Will Reinvest Its $55M Tariff Refund. Can Lower Prices Reaccelerate Comparable Sales?",
+            "Snippet": "...",
+            "Published_Date": "2026-08-29T03:44:09Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/burlington-burl-reinvest-55m-tariff-034409590.html",
+            "Related_Tickers": "BURL",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Burlington",
+            "Disrupted_Entities": "Competitors in retail sector",
+            "Strategic_Action": "Investors should consider increasing their holdings in Burlington given the expected positive impact of lower prices on sales. Monitoring competitor responses will also be key.",
+            "Economic_Tags": "tariff refund, price strategy, retail sales, competitive advantage, consumer spending"
+        },
+        {
+            "News_ID": "802a6394ea9fda6f97b086bc0ce844c2",
+            "Title": "IREN Has $4B of Contracted ARR, but Only $1B Is Operating. How Much Will Reach GAAP Revenue?",
+            "Snippet": "...",
+            "Published_Date": "2026-08-29T03:44:34Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/iren-4b-contracted-arr-only-034434431.html",
+            "Related_Tickers": "IREN",
+            "Market_Sentiment": "Neutral",
+            "Impact_Score": 5,
+            "Benefiting_Entities": "None",
+            "Disrupted_Entities": "None",
+            "Strategic_Action": "Investors should closely monitor IREN's ability to convert contracted ARR into GAAP revenue, assessing potential risks in their revenue recognition practices.",
+            "Economic_Tags": "ARR, GAAP, revenue recognition, financial analysis, market outlook"
+        },
+        {
+            "News_ID": "8999fc2e444a55279131aafc84d4b135",
+            "Title": "Salesforce Just Jumped 23%. Did the \u201cSaaSpocalypse\u201d Trade Finally Break?",
+            "Snippet": "Salesforce's significant stock increase suggests a potential recovery in the SaaS market, raising questions about the stability of previous trends.",
+            "Published_Date": "2026-08-29T03:47:43Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/salesforce-just-jumped-23-did-034743952.html",
+            "Related_Tickers": "CRM",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Salesforce",
+            "Disrupted_Entities": "traditional software vendors",
+            "Strategic_Action": "Investors should consider increasing their holdings in Salesforce and other SaaS stocks, as the recent surge may indicate a broader market recovery.",
+            "Economic_Tags": "SaaS, market recovery, stock surge, technology, investment"
+        },
+        {
+            "News_ID": "39833a95b808f320c87f847f143294a7",
+            "Title": "Metaplanet\u2019s Dylan LeClair Eyes Japan-U.S. Capital Bridge as Super League Raises $2.3M",
+            "Snippet": "...",
+            "Published_Date": "2026-08-29T05:15:34Z",
+            "News_URL": "https://finance.yahoo.com/markets/crypto/articles/metaplanet-dylan-leclair-eyes-japan-051534962.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Metaplanet, Super League, investors in cross-border capital",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their exposure to cross-border investment opportunities, particularly in venture capital within emerging markets like Japan.",
+            "Economic_Tags": "capital markets, venture capital, cross-border investment, fintech, fundraising"
+        },
+        {
+            "News_ID": "3426a47ae32d7e88152fae3d3f0d337b",
+            "Title": "Barclays Analysis: Major Record Labels Narrow Streaming Growth Gap With Spotify",
+            "Snippet": "...",
+            "Published_Date": "2026-08-29T03:51:30Z",
+            "News_URL": "https://finance.yahoo.com/media-advertising/articles/barclays-analysis-major-record-labels-035130932.html",
+            "Related_Tickers": "SPOT, UMG, WMG",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Major Record Labels, Streaming Services, Music Industry",
+            "Disrupted_Entities": "Independent Artists, Smaller Streaming Platforms",
+            "Strategic_Action": "Investors should consider increasing their exposure to major record labels and streaming services, as they are likely to benefit from narrowing growth gaps with Spotify. Additionally, monitoring competitive dynamics in the streaming market will be crucial.",
+            "Economic_Tags": "Streaming, Music Industry, Market Growth, Digital Media, Competition"
+        },
+        {
+            "News_ID": "320173772ffffc2e2135c713ea806a95",
+            "Title": "Alibaba Shares Fell on a $10 Billion AI Raise. Insiders Saw a Buying Opportunity",
+            "Snippet": "...",
+            "Published_Date": "2026-08-29T03:55:02Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/alibaba-shares-fell-10-billion-035502952.html",
+            "Related_Tickers": "BABA",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 6,
+            "Benefiting_Entities": "AI Sector, Tech Investors",
+            "Disrupted_Entities": "Alibaba",
+            "Strategic_Action": "Investors may consider this a buying opportunity if they believe in Alibaba's long-term growth potential in AI. However, caution is advised given the recent share price drop.",
+            "Economic_Tags": "Alibaba, AI Investment, Market Volatility, Stock Market, Investor Sentiment"
+        },
+        {
+            "News_ID": "f2091c1fece674610ae521fd1d8d6c16",
+            "Title": "Coinbase and Robinhood Rally as Bitcoin Marches Toward Its Best Week in Months",
+            "Snippet": "...",
+            "Published_Date": "2026-08-29T03:59:23Z",
+            "News_URL": "https://finance.yahoo.com/markets/crypto/articles/coinbase-robinhood-rally-bitcoin-marches-035923976.html",
+            "Related_Tickers": "COIN,Hood",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Coinbase, Robinhood, Cryptocurrency Market",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their exposure to cryptocurrency stocks such as Coinbase and Robinhood, while staying aware of market volatility.",
+            "Economic_Tags": "Bitcoin, Cryptocurrency, Market Rally, Investment, Financial Technology"
+        },
+        {
+            "News_ID": "4c45edba1abf1d07767fa3b968a6b550",
+            "Title": "ETHB Emerges as a Favorite Among Ethereum ETFs",
+            "Snippet": "ETHB's popularity among Ethereum ETFs suggests growing investor confidence in the token and its underlying technology, potentially driving increased investment flows into the asset class.",
+            "Published_Date": "2026-08-29T04:41:29Z",
+            "News_URL": "https://finance.yahoo.com/markets/crypto/articles/ethb-emerges-favorite-among-ethereum-044129802.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "ETHB, Ethereum-based projects, cryptocurrency exchanges",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their allocation to ETHB or similar Ethereum ETFs to capitalize on the growing interest and potential price appreciation.",
+            "Economic_Tags": "Ethereum, ETFs, cryptocurrency, investment, market trends"
+        },
+        {
+            "News_ID": "caf373e2ce8281a435262304d7a18f54",
+            "Title": "Smith-Midland Targets $100M Backlog as Barrier Rentals, Data Centers Drive Growth",
+            "Snippet": "...",
+            "Published_Date": "2026-08-29T05:01:57Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/smith-midland-targets-100m-backlog-050157030.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Smith-Midland, data center sector, construction industry",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their positions in Smith-Midland and related sectors due to growth driven by barrier rentals and data centers.",
+            "Economic_Tags": "growth, construction, data centers, backlog, rentals"
+        },
         {
             "News_ID": "97e19c1ae8b909fb599f8fbbaf5da5fd",
             "Title": "Jim Cramer Revealed What Made NVIDIA Corporation (NASDAQ:NVDA)\u2019s Shares Move Post-Earnings",
@@ -1211,146 +1351,6 @@
             "Disrupted_Entities": "",
             "Strategic_Action": "Investors should consider taking positions in the identified tech giants ahead of potential market movements. Monitoring the performance of these stocks will be crucial as both investors have a history of impactful decisions.",
             "Economic_Tags": "technology, investment, stock market, growth, trends"
-        },
-        {
-            "News_ID": "7a0b847f702331794efdf22f6d048975",
-            "Title": "AstraZeneca Made a $1.5 Billion Lung Cancer Bet, but Can Zegfrovy Strengthen its Oncology Growth?",
-            "Snippet": "...",
-            "Published_Date": "2026-08-23T19:38:55Z",
-            "News_URL": "https://finance.yahoo.com/healthcare/articles/astrazeneca-made-1-5-billion-193855181.html",
-            "Related_Tickers": "AZN",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "AstraZeneca, oncology sector, healthcare investors",
-            "Disrupted_Entities": "competitors in lung cancer treatment",
-            "Strategic_Action": "Investors should consider increasing their stake in AstraZeneca as the enhancements in oncology portfolio could lead to significant long-term growth.",
-            "Economic_Tags": "oncology, lung cancer, pharmaceutical investment, market growth, healthcare"
-        },
-        {
-            "News_ID": "257658ac1e180afaf253d0fef100af97",
-            "Title": "As Cerebras Launches a New, Record-Setting AI Accelerator, Here\u2019s How You Should Play CBRS Stock",
-            "Snippet": "...",
-            "Published_Date": "2026-08-23T19:30:02Z",
-            "News_URL": "https://finance.yahoo.com/technology/ai/articles/cerebras-launches-record-setting-ai-193002886.html",
-            "Related_Tickers": "CBRS",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 9,
-            "Benefiting_Entities": "Cerebras Systems, AI sector, tech companies",
-            "Disrupted_Entities": "Competitors in AI hardware",
-            "Strategic_Action": "Investors should consider increasing their positions in CBRS stock as the new accelerator positions the company as a leader in the AI market.",
-            "Economic_Tags": "AI technology, semiconductor, innovation, stock market, investment strategy"
-        },
-        {
-            "News_ID": "770063fa1e27f96a438d82f0605863ff",
-            "Title": "Ahead of Nvidia Earnings, Here's What Barchart Data Says Comes Next for NVDA Stock",
-            "Snippet": "...",
-            "Published_Date": "2026-08-23T19:00:02Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/ahead-nvidia-earnings-heres-barchart-190002391.html",
-            "Related_Tickers": "NVDA",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 8,
-            "Benefiting_Entities": "Nvidia",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider taking a position in NVDA stock ahead of the earnings report, as positive sentiment may drive the stock price higher.",
-            "Economic_Tags": "earnings, stock market, technology, growth, investment"
-        },
-        {
-            "News_ID": "835fce714ae17d3f278b0807067b6ec5",
-            "Title": "How to Play MRVL Stock Now as Marvell Technology Expands Its Relationship With Google",
-            "Snippet": "...",
-            "Published_Date": "2026-08-23T18:30:02Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/play-mrvl-stock-now-marvell-183002715.html",
-            "Related_Tickers": "MRVL, GOOGL",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Marvell Technology, Google",
-            "Disrupted_Entities": "Competitors in cloud services",
-            "Strategic_Action": "Investors should consider buying MRVL stock as the partnership with Google may drive future growth and revenue. Monitoring developments in their collaboration will be key to leveraging potential market advantages.",
-            "Economic_Tags": "partnerships, technology, growth, stock market, investment"
-        },
-        {
-            "News_ID": "60b5a31fbb5c29f832d6161317208d06",
-            "Title": "People Usually Recommend Whatever Is Making Them Money. These Business Owners Say the Pay Still Isn't Worth the Headache",
-            "Snippet": "Many business owners express that the financial rewards are not worth the stress involved in their ventures as they discuss their experiences in the current market.",
-            "Published_Date": "2026-08-23T17:00:57Z",
-            "News_URL": "https://finance.yahoo.com/small-business/articles/people-usually-recommend-whatever-making-170057154.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 6,
-            "Benefiting_Entities": "none",
-            "Disrupted_Entities": "small businesses, entrepreneurs",
-            "Strategic_Action": "Investors should be cautious about investing in small businesses given the reported dissatisfaction and potential instability. It may be wise to explore industries with more consistent cash flows.",
-            "Economic_Tags": "small business, market instability, entrepreneur challenges, financial rewards, business stress"
-        },
-        {
-            "News_ID": "0630875a36bec5ae5dce658894dbf6c7",
-            "Title": "Private Equity Is Circling Utilities as AI Reshapes the Grid",
-            "Snippet": "...",
-            "Published_Date": "2026-08-23T18:00:00Z",
-            "News_URL": "https://finance.yahoo.com/energy/articles/private-equity-circling-utilities-ai-180000273.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Private Equity Firms, Utility Sector, AI Technology Providers",
-            "Disrupted_Entities": "Traditional Utility Managers",
-            "Strategic_Action": "Investors should consider allocating funds to private equity firms focusing on utility upgrades and AI technology to capitalize on this trend. Utility companies that leverage AI for grid management may present growth opportunities.",
-            "Economic_Tags": "Private Equity, Utilities, Artificial Intelligence, Energy Management, Market Restructuring"
-        },
-        {
-            "News_ID": "5033557ee86603a3383fb15be28ab88f",
-            "Title": "Soros Fund Management Opened a New Position in Nebius During Q2. What This Means for NBIS Stock.",
-            "Snippet": "...",
-            "Published_Date": "2026-08-23T17:30:02Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/soros-fund-management-opened-position-173002452.html",
-            "Related_Tickers": "NBIS",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Nebius, technology sector",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider increasing their holdings in NBIS given the confidence expressed by a major fund like Soros. Monitoring industry developments and market performance will be key.",
-            "Economic_Tags": "investment, hedge funds, stock market, Nebius, Soros Fund Management"
-        },
-        {
-            "News_ID": "6cef51628491cd1d0a8becfc04d4cf65",
-            "Title": "Nvidia Earnings, Jackson Hole and Other Key Things to Watch this Week",
-            "Snippet": "...",
-            "Published_Date": "2026-08-23T17:00:02Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-jackson-hole-other-170002056.html",
-            "Related_Tickers": "NVDA",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Nvidia, tech sector",
-            "Disrupted_Entities": "none",
-            "Strategic_Action": "Investors should consider buying into Nvidia or technology stocks anticipating positive earnings results and overall market sentiment. Monitoring the outcomes of the Jackson Hole meeting could also provide further strategic insights.",
-            "Economic_Tags": "earnings, technology, market sentiment, inflation, monetary policy"
-        },
-        {
-            "News_ID": "1972d0489003f0ed06c2974ca0a91316",
-            "Title": "Rachel Cruze and George Kamel share the spending 'clues' that reveal if you're broke, average or wealthy",
-            "Snippet": "...",
-            "Published_Date": "2026-08-23T17:00:00Z",
-            "News_URL": "https://finance.yahoo.com/markets/articles/rachel-cruze-george-kamel-share-170000908.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Neutral",
-            "Impact_Score": 5,
-            "Benefiting_Entities": "Financial Advisors, Personal Finance Apps",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider increasing their knowledge of personal finance to better assess their financial health and make informed decisions. Businesses in financial education should focus on user-friendly platforms to attract cost-conscious consumers.",
-            "Economic_Tags": "personal finance, spending habits, economic status, financial literacy, market analysis"
-        },
-        {
-            "News_ID": "e95cc805f8434c7ad9ae902ce20cbe22",
-            "Title": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
-            "Snippet": "...",
-            "Published_Date": "2026-08-23T17:07:00Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/bill-ackmans-pershing-square-invests-170700368.html",
-            "Related_Tickers": "SQ, PYPL, AFRM",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 9,
-            "Benefiting_Entities": "fintech sector, Pershing Square, potential fintech partners",
-            "Disrupted_Entities": "traditional banking institutions, competing fintechs",
-            "Strategic_Action": "Investors should consider increasing their exposure to fintech companies as industry confidence grows due to significant investments from major players. Additionally, monitoring competition among fintech firms may provide further opportunities for investment.",
-            "Economic_Tags": "fintech, investment, market confidence, venture capital, disruption"
         }
     ]
 }
