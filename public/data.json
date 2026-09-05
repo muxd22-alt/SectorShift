@@ -10,7 +10,7 @@
             "Core_Innovation": "The paper introduces the concept of one-shot on-policy distillation (OPD), demonstrating that significant gains in performance can be achieved even with minimal training data, specifically a single query.",
             "Benefiting_Sectors": "Artificial Intelligence, Natural Language Processing, Machine Learning, Education, Research",
             "Disrupted_Sectors": "Data Science, Software Development, Customer Service",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in research and development of on-policy distillation techniques to improve model efficiency and performance while reducing data dependency.",
+            "Decision_Perspective": "Strategic decision-makers should consider investing in innovations in optimization techniques for OPD to enhance efficiency, and explore the potential of minimal data training approaches to reduce costs and increase speed in model development.",
             "Tags": "On-Policy Distillation, Large Language Models, Machine Learning, State Coverage, Data Efficiency"
         },
         {
@@ -23,7 +23,7 @@
             "Core_Innovation": "The introduction of Probabilistic Causal Impact (PCI) as a scalable framework for causal explanations that integrates actual causality principles with Monte Carlo estimation techniques.",
             "Benefiting_Sectors": "Data Science, Machine Learning, Policy Analysis, Scientific Research",
             "Disrupted_Sectors": "Traditional Causal Analysis, Simplistic Attribution Models",
-            "Decision_Perspective": "Strategic decision-makers should adopt PCI to enhance their causal analysis capabilities, enabling more accurate insights for data-driven decision-making and policy formulation.",
+            "Decision_Perspective": "Strategic decision-makers should consider adopting PCI for more reliable causal explanations, which can enhance decision-making accuracy and policy formulation.",
             "Tags": "Causality, Machine Learning, Data Analysis, Probabilistic Models, Causal Inference"
         },
         {
@@ -36,7 +36,7 @@
             "Core_Innovation": "The study demonstrates that auxiliary views of knowledge significantly enhance learning in large language models during pre-training, suggesting a novel approach to data utilization.",
             "Benefiting_Sectors": "Artificial Intelligence, Education, Data Science, Software Development",
             "Disrupted_Sectors": "Traditional Education, Content Creation, Knowledge Management",
-            "Decision_Perspective": "Strategic decision-makers should integrate the insights related to auxiliary views in their machine learning models and prioritize diverse data inputs to enhance model performance.",
+            "Decision_Perspective": "Strategic decision-makers should invest in developing models that incorporate diverse training data and auxiliary representations to improve learning outcomes and potentially reshape educational tools.",
             "Tags": "Knowledge Acquisition, Large Language Models, Auxiliary Views, Pre-training, Machine Learning"
         },
         {
@@ -49,7 +49,7 @@
             "Core_Innovation": "The SBS framework enhances dense video captioning by adaptively providing visually grounded linguistic guidance and refining temporal event masks based on semantic transitions, significantly improving captioning accuracy.",
             "Benefiting_Sectors": "Media, Entertainment, Education, Surveillance",
             "Disrupted_Sectors": "Traditional Captioning Services, Manual Video Editing, Content Moderation",
-            "Decision_Perspective": "Strategic decision-makers should explore partnerships with technology firms developing video analysis tools to leverage this methodology in enhancing content creation and editing processes.",
+            "Decision_Perspective": "Strategic decision-makers in industries related to media and AI should consider investing in weakly-supervised learning technologies and frameworks like SBS to enhance content creation and consumption capabilities.",
             "Tags": "Video Captioning, Weakly-Supervised Learning, Vision-Language Models, Event Detection, Temporal Masking"
         },
         {
@@ -62,7 +62,7 @@
             "Core_Innovation": "EditVid introduces a unified, training-free video editing framework that seamlessly integrates various editing techniques such as instruction-guided and reference-guided edits, leading to enhanced coherence and identity preservation in edited videos.",
             "Benefiting_Sectors": "film production, advertising, digital content creation, education",
             "Disrupted_Sectors": "traditional video editing software companies, low-end video editing tools",
-            "Decision_Perspective": "Strategic decision-makers should consider adopting EditVid's framework to enhance their video editing capabilities and improve user satisfaction by leveraging its superior performance and versatility.",
+            "Decision_Perspective": "Strategic decision-makers in the media and technology sectors should consider integrating or adopting EditVid to enhance their video editing capabilities and remain competitive in the evolving digital content landscape.",
             "Tags": "video editing, AI, machine learning, digital media, innovation"
         },
         {
@@ -75,7 +75,7 @@
             "Core_Innovation": "This study introduces a novel approach to evaluate the importance of reasoning steps in chain-of-thought models using Monte Carlo rollouts. It challenges the assumption that legibility in reasoning traces equates to interpretability.",
             "Benefiting_Sectors": "Artificial Intelligence, Machine Learning, Natural Language Processing",
             "Disrupted_Sectors": "Education, Data Analysis, Software Development",
-            "Decision_Perspective": "Strategic decision-makers should invest in developing interpretability tools that go beyond sheer legibility to build models that better reflect the importance of reasoning steps, thus improving reliability and error diagnosis.",
+            "Decision_Perspective": "Strategic decision-makers should explore the implications of this work for model interpretability and consider refining their models based on step-level advantages to enhance decision-making processes.",
             "Tags": "legibility, interpretability, reasoning models, chain-of-thought, artificial intelligence"
         },
         {
@@ -88,7 +88,7 @@
             "Core_Innovation": "ESPO introduces a structured approach to prompt optimization that diagnoses error patterns, diversifies candidate generation, and refines selection through bootstrap stability. This results in shorter and more accurate prompts compared to previous methods.",
             "Benefiting_Sectors": "Natural Language Processing, Machine Learning, AI Development",
             "Disrupted_Sectors": "Traditional Software Engineering, Standardized Testing",
-            "Decision_Perspective": "Strategic decision-makers should invest in integrating ESPO methodologies into their NLP systems to enhance accuracy and efficiency, potentially re-evaluating current prompt optimization strategies.",
+            "Decision_Perspective": "Strategic decision-makers should consider adopting ESPO as a foundational tool for enhancing NLP applications, reducing inefficiencies, and improving model accuracy.",
             "Tags": "Prompt Optimization, Natural Language Processing, Machine Learning, AI, Error Analysis"
         },
         {
@@ -101,7 +101,7 @@
             "Core_Innovation": "This paper identifies the instability of measurement in AI language models when used as judges in various capacities, emphasizing the unreliability of shared endpoints as measurement instruments.",
             "Benefiting_Sectors": "AI, Data Science, Software Development",
             "Disrupted_Sectors": "Quality Assurance, Academic Research, Sports Analytics",
-            "Decision_Perspective": "Strategic decision-makers should reassess their reliance on automated language model judges and implement rigorous measurement protocols to ensure reliability and transparency.",
+            "Decision_Perspective": "Strategic decision-makers should prioritize establishing robust evaluation metrics and protocols for using language models in critical applications to avoid reliance on unreliable measurement instruments.",
             "Tags": "LLM, Reliability, Measurement, AI Evaluation, Black-Box Models"
         },
         {
@@ -114,7 +114,7 @@
             "Core_Innovation": "The proposed method, compile by training, enables the conversion of natural-language specifications into local, reusable neural functions, thus reducing dependency on large remote models.",
             "Benefiting_Sectors": "Software Development, Artificial Intelligence, Education, Translation Services, Gaming",
             "Disrupted_Sectors": "Cloud Computing, Traditional Software Development, Remote AI Services",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in local neural function capabilities to reduce operational costs and dependencies on external providers.",
+            "Decision_Perspective": "Strategic decision-makers should consider investing in local neural computational capabilities to enhance efficiency and reduce reliance on external model providers.",
             "Tags": "natural language processing, neural networks, machine learning, software development, AI applications"
         },
         {
@@ -652,6 +652,146 @@
         }
     ],
     "news": [
+        {
+            "News_ID": "f80deddba4e483becbe595595ed2b2e7",
+            "Title": "ChargePoint (CHPT)\u2019s 70% Surge: Is the EV Charging Turnaround Finally Taking Hold?",
+            "Snippet": "...",
+            "Published_Date": "2026-09-04T01:27:32Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/chargepoint-chpt-70-surge-ev-012732855.html",
+            "Related_Tickers": "CHPT",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "ChargePoint, EV Charging Sector",
+            "Disrupted_Entities": "Traditional Fuel Providers",
+            "Strategic_Action": "Investors should consider increasing their positions in ChargePoint and related EV charging companies as the market sentiment shifts positively. Monitoring industry trends and regulatory support for EV infrastructure will also be crucial.",
+            "Economic_Tags": "EV market, charging infrastructure, investment growth, energy transition"
+        },
+        {
+            "News_ID": "66e57bc89d6781b7de26937a854f277e",
+            "Title": "Lululemon\u2019s Guidance Cut Raises Fresh Questions Over its Turnaround",
+            "Snippet": "...",
+            "Published_Date": "2026-09-04T01:28:50Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/lululemon-guidance-cut-raises-fresh-012850596.html",
+            "Related_Tickers": "LULU",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "",
+            "Disrupted_Entities": "Lululemon",
+            "Strategic_Action": "Investors may want to evaluate their positions in Lululemon and consider diversifying their investments to mitigate potential losses from further declines.",
+            "Economic_Tags": "retail, earnings guidance, consumer spending, market volatility, stock performance"
+        },
+        {
+            "News_ID": "2d30cf6ab6b751c78f33ab4792a10e52",
+            "Title": "Goldman\u2019s Energy Dividend Picks: Why Devon and HF Sinclair Still Offer Upside",
+            "Snippet": "...",
+            "Published_Date": "2026-09-04T01:30:09Z",
+            "News_URL": "https://finance.yahoo.com/energy/articles/goldman-energy-dividend-picks-why-013009416.html",
+            "Related_Tickers": "DVN, HFC",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Devon Energy, HF Sinclair",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider allocating funds to Devon Energy and HF Sinclair due to their projected dividend stability and growth potential. Monitoring market trends in the energy sector will be essential.",
+            "Economic_Tags": "dividends, energy sector, investment strategy, stock picks"
+        },
+        {
+            "News_ID": "005dd8214ea467ab45addae1d36895d4",
+            "Title": "The Williams Companies(WMB) Strengthens its Natural Gas Growth Engine with Momentum Deal",
+            "Snippet": "...",
+            "Published_Date": "2026-09-04T01:31:56Z",
+            "News_URL": "https://finance.yahoo.com/energy/articles/williams-companies-wmb-strengthens-natural-013156029.html",
+            "Related_Tickers": "WMB",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Williams Companies",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their stakes in Williams Companies, as this deal enhances their market position in natural gas. Additionally, staying informed about broader energy market trends will be beneficial.",
+            "Economic_Tags": "natural gas, growth, energy, investment, market position"
+        },
+        {
+            "News_ID": "777d2d85a3ea5f3cce35fe512a5bb278",
+            "Title": "Flex to Buy EPC Power for $4.4 Billion in AI Data Center Push",
+            "Snippet": "...",
+            "Published_Date": "2026-09-04T01:47:30Z",
+            "News_URL": "https://finance.yahoo.com/technology/ai/articles/flex-buy-epc-power-4-014730069.html",
+            "Related_Tickers": "FLEX,EPC",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Flex, EPC Power, AI Data Center Sector",
+            "Disrupted_Entities": "Competitors in AI Infrastructure, Existing EPC Power Clients",
+            "Strategic_Action": "Investors should consider increasing positions in Flex as it expands its capabilities in the AI data center market. Monitoring competitors' responses will also be crucial for strategic positioning.",
+            "Economic_Tags": "AI, Data Centers, Mergers and Acquisitions, Technology Investments, Infrastructure"
+        },
+        {
+            "News_ID": "262b1ef8876b968639cf0e25b3756132",
+            "Title": "Adobe Names Anil Chakravarthy CEO But AI Fears Are Impacting the Stock",
+            "Snippet": "...",
+            "Published_Date": "2026-09-04T03:00:00Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/adobe-names-anil-chakravarthy-ceo-030000687.html",
+            "Related_Tickers": "ADBE",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 6,
+            "Benefiting_Entities": "AI technology firms, software companies focusing on AI",
+            "Disrupted_Entities": "Adobe, traditional software companies relying on legacy systems",
+            "Strategic_Action": "Investors should closely monitor Adobe's strategic direction under the new CEO and evaluate the potential pivots towards AI integration while considering portfolio diversification into emerging AI tech firms.",
+            "Economic_Tags": "leadership change, AI, stock market impact, corporate strategy, technology sector"
+        },
+        {
+            "News_ID": "6067f756b94c63dc7fe21a42d448e49a",
+            "Title": "Oil ETFs Are Crushing Oil Itself, Thanks to the Futures Curve",
+            "Snippet": "...",
+            "Published_Date": "2026-09-04T01:49:11Z",
+            "News_URL": "https://finance.yahoo.com/markets/commodities/articles/oil-etfs-crushing-oil-itself-014911123.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Oil ETF providers",
+            "Disrupted_Entities": "Oil producers, traditional oil investors",
+            "Strategic_Action": "Investors should consider reallocating their oil exposure toward oil ETFs to capture market trends away from direct oil investments. Additionally, monitoring the futures curve is essential for making informed decisions.",
+            "Economic_Tags": "oil, ETFs, futures curve, investment strategy, commodities"
+        },
+        {
+            "News_ID": "ee671bcf7d9527dccb75553af65d9abf",
+            "Title": "US official directs Fannie Mae, Freddie Mac to approve VantageScore for all lenders",
+            "Snippet": "...",
+            "Published_Date": "2026-09-04T02:42:47Z",
+            "News_URL": "https://finance.yahoo.com/news/us-official-directs-fannie-mae-024247633.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Fannie Mae, Freddie Mac, lenders, consumers",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing positions in lenders that may benefit from wider acceptance of VantageScore. Additionally, monitoring the response of competitors in the lending space will be crucial.",
+            "Economic_Tags": "credit scoring, lending standards, consumer finance, mortgage market"
+        },
+        {
+            "News_ID": "0804be813e78049051521506b53d9827",
+            "Title": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike",
+            "Snippet": "...",
+            "Published_Date": "2026-09-04T03:20:35Z",
+            "News_URL": "https://finance.yahoo.com/markets/world-indices/articles/asian-benchmarks-mostly-rise-tech-032035804.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Negative",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "",
+            "Disrupted_Entities": "Equities, Interest-Sensitive Sectors",
+            "Strategic_Action": "Investors should consider reallocating to defensive assets and sectors that are less sensitive to interest rate changes, while monitoring further employment data and Fed communications.",
+            "Economic_Tags": "jobs report, interest rates, stock market, economic outlook, market volatility"
+        },
+        {
+            "News_ID": "df319ff826c034ebbd95628420719aa0",
+            "Title": "Williams Closes $5.5 Billion Momentum Midstream Acquisition",
+            "Snippet": "...",
+            "Published_Date": "2026-09-04T03:00:00Z",
+            "News_URL": "https://finance.yahoo.com/energy/articles/williams-closes-5-5-billion-030000101.html",
+            "Related_Tickers": "WMB",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Williams Companies, Midstream Sector",
+            "Disrupted_Entities": "Competitors in the midstream space",
+            "Strategic_Action": "Investors should consider Williams as a strong option for portfolio growth due to its strategic expansion in the midstream market.",
+            "Economic_Tags": "Mergers and Acquisitions, Midstream, Energy Sector, Market Expansion, Investment Opportunities"
+        },
         {
             "News_ID": "2922f318eca5c2a5b8dfb99428be7078",
             "Title": "StealthGas Inc. Q2 2026 Earnings Call Summary",
@@ -1211,146 +1351,6 @@
             "Disrupted_Entities": "oil and gas sector companies, transportation sector",
             "Strategic_Action": "Investors should consider diversifying their portfolios towards renewable energy stocks and companies focusing on energy efficiency. It may also be prudent to monitor oil-dependent sectors for vulnerabilities.",
             "Economic_Tags": "oil prices, economic outlook, inflation, energy sector, investment strategy"
-        },
-        {
-            "News_ID": "b5fc61ff9807c57b4cd1dc043ad14b1a",
-            "Title": "Asian Refiners Turn to Argentina as Iran War Disrupts Oil Supply",
-            "Snippet": "...",
-            "Published_Date": "2026-08-31T08:35:35Z",
-            "News_URL": "https://finance.yahoo.com/energy/articles/asian-refiners-turn-argentina-iran-083535004.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Asian refiners, Argentine oil sector",
-            "Disrupted_Entities": "Iranian oil producers",
-            "Strategic_Action": "Investors should consider increasing exposure to Argentine oil stocks and related refiners, while monitoring geopolitical developments that could further impact supply chains.",
-            "Economic_Tags": "oil supply, geopolitical risk, refining sector, Argentina, Iran conflict"
-        },
-        {
-            "News_ID": "8dfc701c0474851a6ff5d9935c8d2afb",
-            "Title": "Huawei H1 profit drop quickens to 36% on rising costs, R&D spending",
-            "Snippet": "Huawei's profit decline indicates increased operational challenges and a heavy focus on R&D expenditure, impacting its profitability significantly.",
-            "Published_Date": "2026-08-31T09:42:21Z",
-            "News_URL": "https://finance.yahoo.com/technology/articles/huawei-h1-profit-drop-quickens-094221420.html",
-            "Related_Tickers": "00375.HK",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "None",
-            "Disrupted_Entities": "Huawei, telecom sector",
-            "Strategic_Action": "Investors should closely monitor Huawei's strategies to manage rising costs and R&D spending, considering reducing exposure in the telecom sector until clearer recovery signals emerge.",
-            "Economic_Tags": "profit decline, R&D spending, telecom industry, operational costs, market volatility"
-        },
-        {
-            "News_ID": "35e9670a7665abb01fdf70f6bf20e089",
-            "Title": "AI data center boom sends PE into the trades",
-            "Snippet": "...",
-            "Published_Date": "2026-08-31T10:00:00Z",
-            "News_URL": "https://finance.yahoo.com/technology/ai/articles/ai-data-center-boom-sends-100000656.html",
-            "Related_Tickers": "NVDA, AMD, GOOGL, MSFT",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 9,
-            "Benefiting_Entities": "NVIDIA, AMD, Google, Microsoft, data center providers",
-            "Disrupted_Entities": "traditional IT services, hardware manufacturers lagging in AI integration",
-            "Strategic_Action": "Investors should consider increasing their positions in AI-related stocks and data center providers, as demand for AI infrastructure is expected to rise significantly.",
-            "Economic_Tags": "AI, data centers, technology, investment, infrastructure"
-        },
-        {
-            "News_ID": "c1f5d20a8e5a42fcf7d39e7ded57a6c7",
-            "Title": "HELOC and home equity loan rates today, Monday, August 31, 2026: A 19-basis-point differential",
-            "Snippet": "...",
-            "Published_Date": "2026-08-31T10:00:00Z",
-            "News_URL": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-31-2026-a-19-basis-point-differential-100000999.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Neutral",
-            "Impact_Score": 5,
-            "Benefiting_Entities": "Banks, Mortgage lenders",
-            "Disrupted_Entities": "Homebuyers, Consumers seeking loans",
-            "Strategic_Action": "Investors should monitor the trends in HELOC and home equity loan rates to adjust their portfolios accordingly, especially in financial sector stocks. Consumers might consider locking in fixed rates if they anticipate further rate increases.",
-            "Economic_Tags": "HELOC, home equity loans, interest rates, mortgage market, financial services"
-        },
-        {
-            "News_ID": "2f615291299a46cfdbb061df0ced2d50",
-            "Title": "At 67, He Worked 40 Hours on One Bridge Slide. Social Security Kept Paying. His Union Pension Stopped.",
-            "Snippet": "...",
-            "Published_Date": "2026-08-31T10:05:21Z",
-            "News_URL": "https://finance.yahoo.com/economy/policy/articles/67-worked-40-hours-one-100521691.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 6,
-            "Benefiting_Entities": "Social Security, Government Pension Funds",
-            "Disrupted_Entities": "Union pension plans, Construction workers",
-            "Strategic_Action": "Investors should evaluate the sustainability of union pension plans and consider diversifying investments in sectors less impacted by pension reforms.",
-            "Economic_Tags": "Pension, Social Security, Labor, Construction, Retirement"
-        },
-        {
-            "News_ID": "893dd9098261dc68b9922689e6603696",
-            "Title": "Best CD rates today, Monday, August 31, 2026: Lock in up to 4.30% APY",
-            "Snippet": "Lock in up to 4.30% APY",
-            "Published_Date": "2026-08-31T10:00:00Z",
-            "News_URL": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-august-31-2026-lock-in-up-to-430-apy-100000028.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "banks, credit unions",
-            "Disrupted_Entities": "low-interest savings accounts",
-            "Strategic_Action": "Investors should consider locking in higher interest rates through CDs to maximize returns. Businesses may want to evaluate their financing strategies in light of rising CD rates.",
-            "Economic_Tags": "CD rates, interest rates, banking, savings, investment"
-        },
-        {
-            "News_ID": "785fe4d3e647df3434bb6ab35d2ea096",
-            "Title": "Mortgage and refinance interest rates today, Monday, August 31, 2026: Purchase rates currently higher than refinance rates",
-            "Snippet": "Purchase rates currently higher than refinance rates",
-            "Published_Date": "2026-08-31T10:00:00Z",
-            "News_URL": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-monday-august-31-2026-purchase-rates-currently-higher-than-refinance-rates-100000904.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Neutral",
-            "Impact_Score": 5,
-            "Benefiting_Entities": "Mortgage lenders, financial institutions",
-            "Disrupted_Entities": "Homebuyers, refinancing homeowners",
-            "Strategic_Action": "Investors should closely monitor trends in mortgage rates and consider positioning in financial stocks that benefit from higher purchase mortgage rates. Homebuyers may need to act quickly before rates potentially rise further.",
-            "Economic_Tags": "mortgage rates, refinancing, homebuyers, financial institutions, interest rates"
-        },
-        {
-            "News_ID": "a8f856e608f4fb5df1586456b6415030",
-            "Title": "It's Tim Cook's last day as Apple CEO. Investors are $4 trillion richer because of him.",
-            "Snippet": "Investors see a significant boost in wealth due to Tim Cook's leadership at Apple, indicating strong market performance and investor confidence.",
-            "Published_Date": "2026-04-20T23:03:25Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/article/its-tim-cooks-last-day-as-apple-ceo-investors-are-4-trillion-richer-because-of-him-230325985.html",
-            "Related_Tickers": "AAPL",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 9,
-            "Benefiting_Entities": "Apple, Technology Sector",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider maintaining or increasing their positions in Apple and related tech stocks, capitalizing on the positive sentiment.",
-            "Economic_Tags": "Apple, Tim Cook, Investment, Technology, Market Performance"
-        },
-        {
-            "News_ID": "23630980fd560c669b1098ddfa54113f",
-            "Title": "Best high-yield savings interest rates today, Monday, August 31, 2026: Earn up to 4.15% APY",
-            "Snippet": "...",
-            "Published_Date": "2026-08-31T10:00:00Z",
-            "News_URL": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-31-2026-earn-up-to-415-apy-100000500.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "banks, financial institutions, savings account holders",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider high-yield savings accounts as a viable option for enhancing returns on liquid cash. Businesses may look into optimizing their cash reserves in higher interest accounts to improve overall returns.",
-            "Economic_Tags": "high-yield savings, interest rates, APY, banking, personal finance"
-        },
-        {
-            "News_ID": "3a749196edcbe3535629ccb7b691ae82",
-            "Title": "Major fruit grower lays off nearly 1,000 workers",
-            "Snippet": "A major fruit grower has announced the layoff of nearly 1,000 workers, signaling potential challenges in the agricultural sector.",
-            "Published_Date": "2026-08-30T01:03:00Z",
-            "News_URL": "https://finance.yahoo.com/small-business/articles/major-fruit-grower-lays-off-010300694.html",
-            "Related_Tickers": "N/A",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "competing fruit growers, labor market temp agencies",
-            "Disrupted_Entities": "major fruit grower, local economies dependent on agriculture",
-            "Strategic_Action": "Investors should monitor the agricultural sector for potential volatility and consider reallocating investments toward competing entities or sectors unaffected by labor issues.",
-            "Economic_Tags": "layoffs, agriculture, employment, market volatility, economic challenges"
         }
     ]
 }
