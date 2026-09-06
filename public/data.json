@@ -10,7 +10,7 @@
             "Core_Innovation": "The paper introduces the concept of one-shot on-policy distillation (OPD), demonstrating that significant gains in performance can be achieved even with minimal training data, specifically a single query.",
             "Benefiting_Sectors": "Artificial Intelligence, Natural Language Processing, Machine Learning, Education, Research",
             "Disrupted_Sectors": "Data Science, Software Development, Customer Service",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in innovations in optimization techniques for OPD to enhance efficiency, and explore the potential of minimal data training approaches to reduce costs and increase speed in model development.",
+            "Decision_Perspective": "Strategic decision-makers should invest in optimizing training methodologies for large language models, focusing on efficient data use to enhance model performance while reducing training time and resource expenditure.",
             "Tags": "On-Policy Distillation, Large Language Models, Machine Learning, State Coverage, Data Efficiency"
         },
         {
@@ -23,7 +23,7 @@
             "Core_Innovation": "The introduction of Probabilistic Causal Impact (PCI) as a scalable framework for causal explanations that integrates actual causality principles with Monte Carlo estimation techniques.",
             "Benefiting_Sectors": "Data Science, Machine Learning, Policy Analysis, Scientific Research",
             "Disrupted_Sectors": "Traditional Causal Analysis, Simplistic Attribution Models",
-            "Decision_Perspective": "Strategic decision-makers should consider adopting PCI for more reliable causal explanations, which can enhance decision-making accuracy and policy formulation.",
+            "Decision_Perspective": "Strategic decision-makers should consider integrating PCI into their analytical frameworks to enhance robustness in causal explanations and improve decision-making processes based on complex data.",
             "Tags": "Causality, Machine Learning, Data Analysis, Probabilistic Models, Causal Inference"
         },
         {
@@ -36,7 +36,7 @@
             "Core_Innovation": "The study demonstrates that auxiliary views of knowledge significantly enhance learning in large language models during pre-training, suggesting a novel approach to data utilization.",
             "Benefiting_Sectors": "Artificial Intelligence, Education, Data Science, Software Development",
             "Disrupted_Sectors": "Traditional Education, Content Creation, Knowledge Management",
-            "Decision_Perspective": "Strategic decision-makers should invest in developing models that incorporate diverse training data and auxiliary representations to improve learning outcomes and potentially reshape educational tools.",
+            "Decision_Perspective": "Strategic decision-makers should leverage findings on auxiliary views to enhance training methodologies for language models, ensuring higher data diversity for improved performance.",
             "Tags": "Knowledge Acquisition, Large Language Models, Auxiliary Views, Pre-training, Machine Learning"
         },
         {
@@ -49,7 +49,7 @@
             "Core_Innovation": "The SBS framework enhances dense video captioning by adaptively providing visually grounded linguistic guidance and refining temporal event masks based on semantic transitions, significantly improving captioning accuracy.",
             "Benefiting_Sectors": "Media, Entertainment, Education, Surveillance",
             "Disrupted_Sectors": "Traditional Captioning Services, Manual Video Editing, Content Moderation",
-            "Decision_Perspective": "Strategic decision-makers in industries related to media and AI should consider investing in weakly-supervised learning technologies and frameworks like SBS to enhance content creation and consumption capabilities.",
+            "Decision_Perspective": "Strategic decision-makers should consider investing in technologies leveraging VLM frameworks for content analysis and captioning, as they may enhance user engagement and operational efficiency.",
             "Tags": "Video Captioning, Weakly-Supervised Learning, Vision-Language Models, Event Detection, Temporal Masking"
         },
         {
@@ -62,7 +62,7 @@
             "Core_Innovation": "EditVid introduces a unified, training-free video editing framework that seamlessly integrates various editing techniques such as instruction-guided and reference-guided edits, leading to enhanced coherence and identity preservation in edited videos.",
             "Benefiting_Sectors": "film production, advertising, digital content creation, education",
             "Disrupted_Sectors": "traditional video editing software companies, low-end video editing tools",
-            "Decision_Perspective": "Strategic decision-makers in the media and technology sectors should consider integrating or adopting EditVid to enhance their video editing capabilities and remain competitive in the evolving digital content landscape.",
+            "Decision_Perspective": "Strategic decision-makers in technology and creative industries should consider integrating EditVid's framework into their platforms to enhance user experience and streamline video editing processes.",
             "Tags": "video editing, AI, machine learning, digital media, innovation"
         },
         {
@@ -75,7 +75,7 @@
             "Core_Innovation": "This study introduces a novel approach to evaluate the importance of reasoning steps in chain-of-thought models using Monte Carlo rollouts. It challenges the assumption that legibility in reasoning traces equates to interpretability.",
             "Benefiting_Sectors": "Artificial Intelligence, Machine Learning, Natural Language Processing",
             "Disrupted_Sectors": "Education, Data Analysis, Software Development",
-            "Decision_Perspective": "Strategic decision-makers should explore the implications of this work for model interpretability and consider refining their models based on step-level advantages to enhance decision-making processes.",
+            "Decision_Perspective": "Strategic decision-makers should be cautious in relying on the legibility of reasoning texts as a proxy for model interpretability and consider developing more robust methods for evaluating reasoning performance.",
             "Tags": "legibility, interpretability, reasoning models, chain-of-thought, artificial intelligence"
         },
         {
@@ -88,7 +88,7 @@
             "Core_Innovation": "ESPO introduces a structured approach to prompt optimization that diagnoses error patterns, diversifies candidate generation, and refines selection through bootstrap stability. This results in shorter and more accurate prompts compared to previous methods.",
             "Benefiting_Sectors": "Natural Language Processing, Machine Learning, AI Development",
             "Disrupted_Sectors": "Traditional Software Engineering, Standardized Testing",
-            "Decision_Perspective": "Strategic decision-makers should consider adopting ESPO as a foundational tool for enhancing NLP applications, reducing inefficiencies, and improving model accuracy.",
+            "Decision_Perspective": "Strategic decision-makers in AI and NLP should consider adopting ESPO for improved model performance and efficiency, leading to competitive advantages in the market.",
             "Tags": "Prompt Optimization, Natural Language Processing, Machine Learning, AI, Error Analysis"
         },
         {
@@ -101,7 +101,7 @@
             "Core_Innovation": "This paper identifies the instability of measurement in AI language models when used as judges in various capacities, emphasizing the unreliability of shared endpoints as measurement instruments.",
             "Benefiting_Sectors": "AI, Data Science, Software Development",
             "Disrupted_Sectors": "Quality Assurance, Academic Research, Sports Analytics",
-            "Decision_Perspective": "Strategic decision-makers should prioritize establishing robust evaluation metrics and protocols for using language models in critical applications to avoid reliance on unreliable measurement instruments.",
+            "Decision_Perspective": "Strategic decision-makers should invest in robust validation processes for AI measurement tools to ensure reliability before they are implemented in impactful applications. Emphasizing rigorous preregistered evaluations can mitigate risks associated with model performance variability.",
             "Tags": "LLM, Reliability, Measurement, AI Evaluation, Black-Box Models"
         },
         {
@@ -114,7 +114,7 @@
             "Core_Innovation": "The proposed method, compile by training, enables the conversion of natural-language specifications into local, reusable neural functions, thus reducing dependency on large remote models.",
             "Benefiting_Sectors": "Software Development, Artificial Intelligence, Education, Translation Services, Gaming",
             "Disrupted_Sectors": "Cloud Computing, Traditional Software Development, Remote AI Services",
-            "Decision_Perspective": "Strategic decision-makers should consider investing in local neural computational capabilities to enhance efficiency and reduce reliance on external model providers.",
+            "Decision_Perspective": "Strategic decision-makers should consider investing in local neural processing capabilities to reduce dependency on external models and improve system efficiency.",
             "Tags": "natural language processing, neural networks, machine learning, software development, AI applications"
         },
         {
@@ -652,6 +652,146 @@
         }
     ],
     "news": [
+        {
+            "News_ID": "64d37f7cb65f5fcf49bd64daf6afc196",
+            "Title": "Aehr Test Systems (AEHR) Climbs 13%; Hedge Fund Holdings Rocket by Eightfold",
+            "Snippet": "Hedge funds are significantly increasing their holdings in Aehr Test Systems, which has led to a substantial price increase of 13%.",
+            "Published_Date": "2026-09-04T23:26:19Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/aehr-test-systems-aehr-climbs-232619014.html",
+            "Related_Tickers": "AEHR",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "Aehr Test Systems",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their positions in Aehr Test Systems given the positive hedge fund activity and price momentum.",
+            "Economic_Tags": "hedge funds, stock price, investment strategy, market trend, financial performance"
+        },
+        {
+            "News_ID": "49b923f2157e9133fca6f9b5a3171666",
+            "Title": "Victoria\u2019s Secret (VSXY) Delivered 9% Comparable-Sales Growth. Can Regular-Price Momentum Survive Higher Marketing Spend?",
+            "Snippet": "Published_Date: 2026-09-04T23:28:55Z",
+            "Published_Date": "2026-09-04T23:28:55Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/victoria-secret-vsxy-delivered-9-232855965.html",
+            "Related_Tickers": "VSXY",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Victoria's Secret",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should monitor Victoria's Secret's pricing strategy closely, particularly how the increased marketing spend influences sales momentum. Evaluating ROI metrics will be crucial in determining the sustainability of growth.",
+            "Economic_Tags": "sales growth, marketing, retail, consumer behavior, financial performance"
+        },
+        {
+            "News_ID": "c1b0fa139d9dd90788ebd7d8fdb2db7e",
+            "Title": "UiPath (PATH) Grew ARR 12% as Net Retention Rate Reached 109%. Can Agentic Automation Reaccelerate Expansion?",
+            "Snippet": "",
+            "Published_Date": "2026-09-04T23:33:38Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/uipath-path-grew-arr-12-233338876.html",
+            "Related_Tickers": "PATH",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "UiPath, automation technology sector",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their positions in UiPath, as the company shows promising growth in recurring revenue and strong customer retention. Monitoring the progress of Agentic Automation could provide further investment opportunities.",
+            "Economic_Tags": "ARR, net retention rate, automation, revenue growth, technology"
+        },
+        {
+            "News_ID": "cc1aa540ecb6a42cc030fa6b4bd7a81d",
+            "Title": "Five Below (FIVE) Reported Sales Growth and Authorized a $600M Repurchase Program. Can Recovery Fund Expansion and Capital Returns?",
+            "Snippet": "Five Below has demonstrated robust sales growth and authorized a significant repurchase program aimed at boosting shareholder value. Analysts speculate whether this will contribute to recovery fund expansions and capital returns.",
+            "Published_Date": "2026-09-04T23:55:28Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/five-below-five-reported-sales-235528598.html",
+            "Related_Tickers": "FIVE",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Five Below, Retail Sector",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider holding or increasing their position in Five Below due to its strong sales growth and strategic repurchase initiative, which may enhance shareholder value.",
+            "Economic_Tags": "Sales Growth, Share Repurchase, Retail Market, Capital Returns, Investor Confidence"
+        },
+        {
+            "News_ID": "0c94b476de1e2f6c92d237c51ed2afa7",
+            "Title": "California Just Hit a Cannabis Tax Milestone: Gavin Newsom Announces $8.4 Billion Haul, Vows to 'Keep Strengthening Our Legal Market'",
+            "Snippet": "...",
+            "Published_Date": "2026-09-05T02:30:07Z",
+            "News_URL": "https://finance.yahoo.com/economy/policy/articles/california-just-hit-cannabis-tax-023007913.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 9,
+            "Benefiting_Entities": "Cannabis Producers, Tax Authorities, State Government",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing exposure to legal cannabis businesses as tax revenues indicate strong market growth. Businesses in the sector should leverage this momentum to expand operations and marketing efforts.",
+            "Economic_Tags": "Cannabis, Tax Revenue, State Economy, Legalization, Market Growth"
+        },
+        {
+            "News_ID": "39e2f981f82cf8acaa37f0dd366ce8c7",
+            "Title": "DocuSign (DOCU) Raised IAM\u2019s Share of ARR to 15%. Can Platform Mix Lift Total ARR Growth Beyond Single Digits?",
+            "Snippet": "",
+            "Published_Date": "2026-09-04T23:40:08Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/docusign-docu-raised-iam-share-234008209.html",
+            "Related_Tickers": "DOCU",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "DocuSign, IAM sector, cloud services",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should monitor DocuSign's developments closely, as an increase in ARR share from IAM could indicate stronger revenue potential and future growth. Diversifying investments into similar platform-centric companies may be beneficial.",
+            "Economic_Tags": "ARR, cloud services, revenue growth, platform strategy, technology"
+        },
+        {
+            "News_ID": "f618b71a1ba06d795c5429cb2a87e294",
+            "Title": "Guidewire (GWRE) Grew Fiscal 2026 ARR 19%. Can Cloud Economics Offset Slower Near-Term Growth?",
+            "Snippet": "Guidewire reported a 19% increase in Annual Recurring Revenue (ARR) for fiscal 2026, raising questions about whether cloud economics can ameliorate slower anticipated growth in the short term.",
+            "Published_Date": "2026-09-04T23:44:39Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/guidewire-gwre-grew-fiscal-2026-234439741.html",
+            "Related_Tickers": "GWRE",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "cloud service providers, insurance software companies",
+            "Disrupted_Entities": "traditional on-premise software providers",
+            "Strategic_Action": "Investors should consider increasing their stake in Guidewire and related cloud-based firms, as revenue growth indicates solid performance despite market uncertainties.",
+            "Economic_Tags": "cloud computing, recurring revenue, insurance technology, market growth, software as a service"
+        },
+        {
+            "News_ID": "6c91f55a05681637cfff56a3f89bc6df",
+            "Title": "IFM Investors opens Singapore office to grow Asia private credit push",
+            "Snippet": "IFM Investors is expanding its footprint in Asia by opening a new office in Singapore, looking to enhance its operations in the private credit market within the region.",
+            "Published_Date": "2026-09-05T04:18:31Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/ifm-investors-opens-singapore-office-041831335.html",
+            "Related_Tickers": "",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "private credit firms, financial services, local financial institutions",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their exposure to private credit opportunities in Asia, while monitoring the competitive landscape as established firms expand.",
+            "Economic_Tags": "private credit, Asia, investment, financial services, market expansion"
+        },
+        {
+            "News_ID": "8d96c6ef72f4218d313601a9b505d44c",
+            "Title": "SanDisk (SNDK) Soars on S&P 100 Inclusion; Hedge Fund Ownership More-Than-Doubles",
+            "Snippet": "SanDisk's stock price surged following its inclusion in the S&P 100, alongside a significant increase in hedge fund investments.",
+            "Published_Date": "2026-09-05T02:11:24Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/sandisk-sndk-soars-p-100-021124605.html",
+            "Related_Tickers": "SNDK",
+            "Market_Sentiment": "Very Positive",
+            "Impact_Score": 8,
+            "Benefiting_Entities": "SanDisk",
+            "Disrupted_Entities": "",
+            "Strategic_Action": "Investors should consider increasing their positions in SanDisk to capitalize on its upward momentum and hedge fund confidence. Monitoring S&P inclusion impacts on other stocks could provide broader market opportunities.",
+            "Economic_Tags": "S&P 100, Hedge Funds, Stock Surge, Market Inclusion, Investment Confidence"
+        },
+        {
+            "News_ID": "ac6c8fb51f578528e0f3bcf70645c928",
+            "Title": "Honeywell Is Now Three Companies. Here's Which Piece I'd Actually Own.",
+            "Snippet": "...",
+            "Published_Date": "2026-09-05T02:35:00Z",
+            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/honeywell-now-three-companies-heres-023500905.html",
+            "Related_Tickers": "HON",
+            "Market_Sentiment": "Positive",
+            "Impact_Score": 7,
+            "Benefiting_Entities": "Honeywell, aerospace, defense, automation",
+            "Disrupted_Entities": "none",
+            "Strategic_Action": "Investors should consider acquiring shares in the segment that demonstrates the strongest growth potential as Honeywell splits into three distinct companies.",
+            "Economic_Tags": "corporate restructuring, market segmentation, investment strategy, business growth"
+        },
         {
             "News_ID": "f80deddba4e483becbe595595ed2b2e7",
             "Title": "ChargePoint (CHPT)\u2019s 70% Surge: Is the EV Charging Turnaround Finally Taking Hold?",
@@ -1211,146 +1351,6 @@
             "Disrupted_Entities": "rival dining chains, employees of the bankrupt chain",
             "Strategic_Action": "Investors should monitor Denny's performance as it may benefit from the competitor's exit, while also being cautious of potential market volatility in the dining sector.",
             "Economic_Tags": "bankruptcy, dining sector, market volatility, competitor analysis, investment opportunities"
-        },
-        {
-            "News_ID": "7e80bb32bf9d16516215202e8678a55a",
-            "Title": "Index Funds Celebrate Their 50th Birthday",
-            "Snippet": "",
-            "Published_Date": "2026-08-31T04:03:00Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/index-funds-celebrate-50th-birthday-040300915.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 8,
-            "Benefiting_Entities": "Investment Firms, Financial Advisors",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider increasing their allocation to index funds to capitalize on their proven performance over the past 50 years. Financial advisors should emphasize the benefits of low-cost index investing to clients.",
-            "Economic_Tags": "Index Funds, Investment Strategy, Market Performance, Financial Planning, Passive Investing"
-        },
-        {
-            "News_ID": "ac805313a1b3092ef572a2b6e32bdfb1",
-            "Title": "Vanguard\u2019s Altruist Deal Could Be a Warning Shot for ETF Platform Fees",
-            "Snippet": "...",
-            "Published_Date": "2026-08-31T04:02:00Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/vanguard-altruist-deal-could-warning-040200972.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Neutral",
-            "Impact_Score": 6,
-            "Benefiting_Entities": "Vanguard, Altruist",
-            "Disrupted_Entities": "ETF platform providers, brokerages",
-            "Strategic_Action": "Investors should monitor the ETF platform fee structures closely and consider reallocating towards firms that adapt to the changing landscape. Businesses may need to reassess their fee models to remain competitive.",
-            "Economic_Tags": "ETF, Investment Management, Market Competition, Fees, Financial Services"
-        },
-        {
-            "News_ID": "7ae0a27e74b4c87fea0ecf23871baa46",
-            "Title": "Warsh\u2019s \u201cQuiet Fed\u201d Approach Adds a Hawkish Call at Jackson Hole",
-            "Snippet": "Warsh\u2019s approach signifies a shift towards a more hawkish stance, potentially impacting interest rates and investor sentiment.",
-            "Published_Date": "2026-08-31T04:01:00Z",
-            "News_URL": "https://finance.yahoo.com/economy/policy/articles/warsh-quiet-fed-approach-adds-040100898.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Financial Institutions, Bond Investors",
-            "Disrupted_Entities": "Equity Markets, Consumer Sectors",
-            "Strategic_Action": "Investors should consider adjusting their portfolio to minimize exposure to equities and increase positions in bonds.",
-            "Economic_Tags": "Federal Reserve, Interest Rates, Market Volatility, Hawkish Stance, Economic Policy"
-        },
-        {
-            "News_ID": "b208ec4e336ff6fe241e684b6bfcb423",
-            "Title": "Is Concentration Causing Investors to Fear the Market-Weighted Index?",
-            "Snippet": "...",
-            "Published_Date": "2026-08-31T04:01:00Z",
-            "News_URL": "https://finance.yahoo.com/markets/stocks/articles/concentration-causing-investors-fear-market-040100464.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "None",
-            "Disrupted_Entities": "Market-Weighted Index Funds",
-            "Strategic_Action": "Investors should consider diversifying their portfolios away from concentration risk, possibly exploring equal-weighted indices or sector-specific investments.",
-            "Economic_Tags": "Market Concentration, Index Funds, Investment Strategy, Risk Management, Diversification"
-        },
-        {
-            "News_ID": "adc6fc0733b565ad026d838ed40d4a07",
-            "Title": "Firearms retailer files Chapter 11 bankruptcy as gun sales drop",
-            "Snippet": "Firearms retailer files Chapter 11 bankruptcy as gun sales drop",
-            "Published_Date": "2026-08-31T15:33:00Z",
-            "News_URL": "https://finance.yahoo.com/small-business/articles/firearms-retailer-files-chapter-11-153300921.html",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Competitors in the firearms sector, online retailers",
-            "Disrupted_Entities": "Firearms retail sector, investors in the bankrupt retailer",
-            "Strategic_Action": "Investors should consider diversifying their portfolio away from firearms retail stocks, as the sector may face further pressure. Monitoring competitors could unveil potential investment opportunities.",
-            "Economic_Tags": "bankruptcy, gun sales, firearms, retail sector, economic downturn"
-        },
-        {
-            "News_ID": "0e96fc3a0b0b71480a34a5d2bb4854c7",
-            "Title": "Dow Jones Futures Fall, Oil Prices Pop As U.S. Strikes Iran",
-            "Snippet": "...",
-            "Published_Date": "2026-08-31T03:10:53Z",
-            "News_URL": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-titans-mask-market-weakness/?src=A00220&yptr=yahoo",
-            "Related_Tickers": "",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "Oil companies, Defense sector",
-            "Disrupted_Entities": "Travel and tourism industry, Technology sector",
-            "Strategic_Action": "Investors should consider reallocating investments towards oil and defense stocks while being cautious with travel and tech investments.",
-            "Economic_Tags": "Geopolitical risk, Oil prices, Market volatility, Dow Jones, Defense sector"
-        },
-        {
-            "News_ID": "023c392601ce9e2d75bd1e6512e3c5d2",
-            "Title": "ONEOK to Acquire Brazos Midland Gas Assets for $4.425 Billion",
-            "Snippet": "...",
-            "Published_Date": "2026-08-31T02:35:37Z",
-            "News_URL": "https://finance.yahoo.com/energy/articles/oneok-acquire-brazos-midland-gas-023537851.html",
-            "Related_Tickers": "OKE",
-            "Market_Sentiment": "Positive",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "ONEOK, natural gas sector",
-            "Disrupted_Entities": "competing gas companies",
-            "Strategic_Action": "Investors should consider increasing their positions in ONEOK as the acquisition expands its asset base and market presence. Monitoring competitor responses can provide additional insight into market dynamics.",
-            "Economic_Tags": "acquisition, energy, natural gas, market expansion, investment"
-        },
-        {
-            "News_ID": "6714b797833870866e18ea9cfba2162d",
-            "Title": "PetroChina First-Half Profit Jumps 22% to Record High",
-            "Snippet": "PetroChina has reported a remarkable 22% increase in its profits for the first half of the year, setting a new record amidst fluctuations in global oil prices.",
-            "Published_Date": "2026-08-31T01:16:00Z",
-            "News_URL": "https://finance.yahoo.com/energy/articles/petrochina-profit-jumps-22-oil-011638944.html",
-            "Related_Tickers": "PTR",
-            "Market_Sentiment": "Very Positive",
-            "Impact_Score": 9,
-            "Benefiting_Entities": "PetroChina, energy sector, oil companies",
-            "Disrupted_Entities": "",
-            "Strategic_Action": "Investors should consider increasing their exposure to PetroChina and similar companies in the energy sector, as rising profits may indicate a strong investment outlook.",
-            "Economic_Tags": "profit growth, oil prices, energy investment, corporate earnings, PetroChina"
-        },
-        {
-            "News_ID": "f13356746250370549276a60d3215bdd",
-            "Title": "Tesla Just Killed Its Solar Roof After Years of Struggling to Scale. What It Means for TSLA Stock.",
-            "Snippet": "",
-            "Published_Date": "2026-08-30T22:05:44Z",
-            "News_URL": "https://finance.yahoo.com/energy/articles/tesla-just-killed-solar-roof-220544385.html",
-            "Related_Tickers": "TSLA",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "traditional roofing companies, solar panel manufacturers",
-            "Disrupted_Entities": "Tesla",
-            "Strategic_Action": "Investors should consider re-evaluating their position in TSLA and explore opportunities in traditional energy and roofing sectors that may benefit from Tesla's exit.",
-            "Economic_Tags": "solar energy, market disruption, renewable technology, construction, investment strategy"
-        },
-        {
-            "News_ID": "0b3c85e1053a4b8e666eea09abd37f93",
-            "Title": "Goldman Sachs sends blunt message on oil price, economy",
-            "Snippet": "Goldman Sachs has expressed concern over the current trajectory of oil prices and its implications for the broader economy.",
-            "Published_Date": "2026-08-31T00:37:00Z",
-            "News_URL": "https://finance.yahoo.com/energy/articles/goldman-sachs-sends-blunt-message-003700417.html",
-            "Related_Tickers": "XOM, CVX, OXY",
-            "Market_Sentiment": "Negative",
-            "Impact_Score": 7,
-            "Benefiting_Entities": "renewable energy companies, energy efficiency technology providers",
-            "Disrupted_Entities": "oil and gas sector companies, transportation sector",
-            "Strategic_Action": "Investors should consider diversifying their portfolios towards renewable energy stocks and companies focusing on energy efficiency. It may also be prudent to monitor oil-dependent sectors for vulnerabilities.",
-            "Economic_Tags": "oil prices, economic outlook, inflation, energy sector, investment strategy"
         }
     ]
 }
