@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // ---------- state ----------
     let DATA = null;
     let allData = [];
-    let readDay = null;            // {date, ben, dis, net, items, ...}
+    let anchorMs = 0;             // end of the rolling 24h read window (build time)
+    let latestMs = 0;             // newest item on the tape
     let uniqueTags = new Set();
     let uniqueSectors = new Set();
     let entityToIds = {};
@@ -163,13 +164,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         allData.sort((a, b) => b.score - a.score || b.ms - a.ms);
 
-        // pick the day this read is anchored to
-        const hist = (data.history || []).slice();
-        const withItems = hist.filter(h => h.items > 0);
-        const stats = data.stats || {};
-        readDay = stats.items_today > 0 && hist.length
-            ? hist[hist.length - 1]
-            : (withItems[withItems.length - 1] || hist[hist.length - 1] || null);
+        // The read covers the last 24 hours up to the build time, so items
+        // published after yesterday's run are always part of today's tape.
+        anchorMs = Date.parse(data.generated_at || '') || Date.now();
+        latestMs = allData.reduce((m, i) => Math.max(m, i.ms), 0);
     }
 
     function indexEntities(entry) {
@@ -204,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
             headline: bullets[0] || 'The tape is quiet.',
             bullets: bullets.slice(1),
             movers: [],
-            watch: readDay ? `Net shift ${signed(readDay.net)} on ${fmtDate(Date.parse(readDay.date))}.` : '',
+            watch: `Net shift ${signed(netShift(windowItems(1)))} over the last 24 hours.`,
             items: top.map(i => i.id),
             model: 'client-fallback',
         };
@@ -212,9 +210,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderDigest(data) {
         const digest = data.digest || fallbackDigest();
-        const stats = data.stats || {};
-        const dateLabel = readDay
-            ? new Date(readDay.date + 'T12:00:00Z').toLocaleDateString('en-US',
+        const dateLabel = anchorMs
+            ? new Date(anchorMs).toLocaleDateString('en-US',
                 { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })
             : 'Latest available';
 
@@ -239,19 +236,19 @@ document.addEventListener('DOMContentLoaded', () => {
             }).join('');
         }
 
-        // stale-tape notice when today produced nothing
-        if (stats.items_today === 0 && readDay) {
+        // quiet-tape notice when nothing landed in the last 24 hours
+        if (!windowItems(1).length && latestMs) {
             $('#digest-watch').insertAdjacentHTML('afterbegin',
-                `<span class="watch-label" style="color:var(--amber)">Last read · ${esc(readDay.date)}</span>`);
+                `<span class="watch-label" style="color:var(--amber)">Last read · ${esc(fmtDate(latestMs))}</span>`);
         }
     }
 
     // ---------- dial + stats ----------
     function renderDial(data) {
         const hist = data.history || [];
-        const net = readDay ? readDay.net : 0;
-        const last7 = hist.slice(-7);
-        const maxAbs = Math.max(4, ...last7.map(h => Math.abs(h.net)), Math.abs(net));
+        const net = netShift(windowItems(1));
+        const avg = Math.round(netShift(windowItems(7)) / 7 * 10) / 10;
+        const maxAbs = Math.max(4, Math.abs(avg) * 2, Math.abs(net), ...hist.slice(-7).map(h => Math.abs(h.net)));
         const len = 219.9;
         const frac = Math.max(0, Math.min(1, (net + maxAbs) / (2 * maxAbs)));
 
@@ -264,10 +261,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         $('#dial-value').textContent = signed(net);
         $('#dial-value').style.color = net > 0 ? 'var(--up)' : net < 0 ? 'var(--down)' : 'var(--text)';
-        $('#dial-label').textContent = `net shift · ${readDay ? readDay.date : ''}`;
+        $('#dial-label').textContent = 'net shift · last 24h';
 
-        const avg = last7.length
-            ? Math.round((last7.reduce((s, h) => s + h.net, 0) / last7.length) * 10) / 10 : 0;
         $('#dial-sub').textContent = net >= avg
             ? `At or above the 7-day average (${signed(avg)})`
             : `Below the 7-day average (${signed(avg)})`;
@@ -276,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
         for (let i = hist.length - 1; i >= 0; i--) {
             if (hist[i].net > 0) streak++; else break;
         }
-        const items7d = last7.reduce((s, h) => s + h.items, 0);
+        const items7d = windowItems(7).length;
 
         const tone = toneCounts(7);
         const tonePct = tone.bull + tone.bear > 0
@@ -292,9 +287,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ---------- movers ----------
+    function netShift(items) {
+        return items.reduce((sum, e) =>
+            sum + e.ben.filter(n => !isNone(n)).length - e.dis.filter(n => !isNone(n)).length, 0);
+    }
+
     function windowItems(range) {
-        if (!readDay) return allData;
-        const start = Date.parse(readDay.date + 'T00:00:00Z') - (range - 1) * 864e5;
+        if (!anchorMs) return allData;
+        const start = anchorMs - range * 864e5;
         return allData.filter(i => i.ms >= start);
     }
 
