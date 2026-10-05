@@ -2,116 +2,221 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SectorShift | Strategic Intelligence Engine</title>
-    <meta name="description" content="AI-powered dashboard for analyzing breakthrough academic research and market news.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Sector Shift — the daily read on what's gaining and losing</title>
+    <meta name="description" content="Sector Shift measures daily sector rotation from market news and research: which sectors are gaining mentions, which are losing, and what it means. A 15-minute morning read.">
+    <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.svg">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Sector Shift">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bg-animation">
-        <div class="glow-orb orb-1"></div>
-        <div class="glow-orb orb-2"></div>
-        <div class="glow-orb orb-3"></div>
-    </div>
+    <header class="topbar" id="topbar">
+        <div class="topbar-inner">
+            <a class="brand" href="#top">
+                <svg class="brand-mark" viewBox="0 0 28 28" aria-hidden="true">
+                    <rect x="1" y="1" width="26" height="26" rx="7" class="brand-plate"/>
+                    <path d="M7 17.5 L11.5 13 L14.5 16 L21 9.5" class="brand-line"/>
+                    <path d="M16.8 9.5 H21 V13.7" class="brand-line"/>
+                </svg>
+                <span class="brand-name">Sector&nbsp;Shift</span>
+            </a>
 
-    <main class="dashboard">
-        <header class="glass-panel">
-            <div class="header-content">
-                <div class="logo">
-                    <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="logo-icon"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
-                    <h1>Sector<span>Shift</span></h1>
-                </div>
-                <p class="tagline">Strategic Intelligence Engine</p>
+            <span class="topbar-title" id="topbar-title">Today</span>
+
+            <nav class="topnav" aria-label="Sections">
+                <a href="#today">Briefing</a>
+                <a href="#movers">Movers</a>
+                <a href="#research">Research</a>
+                <a href="#read">The Read</a>
+            </nav>
+
+            <div class="topbar-end">
+                <span class="updated" id="nav-updated">updating…</span>
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle appearance" title="Toggle appearance">
+                    <svg class="ico-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M18.7 5.3l-1.6 1.6M6.9 17.1l-1.6 1.6"/></svg>
+                    <svg class="ico-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.2A8.4 8.4 0 0 1 9.8 4 8.6 8.6 0 1 0 20 14.2Z"/></svg>
+                </button>
             </div>
-            
-            <div class="controls">
-                <div class="filter-group">
-                    <label for="filter-type">Source</label>
-                    <select id="filter-type">
-                        <option value="all">All Intelligence</option>
-                        <option value="paper">Research Papers</option>
-                        <option value="news">Market News</option>
-                    </select>
-                </div>
-
-                <div class="filter-group">
-                    <label for="filter-score">Min. Score</label>
-                    <select id="filter-score">
-                        <option value="7" selected>7+ High</option>
-                        <option value="8">8+ Critical</option>
-                        <option value="9">9+ Breakthrough</option>
-                        <option value="all">Show All</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <label for="filter-tag">Tags</label>
-                    <select id="filter-tag">
-                        <option value="all">All Tags</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <label for="filter-sector">Sector</label>
-                    <select id="filter-sector">
-                        <option value="all">All Sectors</option>
-                    </select>
-                </div>
-
-                <button id="clear-filters" class="clear-btn" title="Clear all filters">✕ Clear</button>
-            </div>
-        </header>
-
-        <!-- Active Filter Indicator -->
-        <div id="active-filter-bar" class="active-filter-bar" style="display:none;">
-            <span id="active-filter-label"></span>
-            <button id="dismiss-filter" class="dismiss-btn">✕</button>
         </div>
+    </header>
 
-        <!-- Executive Summary -->
-        <section id="executive-summary" class="glass-panel summary-panel" style="display:none;">
-            <div class="summary-header">
-                <h2>📊 Daily Executive Summary</h2>
-                <span id="summary-date" class="summary-date"></span>
+    <main class="page" id="top">
+        <!-- ============ HERO: THE DAILY BRIEFING ============ -->
+        <section class="hero reveal" id="today">
+            <div class="hero-main glass">
+                <div class="eyebrow-row">
+                    <span class="pill pill-accent">Today's briefing</span>
+                    <span class="eyebrow" id="digest-date">&nbsp;</span>
+                </div>
+                <h1 class="hero-headline" id="digest-headline">Loading the tape…</h1>
+                <ul class="hero-bullets" id="digest-bullets"></ul>
+                <div class="watch" id="digest-watch">
+                    <span class="watch-label">What to watch</span>
+                    <span id="digest-watch-text"></span>
+                </div>
+                <div class="movers-strip" id="digest-movers" hidden></div>
             </div>
-            <div id="summary-narrative" class="summary-narrative"></div>
 
-            <div class="summary-body">
-                <div class="summary-section">
-                    <h3 class="section-title benefiting-title">📈 Benefiting Sectors & Companies</h3>
-                    <div class="entity-group">
-                        <h4>Sectors</h4>
-                        <div id="ben-sectors" class="tags-container"></div>
-                    </div>
-                    <div class="entity-group">
-                        <h4>Tickers / Companies</h4>
-                        <div id="ben-tickers" class="tags-container"></div>
+            <aside class="hero-dial glass">
+                <div class="dial-wrap">
+                    <svg class="dial" viewBox="0 0 180 104" aria-hidden="true">
+                        <path class="dial-track" d="M 20 92 A 70 70 0 0 1 160 92"/>
+                        <path class="dial-fill" id="dial-fill" d="M 20 92 A 70 70 0 0 1 160 92"/>
+                    </svg>
+                    <div class="dial-center">
+                        <div class="dial-value" id="dial-value">0</div>
+                        <div class="dial-label" id="dial-label">net shift today</div>
                     </div>
                 </div>
+                <p class="dial-sub" id="dial-sub">&nbsp;</p>
+                <div class="stat-row" id="stat-row"></div>
+            </aside>
+        </section>
 
-                <div class="summary-section">
-                    <h3 class="section-title disrupted-title">⚠️ Disrupted Sectors & Companies</h3>
-                    <div class="entity-group">
-                        <h4>Sectors</h4>
-                        <div id="dis-sectors" class="tags-container"></div>
-                    </div>
-                    <div class="entity-group">
-                        <h4>Tickers / Companies</h4>
-                        <div id="dis-tickers" class="tags-container"></div>
-                    </div>
+        <!-- ============ MOVERS ============ -->
+        <section class="panel reveal" id="movers">
+            <header class="panel-head">
+                <div>
+                    <h2>Sector movers</h2>
+                    <p class="panel-sub">Benefiting mentions minus disrupted mentions. Click any row to filter the read.</p>
+                </div>
+                <div class="segmented" id="range-seg" role="tablist" aria-label="Range">
+                    <button class="seg active" data-range="1" role="tab">Today</button>
+                    <button class="seg" data-range="7" role="tab">7 days</button>
+                    <button class="seg" data-range="30" role="tab">30 days</button>
+                </div>
+            </header>
+
+            <div class="movers-grid">
+                <div class="mover-col">
+                    <h3 class="col-head">Sectors</h3>
+                    <ol class="mover-list" id="movers-sectors"></ol>
+                </div>
+                <div class="mover-col">
+                    <h3 class="col-head">Companies &amp; tickers</h3>
+                    <ol class="mover-list" id="movers-companies"></ol>
                 </div>
             </div>
         </section>
 
-        <section id="results-grid" class="results-grid">
-            <div class="loading-state">
-                <div class="spinner"></div>
-                <p>Synthesizing Intelligence...</p>
+        <!-- ============ SHIFT INDEX CHART ============ -->
+        <section class="panel reveal">
+            <header class="panel-head">
+                <div>
+                    <h2>Shift index</h2>
+                    <p class="panel-sub">Daily net mentions across the whole tape — the pulse of the last 90 days.</p>
+                </div>
+                <div class="legend">
+                    <span class="key key-up">gaining</span>
+                    <span class="key key-down">losing</span>
+                    <span class="key key-avg">7-day avg</span>
+                </div>
+            </header>
+            <div class="chart-box">
+                <canvas id="shift-chart" height="240" aria-label="Daily net shift chart"></canvas>
+                <div class="chart-tip" id="chart-tip" hidden></div>
             </div>
+            <div class="chart-axis" id="chart-axis"></div>
         </section>
+
+        <!-- ============ TONE ============ -->
+        <section class="panel panel-tone reveal">
+            <header class="panel-head">
+                <div>
+                    <h2>Market tone</h2>
+                    <p class="panel-sub">Sentiment split across every news item in the last 7 days.</p>
+                </div>
+                <div class="tone-figure" id="tone-figure">—</div>
+            </header>
+            <div class="tone-bar" id="tone-bar">
+                <span class="tone-seg tone-bull" style="width:0%"></span>
+                <span class="tone-seg tone-neutral" style="width:0%"></span>
+                <span class="tone-seg tone-bear" style="width:0%"></span>
+            </div>
+            <div class="tone-legend" id="tone-legend"></div>
+        </section>
+
+        <!-- ============ RESEARCH CORNER ============ -->
+        <section class="panel reveal" id="research">
+            <header class="panel-head">
+                <div>
+                    <h2>Research corner</h2>
+                    <p class="panel-sub">The papers that could move a sector before the market notices.</p>
+                </div>
+            </header>
+            <div class="rail" id="research-rail"></div>
+        </section>
+
+        <!-- ============ THE READ (FEED) ============ -->
+        <section class="panel reveal" id="read">
+            <header class="panel-head">
+                <div>
+                    <h2>The read</h2>
+                    <p class="panel-sub" id="feed-count">Every item on the tape, hardest-hitting first.</p>
+                </div>
+                <div class="segmented" id="type-seg" role="tablist" aria-label="Source">
+                    <button class="seg active" data-type="all" role="tab">All</button>
+                    <button class="seg" data-type="news" role="tab">News</button>
+                    <button class="seg" data-type="paper" role="tab">Research</button>
+                </div>
+            </header>
+
+            <div class="filters" id="filters">
+                <div class="pill-group" id="score-pills" aria-label="Minimum score">
+                    <button class="fpill active" data-score="7">7+</button>
+                    <button class="fpill" data-score="8">8+</button>
+                    <button class="fpill" data-score="9">9+</button>
+                    <button class="fpill" data-score="all">All</button>
+                </div>
+                <label class="select-wrap">
+                    <span class="sr-only">Tag</span>
+                    <select id="filter-tag"><option value="all">Any tag</option></select>
+                </label>
+                <label class="select-wrap">
+                    <span class="sr-only">Sector</span>
+                    <select id="filter-sector"><option value="all">Any sector</option></select>
+                </label>
+                <button id="clear-filters" class="ghost-btn" hidden>Clear</button>
+            </div>
+
+            <div id="active-filter-bar" class="active-filter" hidden>
+                <span id="active-filter-label"></span>
+                <button id="dismiss-filter" class="dismiss" aria-label="Clear selection">✕</button>
+            </div>
+
+            <div id="results-grid" class="cards"></div>
+            <div class="load-wrap"><button id="load-more" class="primary-btn" hidden>Show more</button></div>
+        </section>
+
+        <footer class="footer reveal">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">Sector Shift</div>
+                    <p>A daily measurement of sector rotation: every item on the tape is scored, tagged with
+                        who gains and who loses, then rolled into a net-shift series. Net shift = benefiting
+                        mentions − disrupted mentions. Nothing here is investment advice.</p>
+                </div>
+                <div>
+                    <div class="footer-h">Sources</div>
+                    <p>arXiv (cs.AI, cs.LG, econ.GN) · Yahoo Finance · MarketWatch · CNBC — refreshed daily at 04:00 UTC.</p>
+                    <div class="footer-h">Analysis</div>
+                    <p id="model-note">Free-tier open models only — $0 in API spend.</p>
+                </div>
+                <div>
+                    <div class="footer-h">Data</div>
+                    <p id="generated-at">—</p>
+                    <div class="footer-links">
+                        <a href="https://github.com/muxd22-alt/SectorShift" target="_blank" rel="noopener">GitHub</a>
+                        <a href="https://github.com/muxd22-alt/SectorShift/blob/main/README.md" target="_blank" rel="noopener">How it works</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
 
     <script src="app.js"></script>

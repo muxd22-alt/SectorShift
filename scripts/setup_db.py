@@ -54,7 +54,18 @@ async def setup():
                 Economic_Tags TEXT
             )
         """)
-        
+
+        # Additive migration: Hook is the one-line lead the dashboard shows.
+        for stmt in (
+            "ALTER TABLE arxiv_papers ADD COLUMN Hook TEXT",
+            "ALTER TABLE yahoo_finance_news ADD COLUMN Hook TEXT",
+        ):
+            try:
+                await client.execute(stmt)
+                print(f"Applied: {stmt}")
+            except Exception as e:
+                print(f"Skipping ({e})")
+
         print("Database schema successfully set up!")
         
     except Exception as e:

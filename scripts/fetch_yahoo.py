@@ -1,83 +1,117 @@
 import os
-import re
 import json
+import time
 import asyncio
 import hashlib
 import requests
 import feedparser
 import libsql_client
+from datetime import datetime, timezone
+
 from dotenv import load_dotenv
 
 load_dotenv()
 
-OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "openai/gpt-4o-mini"
+from llm import chat_json
 
-def fetch_yahoo_news():
-    print("Fetching Yahoo Finance News...")
-    feed = feedparser.parse("https://finance.yahoo.com/news/rss")
-    
+# Free, no-auth RSS feeds. Each is optional: a dead feed never breaks the run.
+FEEDS = [
+    ("Yahoo Finance", "https://finance.yahoo.com/news/rss", 14),
+    ("MarketWatch", "https://feeds.content.dowjones.io/public/rss/mw_topstories", 8),
+    ("CNBC Top News", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114", 8),
+]
+
+MAX_ITEMS = 24  # per day, across all sources
+
+
+def fetch_all_news():
     news_items = []
-    for entry in feed.entries[:30]: # Grab latest 30
-        raw_id = entry.link or entry.title
-        news_id = hashlib.md5(raw_id.encode()).hexdigest()
-        
-        news_items.append({
-            "id": news_id,
-            "title": entry.title,
-            "snippet": entry.get('summary', ''),
-            "published": entry.get('published', ''),
-            "link": entry.link
-        })
-    return news_items
+    seen = set()
+
+    for name, url, limit in FEEDS:
+        print(f"Fetching {name}...")
+        try:
+            feed = feedparser.parse(url)
+        except Exception as exc:
+            print(f"  {name} failed: {exc}")
+            continue
+
+        taken = 0
+        for entry in feed.entries:
+            if taken >= limit:
+                break
+            link = getattr(entry, "link", "") or ""
+            title = getattr(entry, "title", "") or ""
+            raw_id = link or title
+            if not raw_id:
+                continue
+            news_id = hashlib.md5(raw_id.encode()).hexdigest()
+            if news_id in seen:
+                continue
+            seen.add(news_id)
+            taken += 1
+            news_items.append({
+                "id": news_id,
+                "title": title.replace("\n", " ").strip(),
+                "snippet": (getattr(entry, "summary", "") or "")[:1200],
+                "published": getattr(entry, "published", "") or getattr(entry, "updated", ""),
+                "link": link,
+                "source": name,
+            })
+        print(f"  {name}: {taken} items")
+
+    return news_items[:MAX_ITEMS]
+
+
+PROMPT = """
+Analyze ONE news item for a daily sector-rotation briefing.
+
+News_ID: {id}
+Title: {title}
+Snippet: {snippet}
+Published: {published}
+Source: {source}
+
+Return ONLY a JSON object with exactly these keys:
+{{
+  "News_ID": "{id}",
+  "Hook": "one sentence, max 18 words, leads with the concrete number/ticker/event, no preamble",
+  "Market_Sentiment": "one of: Very Positive, Positive, Neutral, Negative, Disastrous",
+  "Impact_Score": integer 1-10,
+  "Related_Tickers": "comma-separated tickers named in the item, or empty string",
+  "Benefiting_Entities": "comma-separated companies or sectors that gain, title case, or empty",
+  "Disrupted_Entities": "comma-separated companies or sectors that lose, title case, or empty",
+  "Strategic_Action": "exactly 2 sentences: what happens next and what to watch",
+  "Economic_Tags": "3-5 comma-separated keywords"
+}}
+
+Impact_Score rubric: 1-3 single company with no market read-through;
+4-6 sector-level; 7-8 multi-sector or major guidance/contract;
+9-10 macro, index-level or regulatory shock. Never inflate a thin story.
+
+Strategic_Action rules: state a concrete next event, trigger or metric.
+Never write "investors should consider", "time will tell", or advice disclaimers.
+
+Banned filler: "ever-evolving", "market dynamics", "in today's landscape",
+"it's important to note", "furthermore", "in conclusion", "plays a crucial role".
+"""
+
 
 def analyze_news_with_llm(news, api_key):
-    prompt = f"""
-    You are an expert Financial Strategy Analyst. Analyze the following market news and extract the strategic insights into a strict JSON format.
-    
-    News_ID: {news['id']}
-    Title: {news['title']}
-    Snippet: {news['snippet']}
-    Published_Date: {news['published']}
-    News_URL: {news['link']}
-    
-    Respond strictly with a JSON object that matches this schema exactly (no formatting: no markdown, no comments):
-    {{
-        "News_ID": "{news['id']}",
-        "Title": "{news['title'].replace('\"', '\'')}",
-        "Snippet": "{news['snippet'].replace('\"', '\'')[:200]}...",
-        "Published_Date": "{news['published']}",
-        "News_URL": "{news['link']}",
-        "Related_Tickers": "(comma-separated list of stock tickers mentioned or relevant, e.g., AAPL, MSFT. Empty if none)",
-        "Market_Sentiment": "(Exactly one of: Very Positive, Positive, Neutral, Negative, Disastrous)",
-        "Impact_Score": (integer 1-10 assessing the economic or market impact),
-        "Benefiting_Entities": "(comma-separated list of companies/sectors that benefit)",
-        "Disrupted_Entities": "(comma-separated list of companies/sectors harmed)",
-        "Strategic_Action": "(1-2 sentences on what an investor or business should do about this)",
-        "Economic_Tags": "(comma-separated list of 3-5 relevant economic/market keywords)"
-    }}
-    """
-    
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json"
-    }
-    payload = {
-        "model": MODEL,
-        "messages": [{"role": "user", "content": prompt}]
-    }
-    
-    try:
-        response = requests.post(OPENROUTER_URL, headers=headers, json=payload, timeout=60)
-        response.raise_for_status()
-        data = response.json()
-        content = data['choices'][0]['message']['content']
-        content = re.sub(r'```json\s*', '', content)
-        content = re.sub(r'```\s*', '', content)
-        return json.loads(content)
-    except Exception as e:
-        print(f"Error processing news {news['id']}: {e}")
+    prompt = PROMPT.format(
+        id=news["id"],
+        title=news["title"],
+        snippet=(news["snippet"] or "")[:700],
+        published=news["published"],
+        source=news["source"],
+    )
+    result, model = chat_json(prompt, api_key=api_key, temperature=0.2)
+    if result is None:
+        print(f"Error processing news {news['id']} (no model succeeded)")
         return None
+    result["Model"] = model
+    return result
+
 
 async def save_to_turso(news_data):
     url = os.getenv("TURSO_DATABASE_URL")
@@ -89,20 +123,25 @@ async def save_to_turso(news_data):
     if not url or not auth_token:
         print("Turso credentials missing.")
         return
-        
+
     client = libsql_client.create_client(url=url, auth_token=auth_token)
     try:
         for n in news_data:
-            if not n: continue
-            print(f"Saving News {n.get('News_ID')}")
+            if not n:
+                continue
+            print(f"Saving News {n.get('News_ID')} [{n.get('Model')}]")
             await client.execute(
                 """
                 INSERT INTO yahoo_finance_news (
-                    News_ID, Title, Snippet, Published_Date, News_URL, 
-                    Related_Tickers, Market_Sentiment, Impact_Score, 
-                    Benefiting_Entities, Disrupted_Entities, Strategic_Action, Economic_Tags
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ON CONFLICT(News_ID) DO NOTHING
+                    News_ID, Title, Snippet, Published_Date, News_URL,
+                    Related_Tickers, Market_Sentiment, Impact_Score,
+                    Benefiting_Entities, Disrupted_Entities, Strategic_Action, Economic_Tags,
+                    Hook
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(News_ID) DO UPDATE SET
+                    Impact_Score=excluded.Impact_Score,
+                    Market_Sentiment=excluded.Market_Sentiment,
+                    Hook=excluded.Hook
                 """,
                 (
                     n.get("News_ID"), n.get("Title"), n.get("Snippet"),
@@ -110,7 +149,7 @@ async def save_to_turso(news_data):
                     n.get("Related_Tickers"), n.get("Market_Sentiment"),
                     n.get("Impact_Score"), n.get("Benefiting_Entities"),
                     n.get("Disrupted_Entities"), n.get("Strategic_Action"),
-                    n.get("Economic_Tags")
+                    n.get("Economic_Tags"), n.get("Hook")
                 )
             )
     except Exception as e:
@@ -124,20 +163,29 @@ async def main():
     if not api_key:
         print("Missing OPENROUTER_API_KEY")
         return
-        
-    news_items = fetch_yahoo_news()
+
+    news_items = fetch_all_news()
     print(f"Fetched {len(news_items)} news articles.")
-    
+
     analyzed_news = []
-    for item in news_items[:10]: # Limit to 10 per run to save credits
+    for item in news_items:
         res = analyze_news_with_llm(item, api_key)
         if res:
+            # Preserve the raw feed fields for export.
+            res.setdefault("Title", item["title"])
+            res.setdefault("Snippet", item["snippet"])
+            res.setdefault("Published_Date", item["published"])
+            res.setdefault("News_URL", item["link"])
+            if not res.get("Published_Date"):
+                res["Published_Date"] = datetime.now(timezone.utc).isoformat()
             analyzed_news.append(res)
-            
+        time.sleep(0.5)  # stay under free-tier per-minute limits
+
     print(f"Successfully analyzed {len(analyzed_news)} articles.")
-    
+
     if analyzed_news:
         await save_to_turso(analyzed_news)
+
 
 if __name__ == "__main__":
     asyncio.run(main())
